@@ -11,21 +11,32 @@
       <label xml:lang="de">Start</label>
       <label xml:lang="en">Start</label>
     </item>
-    <item href="/content/below/impressum.xml" type="intern">
-      <label xml:lang="de">Impressum</label>
-      <label xml:lang="en">Impressum</label>
-    </item>
-    <item href="/content/brand/contact.xml" type="intern">
-      <label xml:lang="de">Kontakt</label>
-      <label xml:lang="en">Contact</label>
-    </item>
   </menu>
   <menu id="below" dir="/content/below">
     <label xml:lang="de">Footer-Menü</label>
     <label xml:lang="en">Footer menu</label>
+    <item href="/content/below/contact.xml" type="intern">
+      <label xml:lang="de">Kontakt</label>
+      <label xml:lang="en">Contact</label>
+    </item>
+    <item href="/content/below/terms_of_use.xml" type="intern">
+      <label xml:lang="de">Nutzungsbedingungen</label>
+      <label xml:lang="en">Terms of Use</label>
+    </item>
+    <item href="/content/below/rights.xml" type="intern">
+      <label xml:lang="de">Datenschutz</label>
+      <label xml:lang="en">Privacy Notice</label>
+    </item>
+    <item href="/content/below/accessibility.xml" type="intern">
+      <label xml:lang="de">Barrierefreiheit</label>
+      <label xml:lang="en">Accessibility</label>
+    </item>
+    <item href="/content/below/impressum.xml" type="intern">
+      <label xml:lang="de">Impressum</label>
+      <label xml:lang="en">Impressum</label>
+    </item>
   </menu>
   <menu id="search">
-    <!-- search menu  -->
     <label xml:lang="de">Suche</label>
     <label xml:lang="en">Search</label>
     <item href="/content/search/simple.xed" type="intern">
@@ -49,8 +60,23 @@
       <label xml:lang="en">expert</label>
     </item>
   </menu>
+  <menu id="publications">
+    <label xml:lang="de">Publiktionen</label>
+    <label xml:lang="en">Publications</label>
+    <item href="/content/browse/publications.xml" type="intern">
+      <label xml:lang="de">Publiktionen</label>
+      <label xml:lang="en">Publications</label>
+    </item>
+  </menu>
+  <menu id="collections">
+    <label xml:lang="de">Sondersammlungen</label>
+    <label xml:lang="en">Special collections</label>
+    <item href="/content/browse/inventories.xml" type="intern">
+      <label xml:lang="de">Sondersammlungen</label>
+      <label xml:lang="en">Special collections</label>
+    </item>
+  </menu>
   <menu id="browse">
-  <!-- search menu  -->
     <label xml:lang="de">Blättern</label>
     <label xml:lang="en">Browse</label>
     <item href="/content/browse/institutes.xml" type="intern">
@@ -80,10 +106,6 @@
     <item href="/content/publish/importPPN.xml" type="intern">
       <label xml:lang="de">Publizieren (PPN Import)</label>
       <label xml:lang="en">Publish (PPN Import)</label>
-    </item>
-    <item href="/content/publish/guidelines.xml" type="intern">
-      <label xml:lang="de">Leitlinien</label>
-      <label xml:lang="en">Guidelines</label>
     </item>
     <item href="/content/publish/contract.xml" type="intern">
       <label xml:lang="de">Vertragsbedingungen</label>
