@@ -4,7 +4,7 @@
     <div class="jumbotwo" id="bs-index-search" style="margin-top:50px;">
       <div class="row">
         <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2" lang="de">
-          <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline mt-3" role="search">
+          <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
             <div class="input-group w-100">
               <input
                 name="condQuery"
@@ -15,7 +15,7 @@
                 aria-label=""
                 aria-describedby="" />
               <div class="input-group-append">
-                <button type="submit" class="btn text-primary bg-white"><i class="fas fa-search"></i></button>
+                <button type="submit" class="btn btn btn-primary"><i class="fas fa-search"></i></button>
               </div>
             </div>
           </form>
@@ -40,10 +40,17 @@
     <div class="jumbotwo" id="bs-index-search" style="margin-top:50px;">
       <div class="row">
         <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2" lang="en">
-          <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search" style="margin-top:30px;">
-            <div class="input-group" style="width: 100%;">
-              <input name="condQuery" placeholder="Search in Pub-n and Special collections" class="form-control search-query" id="project-searchInput" type="text" />
-              <div class="input-group-btn"><button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button></div>
+          <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
+            <div class="input-group w-100">
+              <input name="condQuery"
+                   placeholder="Search in Pub-n and Special collections"
+                   class="form-control search-query" id="project-searchInput"
+                   type="text" 
+                   aria-label=""
+                   aria-describedby="" />
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
+              </div>
             </div>
           </form>
         </div>
