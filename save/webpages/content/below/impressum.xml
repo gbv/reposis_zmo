@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Impressum">
+    <div>
+      <h1>Impressum</h1>
+      
+      <p>
+        <b>Leibniz-Zentrum Moderner Orient</b><br />
+        Geisteswissenschaftliche Zentren Berlin e.V. (GWZ Berlin)<br />
+        Schützenstraße 18<br />
+        10117 Berlin
+      </p>
+      
+      <p>
+        Tel.: 030/80307-0<br />
+        Fax: 030/80307-210<br />
+        E-Mail: <span class="madress">zmo [at] zmo.de</span>
+      </p>
+      
+      <p>Vereinsregisternummer: 16394 B beim Amtsgericht Charlottenburg</p>
+      
+      <p>Direktorin: Prof. Dr. Ulrike Freitag</p>
+      
+      <p>Redaktion: Alisher Karabaev</p>
+      
+      <p>
+        <b>Technischer Betrieb</b><br />
+        Verbundzentrale des GBV (VZG)<br />
+        Platz der Göttinger Sieben 1<br />
+        D-37073 Göttingen</p>
+      
+      <p>
+        Digitale Bibliothek, Reposis<br />
+        Telefon: 0551 39 5398<br />
+        E-Mail: <span class="madress">dms-list [at] lists.gbv.de</span><br />
+        <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service</a>
+      </p>
+      
+    </div>
+  </section>
+  <meta></meta>
+</MyCoReWebPage>
