@@ -6,6 +6,12 @@
   <categories>
     <category ID="zmo">
       <label xml:lang="de" text="Leibniz-Zentrum Moderner Orient (ZMO)" description="Leibniz-Zentrum Moderner Orient (ZMO)" />
+      <label xml:lang="en" text="Leibniz-Centre of Moderne Orient (ZMO)" description="Leibniz-Centre of Moderne Orient (ZMO)" />
+      <url xlink:href="https://www.zmo.de/" xlink:type="locator" />
+    </category>
+    <category ID="Other">
+      <label xml:lang="de" text="Andere" />
+      <label xml:lang="en" text="Other" />
     </category>
   </categories>
 </mycoreclass>
