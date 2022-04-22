@@ -8,6 +8,16 @@
   <label xml:lang="en" text="Type of note" />
   <label xml:lang="x-uri" text="http://www.mycore.org/classifications/noteTypes" />
   <categories>
+    <category ID="conservation_status">
+      <label xml:lang="en" text="Conservation status" />
+      <label xml:lang="de" text="Erhaltungszustand" />
+      <label xml:lang="x-access" text="guest" />
+    </category>
+    <category ID="signature_old">
+      <label xml:lang="de" text="Altsignatur" />
+      <label xml:lang="en" text="Old signature" />
+      <label xml:lang="x-access" text="guest" />
+    </category>
     <category ID="version_identification">
       <label xml:lang="en" text="version identification" />
       <label xml:lang="x-access" text="guest" />
@@ -39,8 +49,8 @@
       <label xml:lang="de" text="Verfasserangabe" />
     </category>
     <category ID="source_type">
-      <label xml:lang="x-access" text="guest" />
       <label xml:lang="de" text="Quellentyp" />
+      <label xml:lang="x-access" text="guest" />
       <label xml:lang="en" text="source type" />
     </category>
     <category ID="source_note">
@@ -65,8 +75,8 @@
     </category>
     <category ID="restriction">
       <label xml:lang="de" text="Restriktion" />
-      <label xml:lang="x-access" text="guest" />
       <label xml:lang="en" text="restriction" />
+      <label xml:lang="x-access" text="guest" />
     </category>
     <category ID="reproduction">
       <label xml:lang="de" text="Reproduktion" />
@@ -110,8 +120,8 @@
     </category>
     <category ID="numbering">
       <label xml:lang="x-access" text="guest" />
-      <label xml:lang="en" text="numbering" />
       <label xml:lang="de" text="Nummerierung" />
+      <label xml:lang="en" text="numbering" />
     </category>
     <category ID="language">
       <label xml:lang="x-access" text="guest" />
@@ -135,8 +145,8 @@
     </category>
     <category ID="date">
       <label xml:lang="de" text="Datum" />
-      <label xml:lang="x-access" text="guest" />
       <label xml:lang="en" text="date" />
+      <label xml:lang="x-access" text="guest" />
     </category>
     <category ID="creation/production_credits">
       <label xml:lang="x-access" text="guest" />
@@ -189,8 +199,8 @@
       <label xml:lang="de" text="Beschaffung" />
     </category>
     <category ID="accrual_policy">
-      <label xml:lang="x-access" text="guest" />
       <label xml:lang="de" text="Abgrenzungspolitik" />
+      <label xml:lang="x-access" text="guest" />
       <label xml:lang="en" text="accrual policy" />
     </category>
     <category ID="accrual_method">
