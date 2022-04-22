@@ -61,7 +61,7 @@
     </item>
   </menu>
   <menu id="publications">
-    <label xml:lang="de">Publiktionen</label>
+    <label xml:lang="de">Publikationen</label>
     <label xml:lang="en">Publications</label>
     <item href="/content/browse/publications.xml" type="intern">
       <label xml:lang="de">Publiktionen</label>
