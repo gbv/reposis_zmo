@@ -4,12 +4,9 @@
 
   <!-- ========== extend editor-genres.xed ========== -->
   <xed:modify ref="admin.fields">
-    <!-- for details see
-         https://cmswiki.rrz.uni-hamburg.de/hummel/MyCoRe/Organisation/AnwenderWorkshop2018?action=AttachFile&do=view&target=MyCoRe+XEditor+Erweiterungen+2018-11-14.pdf
-         https://cmswiki.rrz.uni-hamburg.de/hummel/MyCoRe/Organisation/AnwenderWorkshop2018?action=AttachFile&do=view&target=MCR-Workshop2018_Rochowski_XEditor_Erweiterungen_Praxis.pdf
-    -->
+    <xed:include ref="inventories" after="sdnb.repeat" />
+    <xed:include ref="resources" after="inventories" />
   </xed:modify>
-
 
 
   <!-- ========== validation ========== -->
@@ -18,6 +15,43 @@
 
   <!-- ========== project specific templates ========== -->
 
+  <xed:template id="inventories">
+    <xed:bind xpath="mods:classification[@authorityURI='https://repositorium.zmo.de/classifications/inventories'][@displayLabel='inventories']/@valueURIxEditor">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="project.form.label.inventories" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:inventories" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:project.help.inventories}" pmud="false" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
+  <xed:template id="resources">
+    <xed:bind xpath="mods:classification[@authorityURI='https://repositorium.zmo.de/classifications/resources'][@displayLabel='resources']/@valueURIxEditor">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="project.form.label.resources" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:resources" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:project.help.resources}" pmud="false" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
 
 </xed:template>
-
