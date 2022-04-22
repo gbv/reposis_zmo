@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" 
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
+             ID="inventories">
+  <label xml:lang="en" text="genre" description="List of the collections" />
+  <label xml:lang="de" text="Genre" description="Liste der Sondersammlungen" />
+  <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/inventories" />
+  <categories>
+    <category ID="hoepp">
+      <label xml:lang="de" text="Höpp Bestand" />
+      <label xml:lang="en" text="Höpp collection" />
+    </category>
+    <category ID="krueger">
+      <label xml:lang="de" text="Krüger Bestand" />
+      <label xml:lang="en" text="Krüger collection" />
+    </category>
+    <category ID="poster_collection">
+      <label xml:lang="de" text="Plakate Sammlung" />
+      <label xml:lang="en" text="Poster colllection" />
+    </category>
+  </categories>
+</mycoreclass>

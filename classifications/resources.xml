@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
+             ID="resources">
+  <label xml:lang="en" text="genre" description="List of resources" />
+  <label xml:lang="de" text="Genre" description="Liste der Ressourcen" />
+  <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/resources" />
+  <categories>
+    <category ID="archive_copy">
+      <label xml:lang="de" text="Fotokopie aus dem Archiv" />
+      <label xml:lang="en" text="Photocopy from the archive" />
+    </category>
+    <category ID="book_copy">
+      <label xml:lang="de" text="Fotokopie aus dem Buch" />
+      <label xml:lang="en" text="Photocopy from the book" />
+    </category>
+    <category ID="journal_copy">
+      <label xml:lang="de" text="Fotokopie aus der Zeitschrift" />
+      <label xml:lang="en" text="Photocopy from the journal" />
+    </category>
+    <category ID="working_paper">
+      <label xml:lang="de" text="Arbeitspapiere" />
+      <label xml:lang="en" text="Working paper" />
+    </category>
+    <category ID="special_issues">
+      <label xml:lang="de" text="Themenhefte" />
+      <label xml:lang="en" text="Special issues" />
+    </category>
+  </categories>
+</mycoreclass>

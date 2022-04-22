@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_genres">
-  <label xml:lang="en" text="genre" description="A list of publication types" />
-  <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/mir_genres" />
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
+             ID="mir_genres">
+  <label xml:lang="en" text="genre" description="List of publication types" />
   <label xml:lang="de" text="Genre" description="Liste der Publikationsarten" />
+  <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/mir_genres" />
   <categories>
-    <category ID="64d74764-7f31-4474-ab2d-216a5ca063ae">
-      <label xml:lang="de" text="Fotokopie aus Archiv" />
-      <label xml:lang="en" text="Phtocopy from archive" />
-    </category>
     <category ID="article">
       <label xml:lang="it" text="Articolo / Saggio" />
       <label xml:lang="x-mapping" text="marcgt:article diniPublType:article" />
