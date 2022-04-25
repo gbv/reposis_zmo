@@ -3,8 +3,8 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
              ID="resources">
-  <label xml:lang="en" text="genre" description="List of resources" />
-  <label xml:lang="de" text="Genre" description="Liste der Ressourcen" />
+  <label xml:lang="en" text="Resources" description="List of resources" />
+  <label xml:lang="de" text="Ressourcen" description="Liste der Ressourcen" />
   <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/resources" />
   <categories>
     <category ID="archive_copy">

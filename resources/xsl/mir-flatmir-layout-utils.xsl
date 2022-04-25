@@ -54,7 +54,7 @@
                 <xsl:with-param name="menuID" select="'publications'"/>
               </xsl:call-template>
               <xsl:call-template name="project.generate_single_menu_entry">
-                <xsl:with-param name="menuID" select="'collections'"/>
+                <xsl:with-param name="menuID" select="'collection'"/>
               </xsl:call-template>
               <!--<xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />-->
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='browse']" />

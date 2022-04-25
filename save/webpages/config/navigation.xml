@@ -64,16 +64,16 @@
     <label xml:lang="de">Publikationen</label>
     <label xml:lang="en">Publications</label>
     <item href="/content/browse/publications.xml" type="intern">
-      <label xml:lang="de">Publiktionen</label>
+      <label xml:lang="de">Publikationen</label>
       <label xml:lang="en">Publications</label>
     </item>
   </menu>
-  <menu id="collections">
-    <label xml:lang="de">Sondersammlungen</label>
+  <menu id="collection">
+    <label xml:lang="de">Sondersammlung</label>
     <label xml:lang="en">Special collections</label>
-    <item href="/content/browse/inventories.xml" type="intern">
-      <label xml:lang="de">Sondersammlungen</label>
-      <label xml:lang="en">Special collections</label>
+    <item href="/content/browse/inventory.xml" type="intern">
+      <label xml:lang="de">Sondersammlung</label>
+      <label xml:lang="en">Special collection</label>
     </item>
   </menu>
   <menu id="browse">

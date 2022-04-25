@@ -2,10 +2,10 @@
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" 
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
-             ID="inventories">
-  <label xml:lang="en" text="genre" description="List of the collections" />
-  <label xml:lang="de" text="Genre" description="Liste der Sondersammlungen" />
-  <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/inventories" />
+             ID="inventory">
+  <label xml:lang="en" text="Inventory" description="List of the collection inventory" />
+  <label xml:lang="de" text="Bestände" description="Liste der Sondersammlungsbestände" />
+  <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/inventory" />
   <categories>
     <category ID="hoepp">
       <label xml:lang="de" text="Höpp Bestand" />
