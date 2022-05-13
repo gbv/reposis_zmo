@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" 
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
+             ID="hoepp">
+  <label xml:lang="en" text="Inventory" description="Hoepp inventory" />
+  <label xml:lang="de" text="Bestände" description="Hoepp Sondersammlung" />
+  <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/hoepp" />
+  <categories>
+    <category ID="arabische_begegnungen_mit_dem_nationalsozialismus">
+      <label xml:lang="de" text="Arabische Begegnungen mit dem Nationalsozialismus" />
+      <category ID="amin_al-husseini">
+        <label xml:lang="de" text="Amin al-Husseini" />
+      </category>
+      <category ID="araber_und_nationalsozialismus_allgemein">
+        <label xml:lang="de" text="Araber und Nationalsozialismus allgemein" />
+      </category>
+      <category ID="araber_und_shoa">
+        <label xml:lang="de" text="Araber und Shoa" />
+      </category>
+      <category ID="arabische_kriegsgefangene">
+        <label xml:lang="de" text="Arabische Kriegsgefangene" />
+      </category>
+      <category ID="arabische_und_muslimische_haeftlinge_im_konzentrat">
+        <label xml:lang="de" text="Arabische und muslimische Häftlinge im Konzentrationslager" />
+      </category>
+      <category ID="arabische_und_muslimische_soldaten_in_der_deutsche">
+        <label xml:lang="de" text="Arabische und muslimische Soldaten in der deutschen Armee" />
+      </category>
+      <category ID="arabische_zivilgefangene">
+        <label xml:lang="de" text="Arabische Zivilgefangene" />
+      </category>
+      <category ID="arabische_zwangsarbeiter">
+        <label xml:lang="de" text="Arabische Zwangsarbeiter" />
+      </category>
+      <category ID="archivbestaende_und_recherche">
+        <label xml:lang="de" text="Archivbestände und Recherche" />
+      </category>
+      <category ID="islam_in_der_nationalsozialistischen_weltanschauung">
+        <label xml:lang="de" text="Der Islam in der nationalsozialistischen Weltanschauung" />
+      </category>
+      <category ID="deutsche_soldaten_in_arabischen_laendern">
+        <label xml:lang="de" text="Deutsche Soldaten in arabischen Ländern" />
+      </category>
+      <category ID="die_deutsche_nahostpolitik">
+        <label xml:lang="de" text="Die deutsche Nahostpolitik. Deutsch-Palästinensische Beziehungen" />
+      </category>
+      <category ID="emir_shekib_arslan">
+        <label xml:lang="de" text="Emir Shekib Arslan" />
+      </category>
+      <category ID="erinnerungskultur_und_identitaet">
+        <label xml:lang="de" text="Erinnerungskultur und Identität" />
+      </category>
+      <category ID="fawzi_al-qawuqji">
+        <label xml:lang="de" text="Fawzi al-Qawuqji / Fauzi al-Qawuqǧi" />
+      </category>
+      <category ID="kriegsgefangene">
+        <label xml:lang="de" text="Kriegsgefangene" />
+      </category>
+      <category ID="muslime_in_deutschland">
+        <label xml:lang="de" text="Muslime in Deutschland" />
+      </category>
+      <category ID="muslime_in_oesterreich_boehmen_und_maehren">
+        <label xml:lang="de" text="Muslime in Österreich, Böhmen und Mähren" />
+      </category>
+      <category ID="nationalsozialistische_orientpolitik">
+        <label xml:lang="de" text="Nationalsozialistische Orientpolitik" />
+      </category>
+      <category ID="ns_nordafrika">
+        <label xml:lang="de" text="Nordafrika" />
+      </category>
+      <category ID="orientalistik_und_zeitgenoessische_publikationen">
+        <label xml:lang="de" text="Orientalistik und zeitgenössische Publikationen über den Islam" />
+      </category>
+      <category ID="politische_aktivitaeten">
+        <label xml:lang="de" text="Politische Aktivitäten" />
+      </category>
+      <category ID="propaganda">
+        <label xml:lang="de" text="Propaganda" />
+      </category>
+      <category ID="verfolgung_von_juden">
+        <label xml:lang="de" text="Verfolgung von Juden" />
+      </category>
+      <category ID="zeitgenoessische_publikationen_ueber_den_islam">
+        <label xml:lang="de" text="zeitgenössische Publikationen über den Islam" />
+      </category>
+      <category ID="zwangsarbeiter">
+        <label xml:lang="de" text="Zwangsarbeiter" />
+      </category>
+    </category>
+    <category ID="bildmaterial">
+      <label xml:lang="de" text="Bildmaterial" />
+      <category ID="fotos_negative_folien">
+        <label xml:lang="de" text="Fotos. Negative. Folien." />
+      </category>
+    </category>
+    <category ID="essad_bey">
+      <label xml:lang="de" text="Essad Bey" />
+      <category ID="das_geistige_umfeld">
+        <label xml:lang="de" text="Das geistige Umfeld" />
+      </category>
+      <category ID="das_literarische_werk">
+        <label xml:lang="de" text="Das Literarische Werk" />
+      </category>
+      <category ID="das_umfeld_von_essad_bey">
+        <label xml:lang="de" text="Das Umfeld von Essad Bey" />
+      </category>
+      <category ID="essad_bey_in_berlin_die_russische_gemeinde">
+        <label xml:lang="de" text="Essad Bey in Berlin - Die russische Gemeinde" />
+      </category>
+      <category ID="essad_bey_in_berlin">
+        <label xml:lang="de" text="Essad Bey in Berlin" />
+      </category>
+      <category ID="essad_in_wien">
+        <label xml:lang="de" text="Essad in Wien" />
+      </category>
+      <category ID="italien_und_usa">
+        <label xml:lang="de" text="Italien und USA" />
+      </category>
+      <category ID="recherche">
+        <label xml:lang="de" text="Recherche" />
+      </category>
+      <category ID="vertraege_und_dokumente">
+        <label xml:lang="de" text="Verträge und Dokumente" />
+      </category>
+      <category ID="zur_person">
+        <label xml:lang="de" text="Zur Person" />
+      </category>
+    </category>
+    <category ID="gerhard_hoepp">
+      <label xml:lang="de" text="Gerhard Höpp" />
+      <category ID="aufsaetze,_rezensionen,_aufzeichnungen">
+        <label xml:lang="de" text="Aufsätze, Rezensionen, Aufzeichnungen" />
+      </category>
+      <category ID="schriften">
+        <label xml:lang="de" text="Schriften" />
+      </category>
+    </category>
+    <category ID="globalisierung">
+      <label xml:lang="de" text="Globalisierung" />
+      <category ID="der_orient_und_die_westliche_welt">
+        <label xml:lang="de" text="Der Orient und die westliche Welt" />
+      </category>
+      <category ID="fundamentalismus_und_demokratie">
+        <label xml:lang="de" text="Fundamentalismus und Demokratie" />
+      </category>
+      <category ID="global_history">
+        <label xml:lang="de" text="Global History" />
+      </category>
+      <category ID="kulturelle_identitaet">
+        <label xml:lang="de" text="Kulturelle Identität" />
+      </category>
+      <category ID="texte_von_edward_said">
+        <label xml:lang="de" text="Texte von Edward Said" />
+      </category>
+    </category>
+    <category ID="islamwissenschaft">
+      <label xml:lang="de" text="Islamwissenschaft" />
+      <category ID="islam_allgemein">
+        <label xml:lang="de" text="Allgemein" />
+      </category>
+      <category ID="beziehung_und_wahrnehmung_zw_europa_und_dem_orient">
+        <label xml:lang="de" text="Beziehung und Wahrnehmung zwischen Europa und dem Orient" />
+      </category>
+      <category ID="festschriften_und_sonderdrucke">
+        <label xml:lang="de" text="Festschriften und Sonderdrucke" />
+      </category>
+      <category ID="fremdwahrnehmung_in_reiseberichten_und_literatur">
+        <label xml:lang="de" text="Fremdwahrnehmung in Reiseberichten und Literatur" />
+      </category>
+      <category ID="organisation_und_inhalte">
+        <label xml:lang="de" text="Organisation und Inhalte" />
+      </category>
+      <category ID="orientalismus">
+        <label xml:lang="de" text="Orientalismus" />
+      </category>
+      <category ID="orientalistik_und_archivbestaende">
+        <label xml:lang="de" text="Orientalistik und Archivbestände" />
+      </category>
+      <category ID="orientwissenschaft_in_deutschland">
+        <label xml:lang="de" text="Orientwissenschaft in Deutschland" />
+      </category>
+      <category ID="reiseliteratur">
+        <label xml:lang="de" text="Reiseliteratur" />
+      </category>
+      <category ID="religion">
+        <label xml:lang="de" text="Religion" />
+      </category>
+      <category ID="texte">
+        <label xml:lang="de" text="Texte" />
+      </category>
+      <category ID="islam_vermischtes">
+        <label xml:lang="de" text="Vermischtes" />
+      </category>
+    </category>
+    <category ID="kriegserfahrungen">
+      <label xml:lang="de" text="Kriegserfahrungen" />
+      <category ID="araber_im_spanischen_buergerkrieg">
+        <label xml:lang="de" text="Araber im Spanischen Bürgerkrieg" />
+      </category>
+      <category ID="araber_und_muslime_im_ersten_weltkrieg">
+        <label xml:lang="de" text="Araber und Muslime im Ersten Weltkrieg" />
+      </category>
+      <category ID="arabische_und_muslimische_kriegsgefangene_im_ersten_wk">
+        <label xml:lang="de" text="Arabische und muslimische Kriegsgefangene im Ersten Weltkrieg" />
+      </category>
+      <category ID="arabische_und_muslimische_soldaten_im_ersten_wk">
+        <label xml:lang="de" text="Arabische und muslimische Soldaten im Ersten Weltkrieg" />
+      </category>
+      <category ID="die_deutsche_orientpolitik_des_ersten_wk">
+        <label xml:lang="de" text="Die deutsche Orientpolitik vor und während des Ersten Weltkriegs" />
+      </category>
+      <category ID="muslime_in_deutschland_im_ersten_wk">
+        <label xml:lang="de" text="Muslime in Deutschland im Ersten Weltkrieg" />
+      </category>
+      <category ID="muslime_in_deutschland_vor_dem_ersten_wk">
+        <label xml:lang="de" text="Muslime in Deutschland vor dem Ersten Weltkrieg" />
+      </category>
+      <category ID="muslime_und_araber_in_europaeischen_kriegen">
+        <label xml:lang="de" text="Muslime und Araber in europäischen Kriegen" />
+      </category>
+      <category ID="muslimische_kriegsgefangene_im_ersten_wk">
+        <label xml:lang="de" text="Muslimische Kriegsgefangene im Ersten Weltkrieg" />
+      </category>
+    </category>
+    <category ID="muslime_und_deutschland">
+      <label xml:lang="de" text="Muslime in Deutschland" />
+      <category ID="asis_domet_artikel_und_werke_von_asis_domet">
+        <label xml:lang="de" text="Asis Domet - Artikel und Werke von Asis Domet" />
+      </category>
+      <category ID="asis_domet_briefe">
+        <label xml:lang="de" text="Asis Domet - Briefe" />
+      </category>
+      <category ID="asis_domet_recherche_und_korrespondenz_von_gerhard">
+        <label xml:lang="de" text="Asis Domet - Recherche und Korrespondenz von Gerhard Höpp zu Asis Domet" />
+      </category>
+      <category ID="asis_domet_in_berlin">
+        <label xml:lang="de" text="Asis Domet in Berlin - Akten und zeitgenössische Berichte über Asis Domet" />
+      </category>
+      <category ID="berlin_vor_1933_zeitgenoessische_publikationen">
+        <label xml:lang="de" text="Berlin vor 1933 zeitgenössische Publikationen und Berichte" />
+      </category>
+      <category ID="berlin_vor_1933">
+        <label xml:lang="de" text="Berlin vor 1933" />
+      </category>
+      <category ID="berliner_vereinsleben_vor_1933">
+        <label xml:lang="de" text="Berliner Vereinsleben vor 1933" />
+      </category>
+      <category ID="der_islamische_friedhof_in_berlin">
+        <label xml:lang="de" text="Der islamische Friedhof in Berlin" />
+      </category>
+      <category ID="deutsch-aegyptische_verbindungen_der_zwischenkriegszeit">
+        <label xml:lang="de" text="Deutsch-ägyptische Verbindungen während der Zwischenkriegszeit" />
+      </category>
+      <category ID="muslimische_gemeinden_in_deutschland_heute">
+        <label xml:lang="de" text="Muslimische Gemeinden in Deutschland heute" />
+      </category>
+      <category ID="politische_aktivitaeten_mansur_rifat">
+        <label xml:lang="de" text="Politische Aktivitäten - Mansur Rifat" />
+      </category>
+      <category ID="politische_aktivitaeten_im_berlin_der_20er_jahre">
+        <label xml:lang="de" text="Politische Aktivitäten im Berlin der 20'er Jahre. Mustafa Kemal Pasa, Enver Pasa, Mehmed Talat Pasa" />
+      </category>
+      <category ID="politische_aktivitaeten_in_der_zwischenkriegszeit_in_deutschland">
+        <label xml:lang="de" text="Politische Aktivitäten in der Zwischenkriegszeit" />
+      </category>
+      <category ID="politische_aktivitaeten_und_internationale_beziehungen">
+        <label xml:lang="de" text="Politische Aktivitäten und internationale Beziehungen" />
+      </category>
+      <category ID="presse_vor_1933">
+        <label xml:lang="de" text="Presse vor 1933" />
+      </category>
+      <category ID="studenten_in_deutschland">
+        <label xml:lang="de" text="Studenten in Deutschland" />
+      </category>
+      <category ID="vor_dem_ersten_weltkrieg">
+        <label xml:lang="de" text="Vor dem Ersten Weltkrieg" />
+      </category>
+      <category ID="wissenschaft_und_lehre">
+        <label xml:lang="de" text="Wissenschaft und Lehre" />
+      </category>
+    </category>
+    <category ID="politik_und_gesellschaft_im_modernen_islam_naher_osten">
+      <label xml:lang="de" text="Politik und Gesellschaft im modernen Islam - Naher Osten" />
+      <category ID="zur_politischen_entwicklung_in_jordanien,_syrien,_">
+        <label xml:lang="de" text="Zur politischen Entwicklung in Jordanien, Syrien, den Golfstaaten, Saudi-Arabien und Irak, 70er und 80er Jahre" />
+      </category>
+    </category>
+    <category ID="politik_und_gesellschaft_im_modernen_islam">
+      <label xml:lang="de" text="Politik und Gesellschaft im modernen Islam" />
+      <category ID="politik_allgemein">
+        <label xml:lang="de" text="Allgemein" />
+      </category>
+      <category ID="arabische_christen_in_syrien_und_libanon">
+        <label xml:lang="de" text="Arabische Christen in Syrien und Libanon" />
+      </category>
+      <category ID="arabischsprachige_zeitungen_und_zeitschriften">
+        <label xml:lang="de" text="arabischsprachige Zeitungen und Zeitschriften" />
+      </category>
+      <category ID="aufklaerung,_modernisierung_und_reform">
+        <label xml:lang="de" text="Aufklärung, Modernisierung und Reform" />
+      </category>
+      <category ID="aufsaetze_und_medienberichte_ueber_den_golfkrieg">
+        <label xml:lang="de" text="Aufsätze und Medienberichte über den Golfkrieg \ Zum Verhältnis zwischen der Sowjetunion und der arabischen Welt" />
+      </category>
+      <category ID="aufsaetze_und_medienberichte_ueber_naher_osten_und_nordafrika">
+        <label xml:lang="de" text="Aufsätze und Medienberichte über politische Entwicklungen im Nahen Osten und Nordafrika" />
+      </category>
+      <category ID="aufsaetze_und_medienberichte">
+        <label xml:lang="de" text="Aufsätze und Medienberichte" />
+      </category>
+      <category ID="kapitalismus">
+        <label xml:lang="de" text="Kapitalismus" />
+      </category>
+      <category ID="libanon">
+        <label xml:lang="de" text="Libanon" />
+      </category>
+      <category ID="muslimische_gemeinden_ausserhalb_der_islamischen_welt">
+        <label xml:lang="de" text="Muslimische Gemeinden außerhalb der islamischen Welt" />
+      </category>
+      <category ID="palaestina_und_arabische_bewegungen">
+        <label xml:lang="de" text="Palästina und arabische Bewegungen" />
+      </category>
+      <category ID="vermischtes">
+        <label xml:lang="de" text="Vermischtes" />
+      </category>
+      <category ID="yemen">
+        <label xml:lang="de" text="Yemen" />
+      </category>
+      <category ID="zeitungen_und_zeitschriften">
+        <label xml:lang="de" text="Zeitungen und Zeitschriften" />
+      </category>
+      <category ID="zum_politischen_und_kulturellen_wandel">
+        <label xml:lang="de" text="Zum politischen und kulturellen Wandel. Migration. Sozialgeschichte. Politischer Islam. Entwicklungshilfe und -zusammenarbeit" />
+      </category>
+      <category ID="zur_politischen_entwicklung_in_der_islamischen_welt">
+        <label xml:lang="de" text="Zur politischen Entwicklung in der islamischen Welt allgemein" />
+      </category>
+      <category ID="zur_politischen_und_gesellschaftlichen_entwicklung">
+        <label xml:lang="de" text="Zur politischen und gesellschaftlichen Entwicklung in Israel und Palästina" />
+      </category>
+    </category>
+    <category ID="politische_stroemungen_im_islam">
+      <label xml:lang="de" text="Politische Strömungen im Islam" />
+      <category ID="aegypten">
+        <label xml:lang="de" text="Ägypten" />
+      </category>
+      <category ID="arabische_presse_und_broschueren">
+        <label xml:lang="de" text="Arabische Presse und Broschüren" />
+      </category>
+      <category ID="aufklaerung_nationale_identitaet_politische_disk">
+        <label xml:lang="de" text="Aufklärung. Nationale Identität. Politische Diskussion." />
+      </category>
+      <category ID="franzoesische_revolution">
+        <label xml:lang="de" text="Französische Revolution" />
+      </category>
+      <category ID="pol_nordafrika">
+        <label xml:lang="de" text="Nordafrika" />
+      </category>
+      <category ID="politische_aktivitaeten_im_ausgehenden_19_jh">
+        <label xml:lang="de" text="Politische Aktivitäten im ausgehenden 19. Jahrhundert und in der Zwischenkriegszeit" />
+      </category>
+      <category ID="politische_aktivitaeten_in_der_zwischenkriegszeit">
+        <label xml:lang="de" text="Politische Aktivitäten in der Zwischenkriegszeit" />
+      </category>
+      <category ID="politische_programme">
+        <label xml:lang="de" text="Politische Programme" />
+      </category>
+      <category ID="sozialistische_parteien_und_bewegungen">
+        <label xml:lang="de" text="Sozialistische Parteien und Bewegungen, Marxismus" />
+      </category>
+      <category ID="texte_allgemein">
+        <label xml:lang="de" text="Texte allgemein" />
+      </category>
+    </category>
+    <category ID="wolfgang_klein_gerhard_hoepp">
+      <label xml:lang="de" text="Wolfgang Klein \ Gerhard Höpp" />
+      <category ID="aufsaetze_rezensionen_aufzeichnungen">
+        <label xml:lang="de" text="Aufsätze, Rezensionen, Aufzeichnungen" />
+      </category>
+    </category>   
+  </categories>
+</mycoreclass>
