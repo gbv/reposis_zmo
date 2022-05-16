@@ -6,6 +6,29 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+  .flatmir-footer {
+    border-top: none;
+    background-color: $zmoGrayLight;
+    a {
+      color: $primary;
+    }
+  }
+  .internal_links {
+    margin: 2rem 0 2rem 0;
+    border-bottom: 1px solid $primary;
+    display: flex;
+    justify-content: space-between;
+    li > a:hover,
+    li > a:focus {
+      color: $zmoLinkHover;
+      text-decoration: none;
+      background-color: transparent;
+    }
+  }
+  #powered_by {
+    border-top: none;
+    background-color: $zmoGrayLight;
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

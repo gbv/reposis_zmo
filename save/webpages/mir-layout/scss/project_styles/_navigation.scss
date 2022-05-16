@@ -6,16 +6,32 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-  // footer menu
-  .internal_links {
-    width: 100%;
-    li {
-      width: auto;
-      display: inline-block;
-      > a:hover,
-      > a:focus {
-        text-decoration: underline;
-        background-color: transparent;
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    border-bottom: 1px solid $primary;
+  }
+  #options_nav_box {
+    position: absolute;
+    top: 0;
+    right: 15px;
+  }
+  .mir-prop-nav {
+    float: none;
+  }
+  .mir-prop-nav .navbar-nav > li > a {
+    color: $zmoLink;
+    &:hover {
+      color: $zmoLinkHover;
+    }
+  }
+  .mir-main-nav {
+    .navbar-nav {
+      width: 100%;
+      justify-content: space-between;
+      .nav-link.active {
+        color: $secondary;
       }
     }
   }

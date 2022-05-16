@@ -14,8 +14,30 @@
 //  project settings
 // --------------------------------------------------
 
+// from CD
+$zmoBlue:         rgb(20, 60, 115);   //#143c73;
+$zmoOrange:       rgb(235, 130, 65);  //#eb8241;
+
+// from webpage
+$zmoOrangeLight:  #f7c297;
+$zmoGrayLight:    #eef1f5;
+
+$zmoLink:         #103c78;
+$zmoLinkHover:    #f09246;
 
 
 // --------------------------------------------------
 //  overwrite bootstrap
 // --------------------------------------------------
+
+$primary: $zmoBlue;
+$secondary: $zmoOrange;
+
+$link-color: $zmoLink;
+$link-hover-color: $zmoLinkHover;
+
+$font-family-sans-serif: Muli, Calibri, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-base: 1rem;
+
+$navbar-light-color: $zmoLink;
+$navbar-light-hover-color: $zmoLinkHover;

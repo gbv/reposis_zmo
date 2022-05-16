@@ -20,19 +20,52 @@
         </nav>
       </div>
       <div id="project_logo_box">
-        <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
-           class="">
-          <span id="logo_mir">mir</span>
-          <span id="logo_modul">mycore</span>
-          <span id="logo_slogan">mods institutional repository</span>
+        <a href="https://www.zmo.de/"
+           class="zmo-project-logo">
+          <img
+            class="img-fluid"
+            src="{$WebApplicationBaseURL}images/logos/ZMO_Logo_08-18_Schrift_blau_gross_RGB.png"
+            alt="Logo ZMO" />
         </a>
+        <div class="zmo-slogan-box">
+          <a
+            href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
+            class="zmo-project-slogan">
+            <h1>Institutionelles Repositorium ZMO</h1>
+          </a>
+        </div>
+        <div class="zmo-search-box">
+          <form
+            action="{$WebApplicationBaseURL}servlets/solr/find"
+            class="searchfield_box form-inline my-2 my-lg-0"
+            role="search">
+            <input
+              name="condQuery"
+              placeholder="{i18n:translate('mir.navsearch.placeholder')}"
+              class="form-control mr-sm-2 search-query"
+              id="searchInput"
+              type="text"
+              aria-label="Search" />
+            <xsl:choose>
+              <xsl:when test="contains($isSearchAllowedForCurrentUser, 'true')">
+                <input name="owner" type="hidden" value="createdby:*" />
+              </xsl:when>
+              <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
+                <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
+              </xsl:when>
+            </xsl:choose>
+            <button type="submit" class="btn my-2 my-sm-0">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
       </div>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="mir-main-nav bg-primary">
+    <div class="mir-main-nav">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-light">
 
           <button
             class="navbar-toggler"
@@ -63,30 +96,6 @@
             </ul>
           </div>
 
-          <form
-            action="{$WebApplicationBaseURL}servlets/solr/find"
-            class="searchfield_box form-inline my-2 my-lg-0"
-            role="search">
-            <input
-              name="condQuery"
-              placeholder="{i18n:translate('mir.navsearch.placeholder')}"
-              class="form-control mr-sm-2 search-query"
-              id="searchInput"
-              type="text"
-              aria-label="Search" />
-            <xsl:choose>
-              <xsl:when test="contains($isSearchAllowedForCurrentUser, 'true')">
-                <input name="owner" type="hidden" value="createdby:*" />
-              </xsl:when>
-              <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
-                <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
-              </xsl:when>
-            </xsl:choose>
-            <button type="submit" class="btn btn-primary my-2 my-sm-0">
-              <i class="fas fa-search"></i>
-            </button>
-          </form>
-
         </nav>
       </div>
     </div>
@@ -98,19 +107,11 @@
 
   <xsl:template name="mir.footer">
     <div class="container">
-      <div class="row">
-        <div class="col-6 col-sm-9">
+      <div class="row no-gutters">
+        <div class="col-12">
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
           </ul>
-        </div>
-        <div class="col-6 col-sm-3">
-          <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
-          <div id="powered_by">
-            <a id="mycore_logo" href="http://www.mycore.de">
-              <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_powered_120x30_blaue_schrift_frei.png" title="{$mcr_version}" alt="powered by MyCoRe" />
-            </a>
-          </div>
         </div>
       </div>
     </div>
@@ -122,7 +123,7 @@
       <xsl:variable name="activeClass">
         <xsl:choose>
           <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item[@href = $browserAddress ]">
-          <xsl:text>active</xsl:text>
+            <xsl:text>active</xsl:text>
           </xsl:when>
           <xsl:otherwise>
             <xsl:text>not-active</xsl:text>
@@ -143,7 +144,12 @@
   </xsl:template>
 
   <xsl:template name="mir.powered_by">
-    <!-- do nothing special -->
+    <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
+    <div id="powered_by">
+      <a id="mycore_logo" href="http://www.mycore.de">
+        <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_powered_120x30_blaue_schrift_frei.png" title="{$mcr_version}" alt="powered by MyCoRe" />
+      </a>
+    </div>
   </xsl:template>
 
 </xsl:stylesheet>

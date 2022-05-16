@@ -6,8 +6,30 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-// logo and menu container
-
+  #header_box {
+    position: relative;
+    margin-bottom: 0;
+  }
+  #project_logo_box {
+    display: flex;
+    float: none;
+  }
+  .zmo-project-logo {
+    display: block;
+    width: 200px;
+    margin-left: -220px;
+  }
+  .zmo-slogan-box {
+    margin-top: 80px;
+    margin-left: 20px;
+    h1 {
+      white-space: nowrap;
+    }
+  }
+  .zmo-search-box {
+    margin-top: 84px;
+    width: 100%;
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
