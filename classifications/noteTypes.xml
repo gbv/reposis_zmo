@@ -3,10 +3,10 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
              ID="noteTypes">
-  <url xlink:href="http://www.loc.gov/standards/mods/mods-notes.html" xlink:type="locator" />
   <label xml:lang="de" text="Kommentartyp" />
   <label xml:lang="en" text="Type of note" />
   <label xml:lang="x-uri" text="http://www.mycore.org/classifications/noteTypes" />
+  <url xlink:href="http://www.loc.gov/standards/mods/mods-notes.html" xlink:type="locator" />
   <categories>
     <category ID="conservation_status">
       <label xml:lang="en" text="Conservation status" />
