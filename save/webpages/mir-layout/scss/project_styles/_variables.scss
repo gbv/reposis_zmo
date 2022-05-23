@@ -26,6 +26,8 @@ $zmoLink:         #103c78;
 $zmoLinkHover:    #f09246;
 $zmoMenuLink:     #547b9c;
 
+$zmoGray:         #bbb;
+
 
 // --------------------------------------------------
 //  overwrite bootstrap
@@ -58,3 +60,20 @@ $dropdown-link-active-bg:           white;
 $dropdown-item-padding-y:           .75rem;
 $dropdown-item-padding-x:           1rem;
 $dropdown-divider-bg:               $zmoMenuLink;
+
+// Paginations
+$pagination-color: white;
+$pagination-bg: $primary;
+$pagination-border-color: $primary;
+
+$pagination-hover-color: white;
+$pagination-hover-bg: $secondary;
+$pagination-hover-border-color: $secondary;
+
+$pagination-active-color: white;
+$pagination-active-bg: $secondary;
+$pagination-active-border-color: $secondary;
+
+$pagination-disabled-color: white;
+$pagination-disabled-bg: $zmoGray;
+$pagination-disabled-border-color: $zmoGray;
