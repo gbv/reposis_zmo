@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-    
+
     <section title="ZMO - Sondersammlungen" xml:lang="de">
-        <div class="jumbotwo" >
-            <div class="row">
-                
-                <div class="col-12">
-                    <h1>Bestände</h1>
-                </div>
-                <div class="col-12">
-                    <p>
-                        Die Sondersammlung umfasst Forschungsmaterialien, welche durch ihre Heterogenität nicht im Verbundkatalog der Bibliothek, sondern im
-                        institutionellen Repositorium verzeichnet sind. Die Bestände dieses Repositoriums umfassen neben Forschungsschriftgut auch Plakate, 
-                        Fotografien, Postkarten, Tagebücher, Mikroformen (Mikrofilme, Mikrofiches), Tageszeitungen, museale Objekte sowie verschiedene Formen 
-                        von Datenträgern.  Diese Forschungsmaterialein stammen zum größten Teil aus Nachlässen, Schenkungen und Dauerleihgaben.
-                    </p>
-                </div>
-                
-                <div class="col-md-4">
-                    <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Höpp Bestand</a></p>
-                </div>
-                <div class="col-md-4">
-                    <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Krüger Bestand</a></p>
-                </div>
-                <div class="col-md-4">
-                    <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Plakate Sammlung</a></p>
-                </div>
-            </div>
-        </div>
+      <div class="row">
+          <div class="col-12">
+              <h1>Bestände</h1>
+              <p>
+                  Die Sondersammlung umfasst Forschungsmaterialien, welche durch ihre Heterogenität nicht im Verbundkatalog der Bibliothek, sondern im
+                  institutionellen Repositorium verzeichnet sind. Die Bestände dieses Repositoriums umfassen neben Forschungsschriftgut auch Plakate,
+                  Fotografien, Postkarten, Tagebücher, Mikroformen (Mikrofilme, Mikrofiches), Tageszeitungen, museale Objekte sowie verschiedene Formen
+                  von Datenträgern.  Diese Forschungsmaterialein stammen zum größten Teil aus Nachlässen, Schenkungen und Dauerleihgaben.
+              </p>
+          </div>
+      </div>
+      <div class="row mt-5 mb-5">
+          <div class="col-md-4">
+              <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Höpp Bestand</a></p>
+          </div>
+          <div class="col-md-4">
+              <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Krüger Bestand</a></p>
+          </div>
+          <div class="col-md-4">
+              <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Plakate Sammlung</a></p>
+          </div>
+      </div>
     </section>
     <meta>
     </meta>

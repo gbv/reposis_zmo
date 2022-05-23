@@ -36,6 +36,15 @@
     }
   }
 
+  .dropdown-menu {
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,.5);
+    .dropdown-item {
+      border-bottom: 1px solid #547b9c;
+    }
+  }
+
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower

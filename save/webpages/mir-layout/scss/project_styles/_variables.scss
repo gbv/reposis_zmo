@@ -24,6 +24,7 @@ $zmoGrayLight:    #eef1f5;
 
 $zmoLink:         #103c78;
 $zmoLinkHover:    #f09246;
+$zmoMenuLink:     #547b9c;
 
 
 // --------------------------------------------------
@@ -41,3 +42,19 @@ $font-size-base: 1rem;
 
 $navbar-light-color: $zmoLink;
 $navbar-light-hover-color: $zmoLinkHover;
+
+// Dropdowns
+$dropdown-padding-y:                0;
+$dropdown-spacer:                   0;
+$dropdown-color:                    $link-color;
+$dropdown-border-radius:            0;
+$dropdown-border-width:             0;
+$dropdown-inner-border-radius:      0;
+$dropdown-link-color:               $zmoMenuLink;
+$dropdown-link-hover-color:         $zmoLinkHover;
+$dropdown-link-hover-bg:            white;
+$dropdown-link-active-color:        $zmoMenuLink;
+$dropdown-link-active-bg:           white;
+$dropdown-item-padding-y:           .75rem;
+$dropdown-item-padding-x:           1rem;
+$dropdown-divider-bg:               $zmoMenuLink;

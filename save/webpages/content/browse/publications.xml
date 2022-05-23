@@ -1,58 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-    
+
     <section title="ZMO - Publikationen" xml:lang="de">
-        <div class="jumbotwo" >
-            <div class="row">
-                
-                <div class="col-12">
-                    <h1>Publikationen</h1>
-                </div>
-                <div class="col-12">
-                    <p>
-                        Die Reihe <b>ZMO-Studien</b> veröffentlicht Forschungsergebnisse aus der Arbeit der einzelnen Projekte, Tagungsbände sowie ausgewählte Monographien,
-                        die das Forschungsprofil des Zentrums ergänzen. Neben dieser ZMO-eigenen Schriftenreihe im Verlag Walter de Gruyter werden Forschungsergebnisse 
-                        in zahlreichen Monographien und Aufsätzen publiziert, die im In- und Ausland erscheinen.
-                    </p>
-                    <p>
-                        In den Online-Reihen <b>ZMO Programmatic Texts</b> und <b>ZMO Working Papers</b> werden konzeptuelle Aufsätze und Diskussionen zu Forschungsprojekten 
-                        am Zentrum veröffentlicht.
-                    </p>
-                    <p>
-                        Im Rahmen des Wissenstransfers am ZMO erscheint zweimal im Jahr das <b>Orient Bulletin</b> und informiert über Ereignisse und Projekte am ZMO.
-                    </p>
-                </div>
-                
-                <div class="col-md-4">
-                    <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">ZMO Working Papers</a></p>
-                </div>
-                <div class="col-md-4">
-                    <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">ZMO-Studien</a></p>
-                </div>
-                <div class="col-md-4">
-                    <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Texts in Context</a></p>
-                </div>
-                <div class="col-md-4">
-                    <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Orient Bulletin</a></p>
-                </div>
-                <div class="col-md-4">
-                    <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Jahresberichte</a></p>
-                </div>
-                <div class="col-md-4">
-                    <p></p>
-                </div>
-                <div class="col-md-4">
-                    <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">ZMO Programmatic Texts</a></p>
-                </div>
-                <div class="col-md-4">
-                    <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Berlin Southern Theory Lectures</a></p>
-                </div>
-                <div class="col-md-4">
-                    <p></p>
-                </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h1>Publikationen</h1>
+                <p>
+                    Die Reihe <b>ZMO-Studien</b> veröffentlicht Forschungsergebnisse aus der Arbeit der einzelnen Projekte, Tagungsbände sowie ausgewählte Monographien,
+                    die das Forschungsprofil des Zentrums ergänzen. Neben dieser ZMO-eigenen Schriftenreihe im Verlag Walter de Gruyter werden Forschungsergebnisse
+                    in zahlreichen Monographien und Aufsätzen publiziert, die im In- und Ausland erscheinen.
+                </p>
+                <p>
+                    In den Online-Reihen <b>ZMO Programmatic Texts</b> und <b>ZMO Working Papers</b> werden konzeptuelle Aufsätze und Diskussionen zu Forschungsprojekten
+                    am Zentrum veröffentlicht.
+                </p>
+                <p>
+                    Im Rahmen des Wissenstransfers am ZMO erscheint zweimal im Jahr das <b>Orient Bulletin</b> und informiert über Ereignisse und Projekte am ZMO.
+                </p>
             </div>
         </div>
+        <div class="row mt-5 mb-5">
+            <div class="col-md-4">
+                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">ZMO Working Papers</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">ZMO-Studien</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Texts in Context</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Orient Bulletin</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Jahresberichte</a></p>
+            </div>
+            <div class="col-md-4">
+                <p></p>
+            </div>
+            <div class="col-md-4">
+                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">ZMO Programmatic Texts</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Berlin Southern Theory Lectures</a></p>
+            </div>
+            <div class="col-md-4">
+                <p></p>
+            </div>
+        </div>
+
     </section>
     <meta>
     </meta>

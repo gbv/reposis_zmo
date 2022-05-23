@@ -17,6 +17,7 @@
     margin: 2rem 0 2rem 0;
     border-bottom: 1px solid $primary;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     li > a:hover,
     li > a:focus {
