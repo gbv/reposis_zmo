@@ -5,7 +5,7 @@
     <section title="ZMO - Sondersammlungen" xml:lang="de">
       <div class="row">
           <div class="col-12">
-              <h1>Bestände</h1>
+              <h1 class="zmo-marker">Bestände</h1>
               <p>
                   Die Sondersammlung umfasst Forschungsmaterialien, welche durch ihre Heterogenität nicht im Verbundkatalog der Bibliothek, sondern im
                   institutionellen Repositorium verzeichnet sind. Die Bestände dieses Repositoriums umfassen neben Forschungsschriftgut auch Plakate,

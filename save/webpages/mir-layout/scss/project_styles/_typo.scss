@@ -5,6 +5,19 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+.zmo-marker {
+  padding: .25rem 0 0 2.5rem;
+  position: relative;
+  &::before {
+    background-color: $zmoLink;
+    content: "";
+    height: .375rem;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2.25rem;
+  }
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

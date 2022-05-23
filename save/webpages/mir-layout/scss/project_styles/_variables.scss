@@ -27,6 +27,7 @@ $zmoLinkHover:    #f09246;
 $zmoMenuLink:     #547b9c;
 
 $zmoGray:         #bbb;
+$zmoGrayDark:     #4a4a4a;
 
 
 // --------------------------------------------------
@@ -35,6 +36,10 @@ $zmoGray:         #bbb;
 
 $primary: $zmoBlue;
 $secondary: $zmoOrange;
+
+$body-color: $zmoGrayDark;
+$headings-color: $zmoGrayDark;
+$headings-margin-bottom: 2.5rem;;
 
 $link-color: $zmoLink;
 $link-hover-color: $zmoLinkHover;
