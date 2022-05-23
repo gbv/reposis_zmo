@@ -7,8 +7,14 @@
 // no (xl) media query necessary (desktop first)
 
   .mir-start_page {
+    #page {
+      background-image: url('../../../../images/csm_Foto_Startseite_iStock-882354930_0007bcdc88.jpg');
+    }
     .zmo-search-box {
       display: none;
+    }
+    .mir-main-nav .navbar {
+      border-bottom: none;
     }
   }
 
