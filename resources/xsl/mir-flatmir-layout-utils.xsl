@@ -31,7 +31,7 @@
           <a
             href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
             class="zmo-project-slogan">
-            <h1>Institutionelles Repositorium ZMO</h1>
+            <h1><xsl:value-of select="i18n:translate('project.title')" /></h1>
           </a>
         </div>
         <div class="zmo-search-box">

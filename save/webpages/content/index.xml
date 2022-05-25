@@ -8,7 +8,7 @@
             <div class="input-group w-100">
               <input
                 name="condQuery"
-                placeholder="Suche für Pub-n und Sondersammlung"
+                placeholder="Suche in Publikationen und Sondersammlungen"
                 class="form-control search-query"
                 id="project-searchInput"
                 type="text"
@@ -43,7 +43,7 @@
           <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
             <div class="input-group w-100">
               <input name="condQuery"
-                   placeholder="Search in Pub-n and Special collections"
+                   placeholder="Search in Publications and Special Collections"
                    class="form-control search-query" id="project-searchInput"
                    type="text" 
                    aria-label=""

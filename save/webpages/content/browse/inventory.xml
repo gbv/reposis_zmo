@@ -7,10 +7,13 @@
           <div class="col-12">
               <h1 class="zmo-marker">Bestände</h1>
               <p>
-                  Die Sondersammlung umfasst Forschungsmaterialien, welche durch ihre Heterogenität nicht im Verbundkatalog der Bibliothek, sondern im
-                  institutionellen Repositorium verzeichnet sind. Die Bestände dieses Repositoriums umfassen neben Forschungsschriftgut auch Plakate,
-                  Fotografien, Postkarten, Tagebücher, Mikroformen (Mikrofilme, Mikrofiches), Tageszeitungen, museale Objekte sowie verschiedene Formen
-                  von Datenträgern.  Diese Forschungsmaterialein stammen zum größten Teil aus Nachlässen, Schenkungen und Dauerleihgaben.
+                Die Sondersammlung umfasst Forschungsmaterialien, welche durch ihre Heterogenität nicht im Verbundkatalog der Bibliothek, sondern 
+                im institutionellen Repositorium verzeichnet sind. Die Bestände dieses Repositoriums umfassen neben Forschungsschriftgut auch Plakate, 
+                Fotografien, Postkarten, Tagebücher, Mikroformen (Mikrofilme, Mikrofiches), Tageszeitungen, museale Objekte sowie verschiedene Formen 
+                von Datenträgern.  Diese Forschungsmaterialein stammen zum größten Teil aus Nachlässen, Schenkungen und Dauerleihgaben.
+              </p>
+              <p>
+                Information über einzelnen Bestände:  <a href="https://www.zmo.de/bibliothek/bestaende">https://www.zmo.de/bibliothek/bestaende</a>
               </p>
           </div>
       </div>
@@ -24,8 +27,53 @@
           <div class="col-md-4">
               <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Plakate Sammlung</a></p>
           </div>
+          <div class="col-md-4">
+            <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Sebald Bestand</a></p>
+        </div>
+        <div class="col-md-4">
+            <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Al Mahnal Bestand</a></p>
+        </div>
+        <div class="col-md-4">
+            <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Mernissi Bestand</a></p>
+        </div>
       </div>
     </section>
+
+    <section title="ZMO - Special collection" xml:lang="en">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="zmo-marker">Stocks</h1>
+                <p>
+                    The special collection of the library comprises different types of research materials, such as archival documents, notes on interviews, 
+                    posters, microfiches and -films, videos, and other types of data carriers. Stocks of Special collection come for the most part from 
+                    bequests, donations and permanent loans.
+                </p>
+                <p>
+                  Information über einzelnen Bestände:  <a href="https://www.zmo.de/en/library/stocks">https://www.zmo.de/en/library/stocks</a>
+                </p>
+            </div>
+        </div>
+        <div class="row mt-5 mb-5">
+            <div class="col-md-4">
+                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Höpp Stock</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Krüger Stock</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Posters Collection</a></p>
+            </div>
+            <div class="col-md-4">
+              <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Sebald Stock</a></p>
+          </div>
+          <div class="col-md-4">
+              <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Al Mahnal Stock</a></p>
+          </div>
+          <div class="col-md-4">
+              <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Mernissi Stock</a></p>
+          </div>
+        </div>
+      </section>
     <meta>
     </meta>
 </MyCoReWebPage>
