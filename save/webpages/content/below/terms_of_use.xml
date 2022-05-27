@@ -1,38 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
-    <section xml:lang="de" title="NUTZUNGSBEDINGUNGEN">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h1 class="zmo-marker">Nutzungsbedingungen</h1>
-                <p>
-                    Informationen zur Nutzung.
-                </p>
-                <p>
-                    Weitere Erklärungen.
-                </p>
-                <h2>
-                    Überschrift 1
-                </h2>
-                <p>
-                    Hier kommt noch Text.
-                </p>
-                <h2>
-                    Überschrift 2
-                </h2>
-                <p>
-                    Hier kommt noch viel mehr Text.
-                    <ul>
-                        <li>...</li>
-                        <li>...</li>
-                        <li>...</li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-    </section>
-    <section xml:lang="en" title="TERMS OF USE">
-    </section>
-    <meta>
-        <log lastEditor="administrator" date="2020-06-10" time="15:29"/>
-    </meta>
+  <section xml:lang="de" title="Nutzungsbedingungen">
+    <div class="row">
+      <div class="col-md-12" lang="de">
+        <h1>Nutzungsbedingungen für das institutionelle Repositorium Leibniz-Zentrum Moderner Orient</h1>
+        <p>
+          Publikationen und Forschungsmaterialien werden, sofern möglich, in Open Access unter entsprechende Lizenz bereitgestellt. 
+          Alle im Institutionellem Repositorium des ZMO zur Verfügung stehende Metadaten ausgenommen Abstracts stehen unter CC 1.O Universell-Lizenz. Sämtliche Inhalte dieser Website sind urheberrechtlich geschützt. Unerlaubte Verwendung, Reproduktion oder Weitergabe einzelner Inhalte oder Bilder können sowohl zivil- als auch strafrechtlich verfolgt werden. 
+        </p>
+        <p>
+          Für die Nutzung der Forschungsmaterialien, die DSGVO Konformität verlangen und zum Archivgut zählen, wird die Ausfüllung des Benutzungsantrages vorausgesetzt. (Weiterführende Link zum Kontaktformular)
+        </p>
+        <p>
+          Wir würden uns freuen, wenn Sie uns bei der Verwendung in wissenschaftlichen Publikationen ein Belegexemplar der Publikation zusenden könnten.
+        </p>
+        <h2>Quellenangabe für Digitales Forschungsmaterial und Publikationen</h2>
+        <p>
+          Leibniz-Zentrum Moderner Orient, Zitierlink des Digitalen Objektes.<br />
+          <b>Beispiel:</b>
+          <ul>
+            <li>ZMO, <a href="../receive/mir_mods_00000034">https://reposis-test.gbv.de/zmo/receive/mir_mods_00000034</a></li>
+            <li>ZMO, <a href="https://nbn-resolving.org/urn:nbn:de:101:1-2021111012184045220734">https://nbn-resolving.org/urn:nbn:de:101:1-2021111012184045220734</a></li>
+          </ul>
+        </p>
+        <h2>Quellenangabe für Analoges Forschungsmaterial</h2>
+        <p>
+
+          ZMO, Signatur der Box und der Akte, Titel oder Bezeichnung des Forschungsmateriales.
+          <b>Beispiel:</b>
+          <ul>
+            <li>ZMO, Krüger Nachlass, Box 2, Akte 6-3, Report : Indian Trades Union Federation. Round Table Conference 1930 - 1934</li>
+          </ul>
+        </p>
+        <p>
+          OAI-Schnittstelle zum Metadata Harvesting unter:
+        </p>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="en" title="Terms of use">
+    <div class="col-md-12" lang="en">
+      <h1>Terms of use for the institutional repository Leibniz-Zentrum Moderner Orient</h1>
+      <p>
+        Where possible, publications and research materials are made available in open access under appropriate licenses. All metadata available in the ZMO Institutional Repository, except abstracts, are under CC 1.O Universal license. All content on this website is protected by copyright. Unauthorized use, reproduction, or distribution of individual content or images may result in civil or criminal prosecution. 
+      </p>
+      <p>
+        For the use of research materials that require compliance with General Data Protection Regulation and are considered archival material, the completion of the user request is required. (Further link to the contact form) 
+      </p>
+      <p>
+        If the material is used to produce scientific publication(s), we would appreciate it if you could send us a copy of the publication(s). 
+      </p>
+      <h2>Source citation for digital research material and publications</h2>
+      <p>
+        ZMO, citation link of the digital object.<br /> 
+        <b>Example:</b>
+        <ul>
+          <li>ZMO, <a href="../receive/mir_mods_00000034">https://reposis-test.gbv.de/zmo/receive/mir_mods_00000034</a></li>
+          <li>ZMO, <a href="https://nbn-resolving.org/urn:nbn:de:101:1-2021111012184045220734">https://nbn-resolving.org/urn:nbn:de:101:1-2021111012184045220734</a></li>
+        </ul>
+      </p>
+      <h2>Source citation for analog research material</h2>
+      <p>
+        ZMO, box and file signature, title or name of research material.<br />  
+        <b>Example:</b> 
+        <ul>
+          <li>ZMO, Kruger Estate, Box 2, File 6-3, Report : Indian Trades Union Federation. Round Table Conference 1930 – 1934</li>
+        </ul>
+      </p>
+      <p>
+        OAI API for metadata harvesting at:
+      </p>
+    </div>
+  </section>
+  <meta></meta>
 </MyCoReWebPage>
