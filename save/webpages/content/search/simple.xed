@@ -2,13 +2,14 @@
 <MyCoReWebPage>
 
   <section xml:lang="all" xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir"
-      i18n="component.mods.editor.search.simple.pagetitle">
+           i18n="project.simple.title">
+  <meta name='description' i18n="project.simple.description" />
     <xed:form class="form-horizontal" role="form">
       <xed:cleanup-rule xpath="//condition" relevant-if="(string-length(@value) &gt; 0) or value[string-length(text()) &gt; 0 ]" />
       <xed:cleanup-rule xpath="//boolean" relevant-if="boolean|condition" />
       <xed:cleanup-rule xpath="//condition[@selectable='true']" relevant-if="@id = ../selectCondition/@keep" />
       <xed:cleanup-rule xpath="//*/@selectable|//selectCondition" relevant-if="false()" />
-      <xed:source uri="searchInput:{$id}" />
+      <xed:source uri="searchInput:{id}" />
       <xed:source uri="webapp:editor/search/template/simple.xml" />
       <xed:bind xpath="query">
         <xed:bind xpath="@mask" default="content/main/search/simple.xed" />
@@ -32,6 +33,12 @@
             <!-- Institution -->
               <mir:template name="selectInput" xpath="condition[@field='category'][1]/@value" id="inputInst1" i18n="editor.search.mir.institute"
                 tooltip="editor.search.mir.institute.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_institutes" />
+            <!-- Sondersammlung -->
+              <mir:template name="selectInput" xpath="condition[@field='category.top'][2]/@value" id="inputInventory1" i18n="editor.search.mir.inventory"
+                tooltip="editor.search.mir.inventory.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:inventory" />
+            <!-- Ressource -->
+              <mir:template name="selectInput" xpath="condition[@field='category.top'][3]/@value" id="inputResources1" i18n="editor.search.mir.resources"
+                tooltip="editor.search.mir.resources.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:resources" />
             <!--Fulltext -->
               <div class="form-group row">
                 <label for="inputFulltext1" class="col-md-3 col-form-label text-right">

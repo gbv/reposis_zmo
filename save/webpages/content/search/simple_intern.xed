@@ -2,7 +2,8 @@
 <MyCoReWebPage>
 
   <section xml:lang="all" xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir"
-      i18n="component.mods.editor.search.simple.pagetitle">
+           i18n="project.simple.title">
+  <meta name='description' i18n="project.simple.description" />
     <xed:form class="form-horizontal" role="form">
       <xed:cleanup-rule xpath="//condition" relevant-if="(string-length(@value) &gt; 0) or value[string-length(text()) &gt; 0 ]" />
       <xed:cleanup-rule xpath="//boolean" relevant-if="boolean|condition" />
@@ -32,6 +33,12 @@
             <!-- Institution -->
               <mir:template name="selectInput" xpath="condition[@field='category'][1]/@value" id="inputInst1" i18n="editor.search.mir.institute"
                 tooltip="editor.search.mir.institute.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_institutes" />
+            <!-- Sondersammlung -->
+              <mir:template name="selectInput" xpath="condition[@field='category.top'][2]/@value" id="inputInventory1" i18n="editor.search.mir.inventory"
+                tooltip="editor.search.mir.inventory.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:inventory" />
+            <!-- Ressource -->
+              <mir:template name="selectInput" xpath="condition[@field='category.top'][3]/@value" id="inputResources1" i18n="editor.search.mir.resources"
+                tooltip="editor.search.mir.resources.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:resources" />
         <!-- /xed:bind> TODO: realize search dependent on current user and state
         <xed:bind xpath="boolean[@operator='or']" default="{$CurrentUser}" -->
           <!-- xed:bind xpath="condition[@field='createdby']/@value" default="{$CurrentUser}" / -->
@@ -42,7 +49,7 @@
         <xed:bind xpath="conditions/boolean[@operator='and']" -->
             <!--Fulltext -->
               <div class="form-group row">
-                <label for="inputFulltext1" class="col-md-3  col-form-label text-right">
+                <label for="inputFulltext1" class="col-md-3 col-form-label text-right">
                   <xed:output i18n="mir.dropdown.content" />
                 </label>
                 <div class="col-md-9">
@@ -63,7 +70,7 @@
                         </option>
                       </select>
                       <span class="input-group-append" data-toggle="tooltip" data-html="true" title="{i18n:editor.search.fulltext.tooltip}">
-                        <i class="fas fa-info-circle  input-group-text" />
+                        <i class="fas fa-info-circle input-group-text" />
                       </span>
                     </xed:bind>
                   </div>

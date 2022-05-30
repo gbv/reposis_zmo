@@ -57,23 +57,23 @@
         <label xml:lang="en">Browse &amp; Search</label>
         <item href="/content/search/simple.xed" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Einfache Suche</label>
-            <label xml:lang="en">Simple Search</label>
+            <label xml:lang="en">Simple search</label>
         </item>
         <item href="/content/search/simple_intern.xed" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Einfache Suche</label>
-            <label xml:lang="en">Simple Search</label>
+            <label xml:lang="en">Simple search</label>
         </item>
         <item href="/content/search/complex.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Komplexe Suche</label>
-            <label xml:lang="en">Complex Search</label>
+            <label xml:lang="de">Erweiterte Suche</label>
+            <label xml:lang="en">Advanced Search</label>
         </item>
         <item href="/content/search/complex_intern.xed" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Komplexe Suche</label>
-            <label xml:lang="en">Complex Search</label>
+            <label xml:lang="de">Erweiterte Suche</label>
+            <label xml:lang="en">Advanced search</label>
         </item>
         <item href="/search/search-expert.xed" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Expertensuche</label>
-            <label xml:lang="en">Expert Search</label>
+            <label xml:lang="en">Expert search</label>
         </item>
         <item href="/content/browse/institutes.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Einrichtungen</label>
