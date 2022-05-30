@@ -7,9 +7,9 @@
           <div class="col-12">
               <h1 class="zmo-marker">Bestände</h1>
               <p>
-                Die Sondersammlung umfasst Forschungsmaterialien, welche durch ihre Heterogenität nicht im Verbundkatalog der Bibliothek, sondern 
-                im institutionellen Repositorium verzeichnet sind. Die Bestände dieses Repositoriums umfassen neben Forschungsschriftgut auch Plakate, 
-                Fotografien, Postkarten, Tagebücher, Mikroformen (Mikrofilme, Mikrofiches), Tageszeitungen, museale Objekte sowie verschiedene Formen 
+                Die Sondersammlung umfasst Forschungsmaterialien, welche durch ihre Heterogenität nicht im Verbundkatalog der Bibliothek, sondern
+                im institutionellen Repositorium verzeichnet sind. Die Bestände dieses Repositoriums umfassen neben Forschungsschriftgut auch Plakate,
+                Fotografien, Postkarten, Tagebücher, Mikroformen (Mikrofilme, Mikrofiches), Tageszeitungen, museale Objekte sowie verschiedene Formen
                 von Datenträgern.  Diese Forschungsmaterialein stammen zum größten Teil aus Nachlässen, Schenkungen und Dauerleihgaben.
               </p>
               <p>
@@ -17,12 +17,86 @@
               </p>
           </div>
       </div>
+
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4">
+
+        <div class="col mb-4">
+          <div class="card h-100">
+            <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Ahoepp%22+AND+objectType%3Amods+AND+state%3Apublished">
+              <img src="../../images/collections/Gerhard_Hoepp.jpg" class="card-img-top" alt="..." />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Ahoepp%22+AND+objectType%3Amods+AND+state%3Apublished">
+                  Höpp Bestand
+                </a>
+              </h5>
+              <p class="card-text">
+                Prof. Dr. Gerhard Höpp war ein ostdeutscher Orientalist und Islamwissenschaftler.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://www.zmo.de/bibliothek/bestaende/nachlass-prof-dr-gerhard-hoepp">
+                <i class="fas fa-external-link-alt"></i>
+                Zur Bibliothek
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card h-100">
+            <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Akrueger%22+AND+objectType%3Amods+AND+state%3Apublished">
+              <img src="../../images/collections/Revolutionaeres_Asien.jpg" class="card-img-top" alt="..." />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Akrueger%22+AND+objectType%3Amods+AND+state%3Apublished">
+                  Krüger Bestand
+                </a>
+              </h5>
+              <p class="card-text">
+                Dr. Horst Krüger hat keine Wikipediaseite.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://www.zmo.de/bibliothek/bestaende/nachlass-prof-dr-gerhard-hoepp">
+                <i class="fas fa-external-link-alt"></i>
+                Zur Bibliothek
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+<!--
       <div class="row mt-5 mb-5">
           <div class="col-md-4">
-              <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Höpp Bestand</a></p>
+              <p>
+                <a
+                  class="btn btn-primary btn-lg btn-block"
+                  href="../../servlets/solr/select?q=category.top%3A%22inventory%3Ahoepp%22+AND+objectType%3Amods+AND+state%3Apublished"
+                  role="button">Höpp Bestand
+                </a>
+              </p>
           </div>
           <div class="col-md-4">
-              <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Krüger Bestand</a></p>
+              <p>
+                <a
+                  class="btn btn-primary btn-lg btn-block"
+                  href="../../servlets/solr/select?q=category.top%3A%22inventory%3Akrueger%22+AND+objectType%3Amods+AND+state%3Apublished"
+                  role="button">Krüger Bestand
+                </a>
+              </p>
           </div>
           <div class="col-md-4">
               <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Plakate Sammlung</a></p>
@@ -36,7 +110,7 @@
         <div class="col-md-4">
             <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Mernissi Bestand</a></p>
         </div>
-      </div>
+      </div>-->
     </section>
 
     <section title="ZMO - Special collection" xml:lang="en">
@@ -44,8 +118,8 @@
             <div class="col-12">
                 <h1 class="zmo-marker">Stocks</h1>
                 <p>
-                    The special collection of the library comprises different types of research materials, such as archival documents, notes on interviews, 
-                    posters, microfiches and -films, videos, and other types of data carriers. Stocks of Special collection come for the most part from 
+                    The special collection of the library comprises different types of research materials, such as archival documents, notes on interviews,
+                    posters, microfiches and -films, videos, and other types of data carriers. Stocks of Special collection come for the most part from
                     bequests, donations and permanent loans.
                 </p>
                 <p>
