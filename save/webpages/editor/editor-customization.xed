@@ -4,7 +4,8 @@
 
   <!-- ========== extend editor-genres.xed ========== -->
   <xed:modify ref="admin.fields">
-    <xed:include ref="inventory" after="sdnb.repeat" />
+    <xed:include ref="publications" after="sdnb.repeat" />
+    <xed:include ref="inventory" after="publications" />
     <xed:include ref="resources" after="inventory" />
   </xed:modify>
 
@@ -30,6 +31,25 @@
           </select>
         </div>
         <mir:help-pmud help-text="{i18n:project.help.inventory}" pmud="false" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
+  <xed:template id="publications">
+    <xed:bind xpath="mods:classification[@authorityURI='https://repositorium.zmo.de/classifications/publications'][@displayLabel='publications']/@valueURIxEditor">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="project.form.label.publications" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:publications" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:project.help.publications}" pmud="false" />
       </div>
     </xed:bind>
   </xed:template>
