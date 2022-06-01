@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" 
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
+             ID="publications">
+  <label xml:lang="en" text="Inventory" description="List of the collection publications" />
+  <label xml:lang="de" text="Bestände" description="Liste der Publikationen" />
+  <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/publications" />
+  <categories>
+    <category ID="working_papers">
+      <label xml:lang="de" text="ZMO Working Papers" />
+      <label xml:lang="en" text="ZMO Working Papers" />
+    </category>
+    <category ID="studies">
+      <label xml:lang="de" text="ZMO-Studien" />
+      <label xml:lang="en" text="ZMO-Studies" />
+    </category>
+    <category ID="text_in_context">
+      <label xml:lang="de" text="Texts in Context" />
+      <label xml:lang="en" text="Texts in Context" />
+    </category>
+    <category ID="orient_bulletin">
+      <label xml:lang="de" text="Orient Bulletin" />
+      <label xml:lang="en" text="Orient Bulletin" />
+    </category>
+    <category ID="annual_reports">
+      <label xml:lang="de" text="Jahresberichte" />
+      <label xml:lang="en" text="Annual reports" />
+    </category>
+    <category ID="programmatic_texts">
+      <label xml:lang="de" text="ZMO Programmatic Texts" />
+      <label xml:lang="en" text="ZMO Programmatic Texts" />
+    </category>
+    <category ID="southern_theory">
+      <label xml:lang="de" text="Berlin Southern Theory Lectures" />
+      <label xml:lang="en" text="Berlin Southern Theory Lectures" />
+    </category>
+  </categories>
+</mycoreclass>
