@@ -3,8 +3,8 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
              ID="publications">
-  <label xml:lang="en" text="Inventory" description="List of the collection publications" />
-  <label xml:lang="de" text="Bestände" description="Liste der Publikationen" />
+  <label xml:lang="en" text="Publications" description="List of the collection publications" />
+  <label xml:lang="de" text="Publikationen" description="Liste der Publikationen" />
   <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/publications" />
   <categories>
     <category ID="working_papers">
