@@ -6,7 +6,12 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-
+.zmo-tiles {
+  .card-img-top {
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+  }
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

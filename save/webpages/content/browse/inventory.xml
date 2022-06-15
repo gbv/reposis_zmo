@@ -19,7 +19,7 @@
       </div>
 
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 zmo-tiles">
 
         <div class="col mb-4">
           <div class="card h-100">
@@ -57,17 +57,94 @@
                 </a>
               </h5>
               <p class="card-text">
-                Dr. Horst Krüger hat keine Wikipediaseite.
+                Dr. Horst Krüger war ein Südasien-Forscher.
+                <!-- Dr. Horst Krüger was South Asia researcher. -->
               </p>
             </div>
             <div class="card-footer">
-              <a href="https://www.zmo.de/bibliothek/bestaende/nachlass-prof-dr-gerhard-hoepp">
+              <a href="https://www.zmo.de/bibliothek/bestaende/nachlass-dr-horst-krueger">
                 <i class="fas fa-external-link-alt"></i>
                 Zur Bibliothek
               </a>
             </div>
           </div>
         </div>
+
+        <div class="col mb-4">
+          <div class="card h-100">
+            <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Aposter_collection%22+AND+objectType%3Amods+AND+state%3Apublished">
+              <img src="../../images/collections/Plakate_Sammlung.png" class="card-img-top" alt="..." />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Aposter_collection%22+AND+objectType%3Amods+AND+state%3Apublished">
+                  Plakate Sammlung
+                  <!-- Posters Collection -->
+                </a>
+              </h5>
+              <!--p class="card-text">
+                xxx
+              </p-->
+            </div>
+            <div class="card-footer">
+              <a href="https://www.zmo.de/bibliothek/bestaende/forschungsmaterialien">
+                <i class="fas fa-external-link-alt"></i>
+                Zur Bibliothek
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card h-100">
+            <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Asebald%22+AND+objectType%3Amods+AND+state%3Apublished">
+              <img src="../../images/collections/Sebald_Nachlass.jpg" class="card-img-top" alt="..." />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Asebald%22+AND+objectType%3Amods+AND+state%3Apublished">
+                  Sebald Bestand
+                  <!-- Sebald Stock -->
+                </a>
+              </h5>
+              <!--p class="card-text">
+                xxx
+              </p-->
+            </div>
+            <div class="card-footer">
+              <a href="https://www.zmo.de/bibliothek/bestaende/nachlass-dr-habil-peter-sebald-und-prof-trutz-von-trotha">
+                <i class="fas fa-external-link-alt"></i>
+                Zur Bibliothek
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- template
+        <div class="col mb-4">
+          <div class="card h-100">
+            <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Axxx%22+AND+objectType%3Amods+AND+state%3Apublished">
+              <img src="../../images/collections/xxx" class="card-img-top" alt="..." />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Axxx%22+AND+objectType%3Amods+AND+state%3Apublished">
+                 xxx
+                </a>
+              </h5>
+              <p class="card-text">
+                xxx
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://www.zmo.de/bibliothek/bestaende/xxx">
+                <i class="fas fa-external-link-alt"></i>
+                Zur Bibliothek
+              </a>
+            </div>
+          </div>
+        </div>
+      -->
 
       </div>
 
