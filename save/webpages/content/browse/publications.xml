@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-  
+
   <section title="ZMO - Publikationen" xml:lang="de">
-    
+
     <div class="row">
       <div class="col-12">
         <h1 class="zmo-marker">Publikationen</h1>
@@ -21,51 +21,196 @@
         </p>
       </div>
     </div>
-    <div class="row mt-5 mb-5">
-      <div class="col-md-4">
-        <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">ZMO Working Papers</a></p>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 zmo-tiles">
+
+      <div class="col mb-4">
+        <div class="card h-100">
+          <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Aorient_bulletin%22+AND+objectType%3Amods+AND+state%3Apublished">
+            <img src="../../images/collections/Orient_Bulletin.png" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Aorient_bulletin%22+AND+objectType%3Amods+AND+state%3Apublished">
+                Orient Bulletin
+              </a>
+            </h5>
+            <!--p class="card-text">
+              xxx
+            </p-->
+          </div>
+          <!--div class="card-footer">
+            <a href="https://www.zmo.de/bibliothek/bestaende/xxx">
+              <i class="fas fa-external-link-alt"></i>
+              Zur Bibliothek
+            </a>
+          </div-->
+        </div>
       </div>
-      <div class="col-md-4">
-        <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">ZMO-Studien</a></p>
+
+      <div class="col mb-4">
+        <div class="card h-100">
+          <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Astudies%22+AND+objectType%3Amods+AND+state%3Apublished">
+            <img src="../../images/collections/ZMO_Studien.jpg" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Astudies%22+AND+objectType%3Amods+AND+state%3Apublished">
+                ZMO-Studien
+              </a>
+            </h5>
+            <!--p class="card-text">
+              xxx
+            </p-->
+          </div>
+          <div class="card-footer">
+            <a href="https://www.zmo.de/publikationen/zmo-studien">
+              <i class="fas fa-external-link-alt"></i>
+              Zur Bibliothek
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4">
-        <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Texts in Context</a></p>
+
+      <div class="col mb-4">
+        <div class="card h-100">
+          <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Aworking_papers%22+AND+objectType%3Amods+AND+state%3Apublished">
+            <img src="../../images/collections/Working_papers.jpg" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Aworking_papers%22+AND+objectType%3Amods+AND+state%3Apublished">
+                ZMO Working Papers
+              </a>
+            </h5>
+            <!--p class="card-text">
+              xxx
+            </p-->
+          </div>
+          <div class="card-footer">
+            <a href="https://www.zmo.de/publikationen/zmo-studien/zmo-working-papers">
+              <i class="fas fa-external-link-alt"></i>
+              Zur Bibliothek
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4">
-        <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Orient Bulletin</a></p>
+
+      <div class="col mb-4">
+        <div class="card h-100">
+          <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Aprogrammatic_texts%22+AND+objectType%3Amods+AND+state%3Apublished">
+            <img src="../../images/collections/ZMO_Programmatic_Texts.jpg" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Aprogrammatic_texts%22+AND+objectType%3Amods+AND+state%3Apublished">
+                ZMO Programmatic Texts
+              </a>
+            </h5>
+            <!--p class="card-text">
+              xxx
+            </p-->
+          </div>
+          <div class="card-footer">
+            <a href="https://www.zmo.de/publikationen/zmo-programmatic-texts">
+              <i class="fas fa-external-link-alt"></i>
+              Zur Bibliothek
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4">
-        <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Jahresberichte</a></p>
+
+      <div class="col mb-4">
+        <div class="card h-100">
+          <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Asouthern_theory%22+AND+objectType%3Amods+AND+state%3Apublished">
+            <img src="../../images/collections/Berlin_Southern_Theory.jpg" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Asouthern_theory%22+AND+objectType%3Amods+AND+state%3Apublished">
+                Berlin Southern Theory Lectures
+              </a>
+            </h5>
+            <!--p class="card-text">
+              xxx
+            </p-->
+          </div>
+          <div class="card-footer">
+            <a href="https://www.polsoz.fu-berlin.de/ethnologie/forschung/Southern_Theory_Lecture/index.html">
+              <i class="fas fa-external-link-alt"></i>
+              Zur Bibliothek
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4">
-        <p></p>
+
+      <div class="col mb-4">
+        <div class="card h-100">
+          <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Aannual_reports%22+AND+objectType%3Amods+AND+state%3Apublished">
+            <img src="../../images/collections/Jahresberichte.jpg" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Aannual_reports%22+AND+objectType%3Amods+AND+state%3Apublished">
+                Jahresberichte
+              </a>
+            </h5>
+            <!--p class="card-text">
+              xxx
+            </p-->
+          </div>
+          <!--div class="card-footer">
+            <a href="https://www.zmo.de/bibliothek/bestaende/xxx">
+              <i class="fas fa-external-link-alt"></i>
+              Zur Bibliothek
+            </a>
+          </div-->
+        </div>
+
       </div>
-      <div class="col-md-4">
-        <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">ZMO Programmatic Texts</a></p>
-      </div>
-      <div class="col-md-4">
-        <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Berlin Southern Theory Lectures</a></p>
-      </div>
-      <div class="col-md-4">
-        <p></p>
-      </div>
+        <!-- template
+        <div class="col mb-4">
+          <div class="card h-100">
+            <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Axxx%22+AND+objectType%3Amods+AND+state%3Apublished">
+              <img src="../../images/collections/xxx" class="card-img-top" alt="..." />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Axxx%22+AND+objectType%3Amods+AND+state%3Apublished">
+                 xxx
+                </a>
+              </h5>
+              <p class="card-text">
+                xxx
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://www.zmo.de/bibliothek/bestaende/xxx">
+                <i class="fas fa-external-link-alt"></i>
+                Zur Bibliothek
+              </a>
+            </div>
+          </div>
+        </div>
+      -->
+
     </div>
-    
+
   </section>
   <section title="ZMO - Publikationen" xml:lang="en">
-    
+
     <div class="row">
       <div class="col-12">
         <h1 class="zmo-marker">Publications</h1>
         <p>
-          ZMO publishes a refereed book series entitled <b>ZMO-Studien</b>, which consists of monographs submitted by internal and external researchers, 
+          ZMO publishes a refereed book series entitled <b>ZMO-Studien</b>, which consists of monographs submitted by internal and external researchers,
           as well as edited volumes. In addition, fellows publish articles and monographs in the relevant international journals and series.
         </p>
         <p>
-          Since 2010, ZMO offers the two refereed online series <b>ZMO Programmatic Texts</b> and <b>ZMO Working Papers</b>. The ZMO Programatic Texts publish 
-          wider conceptual articles engaging with the interdisciplinary and interregional research conducted at ZMO. The series provides a platform 
-          for authors to present and discuss innovative contributions to current theoretical and comparative debates in relation to ZMO’s programmatic 
-          research agenda. ZMO Working Papers is a series of publications that reflect developments and discussions related to ZMO's research projects. 
+          Since 2010, ZMO offers the two refereed online series <b>ZMO Programmatic Texts</b> and <b>ZMO Working Papers</b>. The ZMO Programatic Texts publish
+          wider conceptual articles engaging with the interdisciplinary and interregional research conducted at ZMO. The series provides a platform
+          for authors to present and discuss innovative contributions to current theoretical and comparative debates in relation to ZMO’s programmatic
+          research agenda. ZMO Working Papers is a series of publications that reflect developments and discussions related to ZMO's research projects.
           Texts are usually empirically based and regionally focused and may also represent intermediate results of research.
         </p>
         <p>
@@ -73,36 +218,7 @@
         </p>
       </div>
     </div>
-    <div class="row mt-5 mb-5">
-      <div class="col-md-4">
-        <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">ZMO Working Papers</a></p>
-      </div>
-      <div class="col-md-4">
-        <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">ZMO-Studien</a></p>
-      </div>
-      <div class="col-md-4">
-        <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Texts in Context</a></p>
-      </div>
-      <div class="col-md-4">
-        <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Orient Bulletin</a></p>
-      </div>
-      <div class="col-md-4">
-        <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Jahresberichte</a></p>
-      </div>
-      <div class="col-md-4">
-        <p></p>
-      </div>
-      <div class="col-md-4">
-        <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">ZMO Programmatic Texts</a></p>
-      </div>
-      <div class="col-md-4">
-        <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Berlin Southern Theory Lectures</a></p>
-      </div>
-      <div class="col-md-4">
-        <p></p>
-      </div>
-    </div>
-    
+
   </section>
   <meta>
   </meta>

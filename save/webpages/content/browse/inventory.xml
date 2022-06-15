@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
+<MyCoReWebPage xmlns:i18n="http://www.mycore.org/i18n">
 
     <section title="ZMO - Sondersammlungen" xml:lang="de">
       <div class="row">
@@ -57,8 +57,8 @@
                 </a>
               </h5>
               <p class="card-text">
-                Dr. Horst Krüger war ein Südasien-Forscher.
-                <!-- Dr. Horst Krüger was South Asia researcher. -->
+                <i18n:de>Dr. Horst Krüger war ein Südasien-Forscher.</i18n:de>
+                <i18n:en>Dr. Horst Krüger was South Asia researcher.</i18n:en>
               </p>
             </div>
             <div class="card-footer">
@@ -147,47 +147,6 @@
       -->
 
       </div>
-
-
-
-
-
-
-
-
-<!--
-      <div class="row mt-5 mb-5">
-          <div class="col-md-4">
-              <p>
-                <a
-                  class="btn btn-primary btn-lg btn-block"
-                  href="../../servlets/solr/select?q=category.top%3A%22inventory%3Ahoepp%22+AND+objectType%3Amods+AND+state%3Apublished"
-                  role="button">Höpp Bestand
-                </a>
-              </p>
-          </div>
-          <div class="col-md-4">
-              <p>
-                <a
-                  class="btn btn-primary btn-lg btn-block"
-                  href="../../servlets/solr/select?q=category.top%3A%22inventory%3Akrueger%22+AND+objectType%3Amods+AND+state%3Apublished"
-                  role="button">Krüger Bestand
-                </a>
-              </p>
-          </div>
-          <div class="col-md-4">
-              <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Plakate Sammlung</a></p>
-          </div>
-          <div class="col-md-4">
-            <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Sebald Bestand</a></p>
-        </div>
-        <div class="col-md-4">
-            <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Al Mahnal Bestand</a></p>
-        </div>
-        <div class="col-md-4">
-            <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Mernissi Bestand</a></p>
-        </div>
-      </div>-->
     </section>
 
     <section title="ZMO - Special collection" xml:lang="en">
