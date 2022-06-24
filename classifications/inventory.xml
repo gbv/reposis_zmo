@@ -19,5 +19,9 @@
       <label xml:lang="de" text="Plakate Sammlung" />
       <label xml:lang="en" text="Poster colllection" />
     </category>
+    <category ID="sebald">
+      <label xml:lang="de" text="Sebald Bestand" />
+      <label xml:lang="en" text="Sebald collection" />
+    </category>
   </categories>
 </mycoreclass>
