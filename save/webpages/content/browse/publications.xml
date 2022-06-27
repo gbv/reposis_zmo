@@ -1,23 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
+<MyCoReWebPage xmlns:i18n="http://www.mycore.org/i18n">
 
-  <section title="ZMO - Publikationen" xml:lang="de">
+  <section xml:lang="all" i18n="page.publications.title">
 
     <div class="row">
       <div class="col-12">
-        <h1 class="zmo-marker">Publikationen</h1>
+        <h1 class="zmo-marker">
+          <i18n:de>Publikationen</i18n:de>
+          <i18n:en>Publications</i18n:en>
+        </h1>
         <p>
-          Die Reihe <b>ZMO-Studien</b> veröffentlicht Forschungsergebnisse aus der Arbeit der einzelnen Projekte, Tagungsbände sowie ausgewählte Monographien,
-          die das Forschungsprofil des Zentrums ergänzen. Neben dieser ZMO-eigenen Schriftenreihe im Verlag Walter de Gruyter werden Forschungsergebnisse
-          in zahlreichen Monographien und Aufsätzen publiziert, die im In- und Ausland erscheinen.
+          <i18n:de>
+            Die Reihe <b>ZMO-Studien</b> veröffentlicht Forschungsergebnisse aus der Arbeit der einzelnen Projekte, Tagungsbände sowie ausgewählte Monographien,
+            die das Forschungsprofil des Zentrums ergänzen. Neben dieser ZMO-eigenen Schriftenreihe im Verlag Walter de Gruyter werden Forschungsergebnisse
+            in zahlreichen Monographien und Aufsätzen publiziert, die im In- und Ausland erscheinen.
+          </i18n:de>
+
+          <i18n:en>
+            ZMO publishes a refereed book series entitled <b>ZMO-Studien</b>, which consists of monographs submitted by internal and external researchers,
+            as well as edited volumes. In addition, fellows publish articles and monographs in the relevant international journals and series.
+          </i18n:en>
         </p>
         <p>
-          In den Online-Reihen <b>ZMO Programmatic Texts</b> und <b>ZMO Working Papers</b> werden konzeptuelle Aufsätze und Diskussionen zu Forschungsprojekten
-          am Zentrum veröffentlicht.
+          <i18n:de>
+            In den Online-Reihen <b>ZMO Programmatic Texts</b> und <b>ZMO Working Papers</b> werden konzeptuelle Aufsätze und Diskussionen zu Forschungsprojekten
+            am Zentrum veröffentlicht.
+          </i18n:de>
+
+          <i18n:en>
+            Since 2010, ZMO offers the two refereed online series <b>ZMO Programmatic Texts</b> and <b>ZMO Working Papers</b>. The ZMO Programatic Texts publish
+            wider conceptual articles engaging with the interdisciplinary and interregional research conducted at ZMO. The series provides a platform
+            for authors to present and discuss innovative contributions to current theoretical and comparative debates in relation to ZMO’s programmatic
+            research agenda. ZMO Working Papers is a series of publications that reflect developments and discussions related to ZMO's research projects.
+            Texts are usually empirically based and regionally focused and may also represent intermediate results of research.
+          </i18n:en>
         </p>
         <p>
-          Im Rahmen des Wissenstransfers am ZMO erscheint zweimal im Jahr das <b>Orient Bulletin</b> und informiert über Ereignisse und Projekte am ZMO.
+          <i18n:de>
+            Im Rahmen des Wissenstransfers am ZMO erscheint zweimal im Jahr das <b>Orient Bulletin</b> und informiert über Ereignisse und Projekte am ZMO.
+          </i18n:de>
+
+          <i18n:en>
+            Furthermore, ZMO publishes biannually the <b>Orient Bulletin</b> which informs about the events and projects at ZMO.
+          </i18n:en>
         </p>
       </div>
     </div>
@@ -35,16 +61,7 @@
                 Orient Bulletin
               </a>
             </h5>
-            <!--p class="card-text">
-              xxx
-            </p-->
           </div>
-          <!--div class="card-footer">
-            <a href="https://www.zmo.de/bibliothek/bestaende/xxx">
-              <i class="fas fa-external-link-alt"></i>
-              Zur Bibliothek
-            </a>
-          </div-->
         </div>
       </div>
 
@@ -59,14 +76,12 @@
                 ZMO-Studien
               </a>
             </h5>
-            <!--p class="card-text">
-              xxx
-            </p-->
           </div>
           <div class="card-footer">
-            <a href="https://www.zmo.de/publikationen/zmo-studien">
-              <i class="fas fa-external-link-alt"></i>
-              Zur Bibliothek
+            <a href="|de:https://www.zmo.de/publikationen/zmo-studien|en:https://www.zmo.de/en/publications/zmo-studies|">
+              <i class="fas fa-external-link-alt mr-1"></i>
+              <i18n:de>Zur Bibliothek</i18n:de>
+              <i18n:en>To the library</i18n:en>
             </a>
           </div>
         </div>
@@ -83,14 +98,12 @@
                 ZMO Working Papers
               </a>
             </h5>
-            <!--p class="card-text">
-              xxx
-            </p-->
           </div>
           <div class="card-footer">
-            <a href="https://www.zmo.de/publikationen/zmo-studien/zmo-working-papers">
-              <i class="fas fa-external-link-alt"></i>
-              Zur Bibliothek
+            <a href="|de:https://www.zmo.de/publikationen/zmo-studien/zmo-working-papers|en:https://www.zmo.de/en/publications/translate-to-english-zmo-working-papers|">
+              <i class="fas fa-external-link-alt mr-1"></i>
+              <i18n:de>Zur Bibliothek</i18n:de>
+              <i18n:en>To the library</i18n:en>
             </a>
           </div>
         </div>
@@ -107,14 +120,12 @@
                 ZMO Programmatic Texts
               </a>
             </h5>
-            <!--p class="card-text">
-              xxx
-            </p-->
           </div>
           <div class="card-footer">
-            <a href="https://www.zmo.de/publikationen/zmo-programmatic-texts">
-              <i class="fas fa-external-link-alt"></i>
-              Zur Bibliothek
+            <a href="|de:https://www.zmo.de/publikationen/zmo-programmatic-texts|en:https://www.zmo.de/en/publications/translate-to-english-zmo-programmatic-texts|">
+              <i class="fas fa-external-link-alt mr-1"></i>
+              <i18n:de>Zur Bibliothek</i18n:de>
+              <i18n:en>To the library</i18n:en>
             </a>
           </div>
         </div>
@@ -131,14 +142,12 @@
                 Berlin Southern Theory Lectures
               </a>
             </h5>
-            <!--p class="card-text">
-              xxx
-            </p-->
           </div>
           <div class="card-footer">
             <a href="https://www.polsoz.fu-berlin.de/ethnologie/forschung/Southern_Theory_Lecture/index.html">
-              <i class="fas fa-external-link-alt"></i>
-              Zur Bibliothek
+              <i class="fas fa-external-link-alt mr-1"></i>
+              <i18n:de>Zur Webseite</i18n:de>
+              <i18n:en>To web page</i18n:en>
             </a>
           </div>
         </div>
@@ -155,68 +164,39 @@
                 Jahresberichte
               </a>
             </h5>
-            <!--p class="card-text">
-              xxx
-            </p-->
           </div>
-          <!--div class="card-footer">
-            <a href="https://www.zmo.de/bibliothek/bestaende/xxx">
-              <i class="fas fa-external-link-alt"></i>
-              Zur Bibliothek
-            </a>
-          </div-->
         </div>
-
       </div>
-        <!-- template
-        <div class="col mb-4">
-          <div class="card h-100">
-            <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Axxx%22+AND+objectType%3Amods+AND+state%3Apublished">
-              <img src="../../images/collections/xxx" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">
-                <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Axxx%22+AND+objectType%3Amods+AND+state%3Apublished">
-                 xxx
-                </a>
-              </h5>
-              <p class="card-text">
-                xxx
-              </p>
-            </div>
-            <div class="card-footer">
-              <a href="https://www.zmo.de/bibliothek/bestaende/xxx">
-                <i class="fas fa-external-link-alt"></i>
-                Zur Bibliothek
+
+      <!-- tile template
+      <div class="col mb-4">
+        <div class="card h-100">
+          <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Axxx%22+AND+objectType%3Amods+AND+state%3Apublished">
+            <img src="../../images/collections/xxx" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Axxx%22+AND+objectType%3Amods+AND+state%3Apublished">
+              <i18n:de>xxx</i18n:de>
+              <i18n:en>xxx</i18n:en>
               </a>
-            </div>
+            </h5>
+            <p class="card-text">
+              <i18n:de>xxx</i18n:de>
+              <i18n:en>xxx</i18n:en>
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="|de:https://www.zmo.de/bibliothek/bestaende/xxx|en:xxx|">
+              <i class="fas fa-external-link-alt mr-1"></i>
+              <i18n:de>Zur Bibliothek</i18n:de>
+              <i18n:en>To the library</i18n:en>
+            </a>
           </div>
         </div>
+      </div>
       -->
 
-    </div>
-
-  </section>
-  <section title="ZMO - Publikationen" xml:lang="en">
-
-    <div class="row">
-      <div class="col-12">
-        <h1 class="zmo-marker">Publications</h1>
-        <p>
-          ZMO publishes a refereed book series entitled <b>ZMO-Studien</b>, which consists of monographs submitted by internal and external researchers,
-          as well as edited volumes. In addition, fellows publish articles and monographs in the relevant international journals and series.
-        </p>
-        <p>
-          Since 2010, ZMO offers the two refereed online series <b>ZMO Programmatic Texts</b> and <b>ZMO Working Papers</b>. The ZMO Programatic Texts publish
-          wider conceptual articles engaging with the interdisciplinary and interregional research conducted at ZMO. The series provides a platform
-          for authors to present and discuss innovative contributions to current theoretical and comparative debates in relation to ZMO’s programmatic
-          research agenda. ZMO Working Papers is a series of publications that reflect developments and discussions related to ZMO's research projects.
-          Texts are usually empirically based and regionally focused and may also represent intermediate results of research.
-        </p>
-        <p>
-          Furthermore, ZMO publishes biannually the <b>Orient Bulletin</b> which informs about the events and projects at ZMO.
-        </p>
-      </div>
     </div>
 
   </section>
