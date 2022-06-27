@@ -2,188 +2,182 @@
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage xmlns:i18n="http://www.mycore.org/i18n">
 
-    <section title="ZMO - Sondersammlungen" xml:lang="de">
-      <div class="row">
-          <div class="col-12">
-              <h1 class="zmo-marker">Bestände</h1>
-              <p>
+  <section xml:lang="all" i18n="page.inventory.title">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="zmo-marker">
+              <i18n:de>Bestände</i18n:de>
+              <i18n:en>Stocks</i18n:en>
+            </h1>
+            <p>
+              <i18n:de>
                 Die Sondersammlung umfasst Forschungsmaterialien, welche durch ihre Heterogenität nicht im Verbundkatalog der Bibliothek, sondern
                 im institutionellen Repositorium verzeichnet sind. Die Bestände dieses Repositoriums umfassen neben Forschungsschriftgut auch Plakate,
                 Fotografien, Postkarten, Tagebücher, Mikroformen (Mikrofilme, Mikrofiches), Tageszeitungen, museale Objekte sowie verschiedene Formen
                 von Datenträgern.  Diese Forschungsmaterialein stammen zum größten Teil aus Nachlässen, Schenkungen und Dauerleihgaben.
-              </p>
-              <p>
-                Information über einzelnen Bestände:  <a href="https://www.zmo.de/bibliothek/bestaende">https://www.zmo.de/bibliothek/bestaende</a>
-              </p>
+              </i18n:de>
+              <i18n:en>
+                The special collection of the library comprises different types of research materials, such as archival documents, notes on interviews,
+                posters, microfiches and -films, videos, and other types of data carriers. Stocks of Special collection come for the most part from
+                bequests, donations and permanent loans.
+              </i18n:en>
+            </p>
+            <p>
+              <i18n:de>Information über einzelnen Bestände: </i18n:de>
+              <i18n:en>Information about individual stocks: </i18n:en>
+              <a href="|de:https://www.zmo.de/bibliothek/bestaende|en:https://www.zmo.de/en/library/stocks|">
+                <i18n:de>https://www.zmo.de/bibliothek/bestaende</i18n:de>
+                <i18n:en>https://www.zmo.de/en/library/stocks</i18n:en>
+              </a>
+            </p>
+        </div>
+    </div>
+
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 zmo-tiles">
+
+      <div class="col mb-4">
+        <div class="card h-100">
+          <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Ahoepp%22+AND+objectType%3Amods+AND+state%3Apublished">
+            <img src="../../images/collections/Gerhard_Hoepp.jpg" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Ahoepp%22+AND+objectType%3Amods+AND+state%3Apublished">
+                <i18n:de>Höpp Bestand</i18n:de>
+                <i18n:en>Höpp Stock</i18n:en>
+              </a>
+            </h5>
+            <p class="card-text">
+              Prof. Dr. Gerhard Höpp war ein ostdeutscher Orientalist und Islamwissenschaftler.
+            </p>
           </div>
+          <div class="card-footer">
+            <a href="|de:https://www.zmo.de/bibliothek/bestaende/nachlass-prof-dr-gerhard-hoepp|en:https://www.zmo.de/en/library/stocks/prof-dr-gerhard-hoepp-estate|">
+              <i class="fas fa-external-link-alt mr-1"></i>
+              <i18n:de>Zur Bibliothek</i18n:de>
+              <i18n:en>To the library</i18n:en>
+            </a>
+          </div>
+        </div>
       </div>
 
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 zmo-tiles">
-
-        <div class="col mb-4">
-          <div class="card h-100">
-            <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Ahoepp%22+AND+objectType%3Amods+AND+state%3Apublished">
-              <img src="../../images/collections/Gerhard_Hoepp.jpg" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">
-                <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Ahoepp%22+AND+objectType%3Amods+AND+state%3Apublished">
-                  Höpp Bestand
-                </a>
-              </h5>
-              <p class="card-text">
-                Prof. Dr. Gerhard Höpp war ein ostdeutscher Orientalist und Islamwissenschaftler.
-              </p>
-            </div>
-            <div class="card-footer">
-              <a href="https://www.zmo.de/bibliothek/bestaende/nachlass-prof-dr-gerhard-hoepp">
-                <i class="fas fa-external-link-alt"></i>
-                Zur Bibliothek
+      <div class="col mb-4">
+        <div class="card h-100">
+          <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Akrueger%22+AND+objectType%3Amods+AND+state%3Apublished">
+            <img src="../../images/collections/Revolutionaeres_Asien.jpg" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Akrueger%22+AND+objectType%3Amods+AND+state%3Apublished">
+                <i18n:de>Krüger Bestand</i18n:de>
+                <i18n:en>Krüger Stock</i18n:en>
               </a>
-            </div>
+            </h5>
+            <p class="card-text">
+              <i18n:de>Dr. Horst Krüger war ein Südasien-Forscher.</i18n:de>
+              <i18n:en>Dr. Horst Krüger was South Asia researcher.</i18n:en>
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="|de:https://www.zmo.de/bibliothek/bestaende/nachlass-dr-horst-krueger|en:https://www.zmo.de/en/library/stocks/dr-horst-krueger-estate|">
+              <i class="fas fa-external-link-alt mr-1"></i>
+              <i18n:de>Zur Bibliothek</i18n:de>
+              <i18n:en>To the library</i18n:en>
+            </a>
           </div>
         </div>
+      </div>
 
-        <div class="col mb-4">
-          <div class="card h-100">
-            <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Akrueger%22+AND+objectType%3Amods+AND+state%3Apublished">
-              <img src="../../images/collections/Revolutionaeres_Asien.jpg" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">
-                <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Akrueger%22+AND+objectType%3Amods+AND+state%3Apublished">
-                  Krüger Bestand
-                </a>
-              </h5>
-              <p class="card-text">
-                <i18n:de>Dr. Horst Krüger war ein Südasien-Forscher.</i18n:de>
-                <i18n:en>Dr. Horst Krüger was South Asia researcher.</i18n:en>
-              </p>
-            </div>
-            <div class="card-footer">
-              <a href="https://www.zmo.de/bibliothek/bestaende/nachlass-dr-horst-krueger">
-                <i class="fas fa-external-link-alt"></i>
-                Zur Bibliothek
+      <div class="col mb-4">
+        <div class="card h-100">
+          <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Aposter_collection%22+AND+objectType%3Amods+AND+state%3Apublished">
+            <img src="../../images/collections/Plakate_Sammlung.png" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Aposter_collection%22+AND+objectType%3Amods+AND+state%3Apublished">
+                <i18n:de>Plakate Sammlung</i18n:de>
+                <i18n:en>Posters Collection</i18n:en>
               </a>
-            </div>
+            </h5>
+            <!--p class="card-text">
+              xxx
+            </p-->
+          </div>
+          <div class="card-footer">
+            <a href="|de:https://www.zmo.de/bibliothek/bestaende/forschungsmaterialien|en:https://www.zmo.de/en/library/stocks/research-documents|">
+              <i class="fas fa-external-link-alt mr-1"></i>
+              <i18n:de>Zur Bibliothek</i18n:de>
+              <i18n:en>To the library</i18n:en>
+            </a>
           </div>
         </div>
+      </div>
 
-        <div class="col mb-4">
-          <div class="card h-100">
-            <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Aposter_collection%22+AND+objectType%3Amods+AND+state%3Apublished">
-              <img src="../../images/collections/Plakate_Sammlung.png" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">
-                <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Aposter_collection%22+AND+objectType%3Amods+AND+state%3Apublished">
-                  Plakate Sammlung
-                  <!-- Posters Collection -->
-                </a>
-              </h5>
-              <!--p class="card-text">
-                xxx
-              </p-->
-            </div>
-            <div class="card-footer">
-              <a href="https://www.zmo.de/bibliothek/bestaende/forschungsmaterialien">
-                <i class="fas fa-external-link-alt"></i>
-                Zur Bibliothek
+      <div class="col mb-4">
+        <div class="card h-100">
+          <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Asebald%22+AND+objectType%3Amods+AND+state%3Apublished">
+            <img src="../../images/collections/Sebald_Nachlass.jpg" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Asebald%22+AND+objectType%3Amods+AND+state%3Apublished">
+                <i18n:de>Sebald Bestand</i18n:de>
+                <i18n:en>Sebald Stock</i18n:en>
               </a>
-            </div>
+            </h5>
+            <!--p class="card-text">
+              xxx
+            </p-->
+          </div>
+          <div class="card-footer">
+            <a href="|de:https://www.zmo.de/bibliothek/bestaende/nachlass-dr-habil-peter-sebald-und-prof-trutz-von-trotha|en:https://www.zmo.de/en/library/stocks/dr-habil-peter-sebald-and-prof-trutz-von-trotha-estate|">
+              <i class="fas fa-external-link-alt mr-1"></i>
+              <i18n:de>Zur Bibliothek</i18n:de>
+              <i18n:en>To the library</i18n:en>
+            </a>
           </div>
         </div>
+      </div>
 
-        <div class="col mb-4">
-          <div class="card h-100">
-            <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Asebald%22+AND+objectType%3Amods+AND+state%3Apublished">
-              <img src="../../images/collections/Sebald_Nachlass.jpg" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">
-                <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Asebald%22+AND+objectType%3Amods+AND+state%3Apublished">
-                  Sebald Bestand
-                  <!-- Sebald Stock -->
-                </a>
-              </h5>
-              <!--p class="card-text">
-                xxx
-              </p-->
-            </div>
-            <div class="card-footer">
-              <a href="https://www.zmo.de/bibliothek/bestaende/nachlass-dr-habil-peter-sebald-und-prof-trutz-von-trotha">
-                <i class="fas fa-external-link-alt"></i>
-                Zur Bibliothek
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- template
-        <div class="col mb-4">
-          <div class="card h-100">
-            <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Axxx%22+AND+objectType%3Amods+AND+state%3Apublished">
-              <img src="../../images/collections/xxx" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">
-                <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Axxx%22+AND+objectType%3Amods+AND+state%3Apublished">
-                 xxx
-                </a>
-              </h5>
-              <p class="card-text">
-                xxx
-              </p>
-            </div>
-            <div class="card-footer">
-              <a href="https://www.zmo.de/bibliothek/bestaende/xxx">
-                <i class="fas fa-external-link-alt"></i>
-                Zur Bibliothek
-              </a>
-            </div>
-          </div>
-        </div>
+      <!--
+        Al Mahnal Stock
+        Mernissi Stock
       -->
 
+      <!-- tile template
+      <div class="col mb-4">
+        <div class="card h-100">
+          <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Axxx%22+AND+objectType%3Amods+AND+state%3Apublished">
+            <img src="../../images/collections/xxx" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="../../servlets/solr/select?q=category.top%3A%22inventory%3Axxx%22+AND+objectType%3Amods+AND+state%3Apublished">
+                <i18n:de>xxx</i18n:de>
+                <i18n:en>xxx</i18n:en>
+              </a>
+            </h5>
+            <p class="card-text">
+              <i18n:de>xxx</i18n:de>
+              <i18n:en>xxx</i18n:en>
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.zmo.de/bibliothek/bestaende/xxx">
+              <i class="fas fa-external-link-alt"></i>
+              <i18n:de>Zur Bibliothek</i18n:de>
+              <i18n:en>To the library</i18n:en>
+            </a>
+          </div>
+        </div>
       </div>
-    </section>
+    -->
 
-    <section title="ZMO - Special collection" xml:lang="en">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="zmo-marker">Stocks</h1>
-                <p>
-                    The special collection of the library comprises different types of research materials, such as archival documents, notes on interviews,
-                    posters, microfiches and -films, videos, and other types of data carriers. Stocks of Special collection come for the most part from
-                    bequests, donations and permanent loans.
-                </p>
-                <p>
-                  Information über einzelnen Bestände:  <a href="https://www.zmo.de/en/library/stocks">https://www.zmo.de/en/library/stocks</a>
-                </p>
-            </div>
-        </div>
-        <div class="row mt-5 mb-5">
-            <div class="col-md-4">
-                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Höpp Stock</a></p>
-            </div>
-            <div class="col-md-4">
-                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Krüger Stock</a></p>
-            </div>
-            <div class="col-md-4">
-                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Posters Collection</a></p>
-            </div>
-            <div class="col-md-4">
-              <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Sebald Stock</a></p>
-          </div>
-          <div class="col-md-4">
-              <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Al Mahnal Stock</a></p>
-          </div>
-          <div class="col-md-4">
-              <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">Mernissi Stock</a></p>
-          </div>
-        </div>
-      </section>
-    <meta>
-    </meta>
-</MyCoReWebPage>
+    </div>
+  </section>
+
+  <meta></meta>
+
+  </MyCoReWebPage>
