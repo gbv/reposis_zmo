@@ -10,14 +10,24 @@
       <xed:cleanup-rule xpath="//boolean" relevant-if="boolean|condition" />
       <xed:cleanup-rule xpath="//condition[@selectable='true']" relevant-if="@id = ../selectCondition/@keep" />
       <xed:cleanup-rule xpath="//*/@selectable|//selectCondition" relevant-if="false()" />
-      <xed:source uri="searchInput:{id}" />
+      <xed:source uri="area:{$area}:searchInput:{$id}" />
       <xed:source uri="webapp:editor/search/template/complex.xml" />
       <xed:bind xpath="query">
         <xed:bind xpath="@mask" default="content/search/complex.xed" />
         <div class="card">
           <div class="card-header">
             <h3 class="card-title">
-              <xed:output i18n="component.mods.editor.search.complex.label" />
+              <xed:choose>
+                <xed:when test="$area = 'inventory'">
+                  <xed:output i18n="component.mods.editor.search.label.inventory" />
+                </xed:when>
+                <xed:when test="$area = 'publications'">
+                  <xed:output i18n="component.mods.editor.search.label.publications" />
+                </xed:when>
+                <xed:otherwise>
+                  <xed:output i18n="component.mods.editor.search.label" />
+              </xed:otherwise>
+              </xed:choose>
             </h3>
           </div>
           <div class="card-body">
@@ -82,11 +92,24 @@
                   xpath="condition[@field='category.top'][1]/@value" id="inputInst1"
                   i18n="editor.search.mir.institute" tooltip="editor.search.mir.institute.tooltip"
                   uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_institutes" />
-              <!-- Sondersammlung -->
-              <mir:template name="selectInput"
-                xpath="condition[@field='category.top'][2]/@value" id="inputInventory1"
-                i18n="editor.search.mir.inventory" tooltip="editor.search.mir.inventory.tooltip"
-                uri="xslStyle:items2options:classification:editorComplete:-1:children:inventory" />
+                <xed:choose>
+                  <xed:when test="$area = 'inventory'">
+                    <!-- Sondersammlung -->
+                    <mir:template name="selectInput" xpath="condition[@field='category.top'][2]/@value" id="inputInventory1" i18n="editor.search.mir.inventory"
+                        tooltip="editor.search.mir.inventory.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:inventory" />
+                  </xed:when>
+                  <xed:when test="$area = 'publications'">
+                  <!-- Publikationsbereich -->
+                    <mir:template name="selectInput" xpath="condition[@field='category.top'][4]/@value" id="inputPublications1" i18n="editor.search.mir.publications"
+                      tooltip="editor.search.mir.publications.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:publications" />
+                  </xed:when>
+                  <xed:otherwise>
+                    <mir:template name="selectInput" xpath="condition[@field='category.top'][2]/@value" id="inputInventory1" i18n="editor.search.mir.inventory"
+                      tooltip="editor.search.mir.inventory.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:inventory" />
+                    <mir:template name="selectInput" xpath="condition[@field='category.top'][4]/@value" id="inputPublications1" i18n="editor.search.mir.publications"
+                      tooltip="editor.search.mir.publications.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:publications" />
+                  </xed:otherwise>
+                </xed:choose>
               <!-- Ressource -->
               <mir:template name="selectInput"
                 xpath="condition[@field='category.top'][3]/@value" id="inputResources1"
