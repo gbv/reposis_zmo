@@ -32,14 +32,14 @@
             </p>
             <p>
               <span class="mr-4">
-                <a href="|de:../search/simple.xed?area=publications|">
+                <a href="|de:../search/simple.xed?area=inventory|">
                 <i class="fas fa-external-link-alt mr-1"></i>
                 <i18n:de>Zur Suche</i18n:de>
                 <i18n:en>Search</i18n:en>
                 </a>
               </span>
               <span class="mr-4">
-                <a href="|de:../search/complex.xed?area=publications|">
+                <a href="|de:../search/complex.xed?area=inventory|">
                 <i class="fas fa-external-link-alt mr-1"></i>
                 <i18n:de>Zur erweiterten Suche</i18n:de>
                 <i18n:en>Extended search</i18n:en>
