@@ -65,7 +65,8 @@
               </a>
             </h5>
             <p class="card-text">
-              Prof. Dr. Gerhard Höpp war ein ostdeutscher Orientalist und Islamwissenschaftler.
+              <i18n:de>Prof. Dr. Gerhard Höpp war ein ostdeutscher Orientalist und Islamwissenschaftler.</i18n:de>
+              <i18n:en>Prof. Dr. Gerhard Höpp was an East German orientalist and specialist in Islamic studies.</i18n:en>
             </p>
           </div>
           <div class="card-footer">
