@@ -6,7 +6,13 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-
+.btn-zmo {
+  background-color: $zmoBack;
+  color: $zmoLink;
+  &:hover {
+    background-color:$zmoBackHover;
+  }
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

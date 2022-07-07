@@ -23,34 +23,33 @@
               </i18n:en>
             </p>
             <p>
-              <i18n:de>Information über einzelnen Bestände: </i18n:de>
-              <i18n:en>Information about individual stocks: </i18n:en>
+              <i18n:de>Information über einzelnen Bestände:</i18n:de>
+              <i18n:en>Information about individual stocks:</i18n:en>
               <a href="|de:https://www.zmo.de/bibliothek/bestaende|en:https://www.zmo.de/en/library/stocks|">
+                <i class="fas fa-external-link-alt ml-3 mr-1"></i>
                 <i18n:de>https://www.zmo.de/bibliothek/bestaende</i18n:de>
                 <i18n:en>https://www.zmo.de/en/library/stocks</i18n:en>
               </a>
             </p>
-            <p>
-              <span class="mr-4">
-                <a href="|de:../search/simple.xed?area=inventory|">
-                <i class="fas fa-external-link-alt mr-1"></i>
-                <i18n:de>Zur Suche</i18n:de>
-                <i18n:en>Search</i18n:en>
-                </a>
-              </span>
-              <span class="mr-4">
-                <a href="|de:../search/complex.xed?area=inventory|">
-                <i class="fas fa-external-link-alt mr-1"></i>
-                <i18n:de>Zur erweiterten Suche</i18n:de>
-                <i18n:en>Extended search</i18n:en>
-                </a>
-              </span>
+            <p class="mt-5">
+              <a
+                href="|de:../search/simple.xed?area=inventory|"
+                class="btn btn-zmo mr-3">
+                <i18n:de>Suche in Sondersammlungen</i18n:de>
+                <i18n:en>Search in special collections</i18n:en>
+              </a>
+              <a
+                href="|de:../search/complex.xed?area=inventory|"
+                class="btn btn-zmo">
+                <i18n:de>Erweiterte Suche in Sondersammlungen</i18n:de>
+                <i18n:en>Extended search in special collections</i18n:en>
+              </a>
             </p>
         </div>
     </div>
 
 
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 zmo-tiles">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 zmo-tiles mt-5">
 
       <div class="col mb-4">
         <div class="card h-100">
