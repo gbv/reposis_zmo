@@ -47,13 +47,13 @@
         </p>
         <p class="mt-5">
           <a
-            href="|de:../search/simple.xed?area=publications|"
+            href="../../servlets/MCRActionMappingServlet/search/publications_simple"
             class="btn btn-zmo mr-3">
             <i18n:de>Suche in Publikationen</i18n:de>
             <i18n:en>Search in publications</i18n:en>
           </a>
           <a
-            href="|de:../search/complex.xed?area=publications|"
+            href="../../servlets/MCRActionMappingServlet/search/publications_complex"
             class="btn btn-zmo">
             <i18n:de>Erweiterte Suche in Publikationen</i18n:de>
             <i18n:en>Extended search in publications</i18n:en>

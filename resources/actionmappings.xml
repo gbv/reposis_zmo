@@ -15,6 +15,22 @@
       <when condition="not (user = guest )" url="/content/search/complex_intern.xed" />
       <when condition="true" url="/content/search/complex.xed" />
     </action>
+    <action action="publications_simple">
+      <when condition="not (user = guest )" url="/content/search/simple_intern.xed?area=publications" />
+      <when condition="true" url="/content/search/simple.xed?area=publications" />
+    </action>
+    <action action="publications_complex">
+      <when condition="not (user = guest )" url="/content/search/complex_intern.xed?area=publications" />
+      <when condition="true" url="/content/search/complex.xed?area=publications" />
+    </action>
+    <action action="inventory_simple">
+      <when condition="not (user = guest )" url="/content/search/simple_intern.xed?area=inventory" />
+      <when condition="true" url="/content/search/simple.xed?area=inventory" />
+    </action>
+    <action action="inventory_complex">
+      <when condition="not (user = guest )" url="/content/search/complex_intern.xed?area=inventory" />
+      <when condition="true" url="/content/search/complex.xed?area=inventory" />
+    </action>
   </collection>
   <collection name="mods">
     <action action="create">

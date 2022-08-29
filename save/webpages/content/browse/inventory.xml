@@ -33,13 +33,13 @@
             </p>
             <p class="mt-5">
               <a
-                href="|de:../search/simple.xed?area=inventory|"
+                href="../../servlets/MCRActionMappingServlet/search/inventory_complex"
                 class="btn btn-zmo mr-3">
                 <i18n:de>Suche in Sondersammlungen</i18n:de>
                 <i18n:en>Search in special collections</i18n:en>
               </a>
               <a
-                href="|de:../search/complex.xed?area=inventory|"
+                href="../../servlets/MCRActionMappingServlet/search/inventory_complex"
                 class="btn btn-zmo">
                 <i18n:de>Erweiterte Suche in Sondersammlungen</i18n:de>
                 <i18n:en>Extended search in special collections</i18n:en>
