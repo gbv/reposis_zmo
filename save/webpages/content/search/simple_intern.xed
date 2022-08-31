@@ -53,18 +53,18 @@
                 </xed:when>
                 <xed:when test="$area = 'publications'">
                 <!-- Publikationsbereich -->
-                  <mir:template name="selectInput" xpath="condition[@field='category.top'][4]/@value" id="inputPublications1" i18n="editor.search.mir.publications"
+                  <mir:template name="selectInput" xpath="condition[@field='category.top'][3]/@value" id="inputPublications1" i18n="editor.search.mir.publications"
                     tooltip="editor.search.mir.publications.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:publications" />
                 </xed:when>
                 <xed:otherwise>
                   <mir:template name="selectInput" xpath="condition[@field='category.top'][2]/@value" id="inputInventory1" i18n="editor.search.mir.inventory"
                     tooltip="editor.search.mir.inventory.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:inventory" />
-                  <mir:template name="selectInput" xpath="condition[@field='category.top'][4]/@value" id="inputPublications1" i18n="editor.search.mir.publications"
+                  <mir:template name="selectInput" xpath="condition[@field='category.top'][3]/@value" id="inputPublications1" i18n="editor.search.mir.publications"
                     tooltip="editor.search.mir.publications.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:publications" />
                 </xed:otherwise>
               </xed:choose>
             <!-- Ressource -->
-              <mir:template name="selectInput" xpath="condition[@field='category.top'][3]/@value" id="inputResources1" i18n="editor.search.mir.resources"
+              <mir:template name="selectInput" xpath="condition[@field='category.top'][4]/@value" id="inputResources1" i18n="editor.search.mir.resources"
                 tooltip="editor.search.mir.resources.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:resources" />
         <!-- /xed:bind> TODO: realize search dependent on current user and state
         <xed:bind xpath="boolean[@operator='or']" default="{$CurrentUser}" -->
