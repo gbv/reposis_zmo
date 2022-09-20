@@ -211,6 +211,12 @@
       <label xml:lang="x-hosts" text="series standalone" />
       <label xml:lang="en" text="Book" />
     </category>
+    <category ID="letter">
+      <label xml:lang="de" text="Brief" />
+      <label xml:lang="x-mapping" text="marcgt:letter diniPublType:manuscript" />
+      <label xml:lang="x-hosts" text="standalone archivebox" />
+      <label xml:lang="en" text="Letter" />
+    </category>
     <category ID="journal">
       <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="en" text="Journal" />
@@ -232,6 +238,12 @@
       <label xml:lang="de" text="Serie" />
       <label xml:lang="it" text="Collana" />
     </category>
+    <category ID="archivebox">
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="x-mapping" text="marcgt:series diniPublType:other" />
+      <label xml:lang="de" text="Archivbox" />
+      <label xml:lang="en" text="Archivebox" />
+    </category>
     <category ID="blog">
       <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="de" text="Blog" />
@@ -252,6 +264,12 @@
       <label xml:lang="en" text="Research Data" />
       <label xml:lang="x-mapping" text="marcgt:database diniPublType:ResearchData" />
       <label xml:lang="it" text="Dati di ricerca" />
+    </category>
+    <category ID="source_material">
+      <label xml:lang="x-hosts" text="standalone archivebox" />
+      <label xml:lang="de" text="Quellenmaterial" />
+      <label xml:lang="en" text="Sourcematerial" />
+      <label xml:lang="x-mapping" text="marcgt:database diniPublType:ResearchData" />
     </category>
     <category ID="patent">
       <label xml:lang="x-hosts" text="standalone" />

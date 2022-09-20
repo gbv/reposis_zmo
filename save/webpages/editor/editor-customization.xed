@@ -7,6 +7,7 @@
     <xed:include ref="publications" after="sdnb.repeat" />
     <xed:include ref="inventory" after="publications" />
     <xed:include ref="resources" after="inventory" />
+    <xed:include ref="typeOfHostedExemplar" after="resources" />
   </xed:modify>
 
 
@@ -72,6 +73,60 @@
       </div>
     </xed:bind>
   </xed:template>
-
-
+  
+  <xed:template id="typeOfHostedExemplar">
+    <xed:bind xpath="mods:classification[@authorityURI='https://repositorium.zmo.de/classifications/typeOfHostedExemplar'][@displayLabel='typeOfHostedExemplar']/@valueURIxEditor">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="project.form.label.typeOfHostedExemplar" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:typeOfHostedExemplar" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:project.help.typeOfHostedExemplar}" pmud="false" />
+      </div>
+    </xed:bind>
+  </xed:template>
+  
+  <xed:template id="genres.source_material">
+    <xed:include ref="genres.research_data" />
+    <xed:include ref="inventory" />
+  </xed:template>
+  
+  <xed:template id="genres.archivebox">
+    <xed:include ref="title" />
+    <xed:include ref="date.onlyrange.issued.datetimepicker" />
+    <xed:include ref="language" />
+    <xed:include ref="sdnb.repeat" />
+    <xed:include ref="subject.simple" />
+    <xed:include ref="shelfmark" />
+    <xed:include ref="abstract.simple" />
+    <xed:include ref="comment" />
+    <xed:include ref="inventory" />
+  </xed:template>
+  
+  <xed:template id="genres.letter">
+    <xed:include ref="title.original" />
+    <xed:include ref="author.repeated" />
+    <xed:include ref="year.issued" />
+    <xed:include ref="place" />
+    <xed:include ref="extent" />
+    <xed:include ref="language" />
+    <xed:include ref="sdnb.repeat" />
+    <xed:include ref="identifier.managed" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="subject.simple" />
+    <xed:include ref="shelfmark" />
+    <xed:include ref="abstract.simple" />
+    <xed:include ref="embargo.datetimepicker" />
+    <xed:include ref="rights" />
+    <xed:include ref="institutes" />
+    <xed:include ref="comment" />
+  </xed:template>
+  
 </xed:template>
