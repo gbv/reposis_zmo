@@ -12,8 +12,8 @@
       <label xml:lang="en" text="Copy" />
     </category>
     <category ID="original">
-      <label xml:lang="de" text="Orginal" />
-      <label xml:lang="en" text="Photocopy from the book" />
+      <label xml:lang="de" text="Original" />
+      <label xml:lang="en" text="Original" />
     </category>
     <category ID="transcript">
       <label xml:lang="de" text="Abschrift" />
