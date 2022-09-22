@@ -182,6 +182,30 @@
         </div>
       </div>
 
+      <div class="col mb-4">
+        <div class="card h-100">
+          <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Atext_in_context%22+AND+objectType%3Amods+AND+state%3Apublished">
+            <img src="../../images/collections/Text_in_Context.png" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="../../servlets/solr/select?q=category.top%3A%22publications%3Atext_in_context%22+AND+objectType%3Amods+AND+state%3Apublished">
+                Texts in Context
+              </a>
+            </h5>
+            <p class="card-text">
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.zmo.de/publikationen/texts-in-context">
+              <i class="fas fa-external-link-alt mr-1"></i>
+              <i18n:de>Zur Bibliothek</i18n:de>
+              <i18n:en>To the library</i18n:en>
+            </a>
+          </div>
+        </div>
+      </div>
+
       <!-- tile template
       <div class="col mb-4">
         <div class="card h-100">
