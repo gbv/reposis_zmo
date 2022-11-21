@@ -7,6 +7,13 @@
   <label xml:lang="de" text="Genre" description="Liste der Publikationsarten" />
   <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/mir_genres" />
   <categories>
+    <category ID="working_paper">
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="de" text="Working Paper" />
+      <label xml:lang="en" text="WorkingPaper" />
+      <label xml:lang="x-mapping" text="marcgt:document diniPublType:WorkingPaper" />
+      <label xml:lang="it" text="Working Paper" />
+    </category>
     <category ID="article">
       <label xml:lang="it" text="Articolo / Saggio" />
       <label xml:lang="x-mapping" text="marcgt:article diniPublType:article" />
@@ -126,6 +133,12 @@
       <label xml:lang="it" text="Compilazione" />
       <label xml:lang="x-hosts" text="series standalone" />
       <label xml:lang="en" text="Collection" />
+      <category ID="issue">
+        <label xml:lang="x-mapping" text="marcgt:issue diniPublType:PeriodicalPart" />
+        <label xml:lang="x-hosts" text="journal" />
+        <label xml:lang="de" text="Heft, Band" />
+        <label xml:lang="en" text="Issue, Volume" />
+      </category>
       <category ID="festschrift">
         <label xml:lang="en" text="Festschrift" />
         <label xml:lang="x-mapping" text="marcgt:festschrift diniPublType:report" />
