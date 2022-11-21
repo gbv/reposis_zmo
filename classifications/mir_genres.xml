@@ -284,6 +284,13 @@
       <label xml:lang="x-mapping" text="marcgt:database diniPublType:ResearchData" />
       <label xml:lang="it" text="Dati di ricerca" />
     </category>
+    <category ID="database">
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="de" text="Datenbank" />
+      <label xml:lang="en" text="Research Database" />
+      <label xml:lang="x-mapping" text="marcgt:database diniPublType:ResearchData" />
+      <label xml:lang="it" text="Database" />
+    </category>
     <category ID="source_material">
       <label xml:lang="x-hosts" text="standalone archivebox" />
       <label xml:lang="de" text="Quellenmaterial" />
