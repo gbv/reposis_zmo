@@ -104,6 +104,7 @@
     <xed:include ref="language" />
     <xed:include ref="sdnb.repeat" />
     <xed:include ref="subject.simple" />
+    <xed:include ref="geographic.complex" />
     <xed:include ref="shelfmark" />
     <xed:include ref="abstract.simple" />
     <xed:include ref="comment" />
