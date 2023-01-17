@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Kontakt">
+  <div>
+    <h1>Kontakt</h1>
+    <p>
+      Unter folgende E-Mail-Adresse können Sie das Personal des institutionellen Repositoriums ZMO kontaktieren:
+      <span class="madress">repositorium [at] zmo.de</span>
+    </p>
+    <p>
+      Für die Nutzung der zugangsbeschränkten Forschungsmaterialien bitten wir Sie die <a href="../below/terms_of_use.xml">Nutzungsordnung</a> 
+      zu lesen und den Benutzungsantrag auszufüllen. Schicken Sie bitte den ausgefüllten <a href="../rights/Nutzungsordnung_Antrag.pdf">Benutzungsantrag</a>
+      an diese E-Mail Adresse: <span class="madress">repositorium [at] zmo.de</span>
+    </p>
+  </div>
+  </section>
+  <section xml:lang="en" title="Contact">
+    <div>
+      <h1>Kontakt</h1>
+      <p>
+        Here you can contact the staff of the institutional repository of ZMO:
+        <span class="madress">repositorium [at] zmo.de</span>
+      </p>
+      <p>
+        To use restricted access research materials, please read the <a href="../below/terms_of_use.xml">use regulations</a> and fill the use application.
+        Please sent filled <a href="../rights/Nutzungsordnung_Antrag.pdf">use application</a> to this E-Mail address: <span class="madress">repositorium [at] zmo.de</span>
+      </p>
+    </div>
+    </section>
+  <meta>
+  </meta>
+</MyCoReWebPage>
