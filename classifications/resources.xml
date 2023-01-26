@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink"
-             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
-             ID="resources">
-  <label xml:lang="en" text="Resources" description="List of resources" />
-  <label xml:lang="de" text="Quellen" description="Liste der Ressourcen" />
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="resources">
   <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/resources" />
+  <label xml:lang="de" text="ZMO Ressourcen" description="Liste der Ressourcen" />
+  <label xml:lang="en" text="ZMO Resources" description="List of resources" />
   <categories>
     <category ID="archive">
       <label xml:lang="de" text="Archiv" />
       <label xml:lang="en" text="Archive" />
+    </category>
+    <category ID="archive_copy">
+      <label xml:lang="en" text="Photocopy from the archive" />
+      <label xml:lang="de" text="Fotokopie aus dem Archiv" />
     </category>
   </categories>
 </mycoreclass>

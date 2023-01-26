@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" 
-             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
-             ID="inventory">
-  <label xml:lang="en" text="Inventory" description="List of the collection inventory" />
-  <label xml:lang="de" text="Bestände" description="Liste der Sondersammlungsbestände" />
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="inventory">
+  <label xml:lang="en" text="Collection inventory" description="List of the collection inventory" />
   <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/inventory" />
+  <label xml:lang="de" text="Sondersammlung" description="Liste der Sondersammlungsbestände" />
   <categories>
+    <category ID="chanfi_ahmed">
+      <label xml:lang="en" text="Chanfi Ahmed Collection" />
+      <label xml:lang="de" text="Chanfi Ahmed Bestand " />
+    </category>
+    <category ID="harik">
+      <label xml:lang="en" text="Harik collection" />
+      <label xml:lang="de" text="Harik Bestand" />
+    </category>
+    <category ID="c550693d-4aa5-4901-a867-947226a4f4e6">
+      <label xml:lang="de" text="Steppat Bestand" />
+      <label xml:lang="en" text="Steppat Collection" />
+    </category>
+    <category ID="sebald">
+      <label xml:lang="de" text="Sebald Bestand" />
+      <label xml:lang="en" text="Sebald collection" />
+    </category>
     <category ID="hoepp">
       <label xml:lang="de" text="Höpp Bestand" />
       <label xml:lang="en" text="Höpp collection" />
@@ -18,10 +31,6 @@
     <category ID="poster_collection">
       <label xml:lang="de" text="Plakate Sammlung" />
       <label xml:lang="en" text="Poster colllection" />
-    </category>
-    <category ID="sebald">
-      <label xml:lang="de" text="Sebald Bestand" />
-      <label xml:lang="en" text="Sebald collection" />
     </category>
   </categories>
 </mycoreclass>

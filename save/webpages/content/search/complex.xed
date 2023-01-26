@@ -88,10 +88,12 @@
                 <xed:choose>
                   <xed:when test="$area = 'inventory'">
                     <!-- Sondersammlung -->
+                    <xed:bind xpath="condition[@field='category.top'][@operator='like'][6]/@value" default="inventory*" />
                     <mir:template name="selectInput" xpath="condition[@field='category.top'][2]/@value" id="inputInventory1" i18n="editor.search.mir.inventory" tooltip="editor.search.mir.inventory.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:inventory" />
                   </xed:when>
                   <xed:when test="$area = 'publications'">
                     <!-- Publikationsbereich -->
+                    <xed:bind xpath="condition[@field='category.top'][@operator='like'][6]/@value" default="publications*" />
                     <mir:template name="selectInput" xpath="condition[@field='category.top'][3]/@value" id="inputPublications1" i18n="editor.search.mir.publications" tooltip="editor.search.mir.publications.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:publications" />
                   </xed:when>
                   <xed:otherwise>

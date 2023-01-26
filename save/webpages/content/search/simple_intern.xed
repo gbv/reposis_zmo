@@ -45,25 +45,27 @@
             <!-- Institution -->
               <mir:template name="selectInput" xpath="condition[@field='category'][1]/@value" id="inputInst1" i18n="editor.search.mir.institute"
                 tooltip="editor.search.mir.institute.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_institutes" />
-              <xed:choose>
+               <xed:choose>
                 <xed:when test="$area = 'inventory'">
                   <!-- Sondersammlung -->
+                  <xed:bind xpath="condition[@field='category.top'][@operator='like'][7]/@value" default="inventory*" />
                   <mir:template name="selectInput" xpath="condition[@field='category.top'][2]/@value" id="inputInventory1" i18n="editor.search.mir.inventory"
-                      tooltip="editor.search.mir.inventory.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:inventory" />
+                     tooltip="editor.search.mir.inventory.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:inventory" />
                 </xed:when>
                 <xed:when test="$area = 'publications'">
                 <!-- Publikationsbereich -->
-                  <mir:template name="selectInput" xpath="condition[@field='category.top'][3]/@value" id="inputPublications1" i18n="editor.search.mir.publications"
+                  <xed:bind xpath="condition[@field='category.top'][@operator='like'][6]/@value" default="publications*" />
+                  <mir:template name="selectInput" xpath="condition[@field='category.top'][2]/@value" id="inputPublications1" i18n="editor.search.mir.publications"
                     tooltip="editor.search.mir.publications.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:publications" />
                 </xed:when>
                 <xed:otherwise>
-                  <mir:template name="selectInput" xpath="condition[@field='category.top'][2]/@value" id="inputInventory1" i18n="editor.search.mir.inventory"
+                  <mir:template name="selectInput" xpath="condition[@field='category.top'][3]/@value" id="inputInventory1" i18n="editor.search.mir.inventory"
                     tooltip="editor.search.mir.inventory.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:inventory" />
-                  <mir:template name="selectInput" xpath="condition[@field='category.top'][3]/@value" id="inputPublications1" i18n="editor.search.mir.publications"
+                  <mir:template name="selectInput" xpath="condition[@field='category.top'][4]/@value" id="inputPublications1" i18n="editor.search.mir.publications"
                     tooltip="editor.search.mir.publications.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:publications" />
-                </xed:otherwise>
+              </xed:otherwise>
               </xed:choose>
-            <!-- Ressource -->
+           <!-- Ressource -->
               <mir:template name="selectInput" xpath="condition[@field='category.top'][4]/@value" id="inputResources1" i18n="editor.search.mir.resources"
                 tooltip="editor.search.mir.resources.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:resources" />
         <!-- /xed:bind> TODO: realize search dependent on current user and state
