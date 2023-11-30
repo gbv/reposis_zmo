@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<description>
+  <eprints xmlns="http://www.openarchives.org/OAI/1.1/eprints"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/1.1/eprints http://www.openarchives.org/OAI/1.1/eprints.xsd">
+    <content>
+      <text>
+        The purpose of the institutional repository (IR) of <a href="https://www.zmo.de/en">Leibniz-Zentrum Moderner Orient</a> (ZMO) is to assure preservation,
+        dissemination, and visibility of the scholarly output of the institution.
+      </text>
+      <URL>https://repositorium.zmo.de/content/below/terms_of_use.xml?lang=en</URL>
+    </content>
+    <metadataPolicy>
+      <text>
+        The bibliographic metadata available through this interface, with the exception of abstracts, is licensed under CC0 and can be freely shared and reused.
+      </text>
+      <URL>http://creativecommons.org/publicdomain/zero/1.0/deed.de</URL>
+    </metadataPolicy>
+    <dataPolicy>
+      <text>
+        Unless explicitly stated, all publications and electronic documents provided on this platform must be used in accordance with copyright laws and are subject to all rights reserved.
+      </text>
+      <URL>https://repositorium.zmo.de/content/below/terms_of_use.xml?lang=en </URL>
+    </dataPolicy>
+    <submissionPolicy>
+      <text>
+        ZMO IR  provides free and open access to scholarly works and historical materials produced and collected by the ZMO whereas it is possible.
+      </text>
+      <URL>https://repositorium.zmo.de/content/publish/contract.xml?lang=en </URL>
+    </submissionPolicy>
+    <comment>
+      This institutional repository is powered by the MyCoRe repository software, see http://www.mycore.de/ for more information.
+    </comment>
+  </eprints>
+</description>
