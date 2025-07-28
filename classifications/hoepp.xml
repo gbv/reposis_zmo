@@ -3,8 +3,8 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
              ID="hoepp">
-  <label xml:lang="en" text="Inventory" description="Hoepp inventory" />
   <label xml:lang="de" text="Bestände" description="Hoepp Sondersammlung" />
+  <label xml:lang="en" text="Inventory" description="Hoepp inventory" />
   <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/hoepp" />
   <categories>
     <category ID="arabische_begegnungen_mit_dem_nationalsozialismus">
