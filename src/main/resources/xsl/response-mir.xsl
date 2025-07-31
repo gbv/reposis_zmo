@@ -60,7 +60,7 @@
 <!-- Suchschlitz mit Suchbegriff, Treffer - Nummer, Vorschau, Autor, Änderungsdatum, Link zu den Details, Filter  -->
     <div class="row result_searchline">
       <div class="col-12 col-sm-8 text-center result_search">
-        <!-- TODO: Hidden, until the filter issues in mir are solved (see also ZMO-37) 
+        <!-- TODO: Hidden, until the filter issues in mir are solved (see also ZMO-37)
         <div class="search_box">
           <xsl:variable name="searchlink" select="concat($proxyBaseURL, $HttpSession, $solrParams)" />
           <form action="{$searchlink}" class="search_form" method="post">
@@ -361,7 +361,7 @@
     <xsl:variable name="hitCount" select="$hitNumberOnPage + (($currentPage) -1) * $rows"/>
 
     <!-- hit entry -->
-    <div id="hit_{$hitCount}" class="hit_item {$hitItemClass}">
+    <div id="hit_{$hitCount}" class="hit_item {normalize-space($hitItemClass)}">
 
       <!-- hit head -->
       <div class="row hit_item_head">
@@ -544,24 +544,13 @@
                   <div class="hit_icon" style="background-image: url('{$WebApplicationBaseURL}images/icons/icon_common.png');" />
                   <!-- if not, then the content type decides a icon -->
                   <xsl:variable name="contentType" select="document(concat('ifs:/',$derivid))/mcr_directory/children/child[name=$maindoc]/contentType"/>
-                  <xsl:variable name="fileType" select="document('webapp:FileContentTypes.xml')/FileContentTypes/type[mime=$contentType]/@ID"/>
-                  <xsl:choose>
-                    <xsl:when test="$fileType='pdf' or $fileType='msexcel' or $fileType='xlsx' or $fileType='msword97' or $fileType='docx' or $fileType='pptx' or $fileType='msppt' or $fileType='zip'">
-                      <img class="hit_icon_overlay" src="{$WebApplicationBaseURL}images/svg_icons/download_{$fileType}.svg"/>
-                    </xsl:when>
-                    <xsl:when test="$fileType='png' or $fileType='jpeg' or $fileType='tiff' or $fileType='gif' or $fileType='bmp'">
-                      <img class="hit_icon_overlay" src="{$WebApplicationBaseURL}images/svg_icons/download_image.svg"/>
-                    </xsl:when>
-                    <xsl:when test="$fileType='mp3' or $fileType='wav' or $fileType='m4a' or $fileType='m4b' or $fileType='wma'">
-                      <img class="hit_icon_overlay" src="{$WebApplicationBaseURL}images/svg_icons/download_audio.svg"/>
-                    </xsl:when>
-                    <xsl:when test="$fileType='mpeg4' or $fileType='m4v' or $fileType='avi' or $fileType='wmv' or $fileType='asf'">
-                      <img class="hit_icon_overlay" src="{$WebApplicationBaseURL}images/svg_icons/download_video.svg"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <img class="hit_icon_overlay" src="{$WebApplicationBaseURL}images/svg_icons/download_default.svg"/>
-                    </xsl:otherwise>
-                  </xsl:choose>
+                  <xsl:variable name="iconLink">
+                    <xsl:call-template name="iconLink">
+                      <xsl:with-param name="baseURL" select="$WebApplicationBaseURL"/>
+                      <xsl:with-param name="mimeType" select="$contentType"/>
+                    </xsl:call-template>
+                  </xsl:variable>
+                  <img class="hit_icon_overlay" src="{$iconLink}"/>
                 </xsl:otherwise>
               </xsl:choose>
             </xsl:variable>
@@ -741,8 +730,9 @@
                       select="document(concat('classification:metadata:all:children:','nameIdentifier',':',$nameIdentifierType))/mycoreclass/categories/category[@ID=$nameIdentifierType]" />
                     <xsl:variable name="uri" select="$classi/label[@xml:lang='x-uri']/@text" />
                     <xsl:variable name="idType" select="$classi/label[@xml:lang='de']/@text" />
+                    <xsl:variable name="nameQuery" select="concat('mods.nameIdentifier:', $nameIdentifierType, '\:', $nameIdentifier)" />
                     <a
-                      href="{$ServletsBaseURL}solr/mods_nameIdentifier?q=mods.nameIdentifier:{$nameIdentifierType}%5C:{$nameIdentifier}&amp;owner=createdby:{$owner}"
+                      href="{$ServletsBaseURL}solr/mods_nameIdentifier?q={encoder:encode($nameQuery)}&amp;owner=createdby:{$owner}"
                       title="Suche nach allen Publikationen"
                     >
                       <xsl:value-of select="$author_name" />
@@ -931,9 +921,9 @@
     <xsl:param name="classId" />
     <xsl:param name="i18nPrefix" />
     <xsl:for-each select="lst[@name=$facet_name]/int">
-      <xsl:variable name="fqFragment">
-        <xsl:value-of select="concat('fq=',$facet_name,':',@name)" />
-      </xsl:variable>
+      <xsl:variable name="fqValue" select="concat($facet_name,':',@name)"/>
+      <xsl:variable name="fqFragment" select="concat('fq=',$fqValue)" />
+      <xsl:variable name="fqFragmentEncoded" select="concat('fq=',encoder:encode($fqValue, 'UTF-8'))" />
       <xsl:variable name="queryWithoutStart" select="mcrxsl:regexp($RequestURL, '(&amp;|%26)(start=)[0-9]*', '')" />
       <xsl:variable name="queryURL">
         <xsl:choose>
@@ -948,6 +938,17 @@
               </xsl:otherwise>
             </xsl:choose>
           </xsl:when>
+          <xsl:when test="contains($queryWithoutStart, $fqFragmentEncoded)">
+            <xsl:choose>
+              <xsl:when test="not(substring-after($queryWithoutStart, $fqFragmentEncoded))">
+                <!-- last parameter -->
+                <xsl:value-of select="substring($queryWithoutStart, 1, string-length($queryWithoutStart) - string-length($fqFragmentEncoded) - 1)" />
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="concat(substring-before($queryWithoutStart, $fqFragmentEncoded), substring-after($queryWithoutStart, concat($fqFragmentEncoded,'&amp;')))" />
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
           <xsl:when test="not(contains($queryWithoutStart, '?'))">
             <xsl:value-of select="concat($queryWithoutStart, '?', $fqFragment)" />
           </xsl:when>
@@ -957,7 +958,6 @@
         </xsl:choose>
       </xsl:variable>
 
-      <xsl:variable name="fqValue" select="concat($facet_name,':',@name)" />
       <li data-fq="{$fqValue}">
         <div class="custom-control custom-checkbox" onclick="location.href='{$queryURL}';">
             <input type="checkbox" class="custom-control-input">
