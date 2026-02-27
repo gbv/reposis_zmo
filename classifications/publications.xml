@@ -7,6 +7,14 @@
   <label xml:lang="de" text="Publikationen" description="Liste der Publikationen"/>
   <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/publications"/>
   <categories>
+    <category ID="stuff_publications">
+      <label xml:lang="de" text="Mitarbeiterpublikationen" />
+      <label xml:lang="en" text="Staff Publications" />
+    </category>
+    <category ID="qualification_works">
+      <label xml:lang="de" text="Qualifizierungsarbeiten" />
+      <label xml:lang="en" text="Qualification Works" />
+    </category>
     <category ID="working_papers">
       <label xml:lang="de" text="ZMO Working Papers"/>
       <label xml:lang="en" text="ZMO Working Papers"/>

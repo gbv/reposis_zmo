@@ -11,10 +11,12 @@
     <category ID="conservation_status">
       <label xml:lang="de" text="Erhaltungszustand" />
       <label xml:lang="en" text="Conservation status" />
+      <label xml:lang="x-access" text="guest" />
     </category>
     <category ID="signature_old">
       <label xml:lang="de" text="Altsignatur" />
       <label xml:lang="en" text="Old signature" />
+      <label xml:lang="x-access" text="guest" />
     </category>
     <category ID="version_identification">
       <label xml:lang="de" text="Versionskennzeichen" />
@@ -128,7 +130,7 @@
     </category>
     <category ID="handwritten">
       <label xml:lang="de" text="Identifikationsmerkmale" />
-      <label xml:lang="en" text="handwritten" />
+      <label xml:lang="en" text="identification_features" />
       <label xml:lang="x-access" text="guest" />
     </category>
     <category ID="funding">
