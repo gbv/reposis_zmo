@@ -30,6 +30,5 @@ function ignoreEmptyFieldsOnSubmit(event) {
 }
 
 function init() {
-  document.getElementById('project-searchMainPage')?.addEventListener('submit', ignoreEmptyFieldsOnSubmit);
   replaceMaskedEmails();
 }
