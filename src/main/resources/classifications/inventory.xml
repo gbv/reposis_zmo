@@ -1,24 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="inventory">
+  <label xml:lang="de" text="Sondersammlung" description="Liste der Sondersammlungsbestände" />
   <label xml:lang="en" text="Collection inventory" description="List of the collection inventory" />
   <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/inventory" />
-  <label xml:lang="de" text="Sondersammlung" description="Liste der Sondersammlungsbestände" />
   <categories>
+    <category ID="ahmad_nassir_collection">
+      <label xml:lang="de" text="Ahmad Nassir Bestand" />
+      <label xml:lang="en" text="Ahmad Nassir Collection" />
+    </category>
+    <category ID="katrin_bromber_collection">
+      <label xml:lang="de" text="Katrin Bromber Bestand" />
+      <label xml:lang="en" text="Katrin Bromber collection" />
+    </category>
+    <category ID="dieter_weiss_collection">
+      <label xml:lang="de" text="Dieter Weiss Bestand" />
+      <label xml:lang="en" text="Dieter Weiss collection" />
+    </category>
+    <category ID="reinhard_eisener_collection">
+      <label xml:lang="de" text="Reinhard Eisener Bestand" />
+      <label xml:lang="en" text="Reinhard Eisener collection" />
+    </category>
+    <category ID="werner_ende">
+      <label xml:lang="de" text="Werner Ende Bestand" />
+      <label xml:lang="en" text="Werner Ende collection" />
+    </category>
+    <category ID="abdallah_hanna">
+      <label xml:lang="de" text="Abdallah Hanna Bestand" />
+      <label xml:lang="en" text="Abdallah Hanna collection" />
+    </category>
+    <category ID="juergen_herzog">
+      <label xml:lang="de" text="Jürgen Herzog Bestand" />
+      <label xml:lang="en" text="Jürgen Herzog collection" />
+    </category>
+    <category ID="small_stocks">
+      <label xml:lang="de" text="Klein Bestände" />
+      <label xml:lang="en" text="Small Stocks" />
+    </category>
+    <category ID="microform">
+      <label xml:lang="de" text="Mikroform" />
+      <label xml:lang="en" text="Microform" />
+    </category>
     <category ID="chanfi_ahmed">
-      <label xml:lang="en" text="Chanfi Ahmed Collection" />
       <label xml:lang="de" text="Chanfi Ahmed Bestand " />
+      <label xml:lang="en" text="Chanfi Ahmed collection" />
     </category>
-    <category ID="harik">
-      <label xml:lang="en" text="Harik collection" />
-      <label xml:lang="de" text="Harik Bestand" />
-    </category>
-    <category ID="c550693d-4aa5-4901-a867-947226a4f4e6">
-      <label xml:lang="de" text="Steppat Bestand" />
-      <label xml:lang="en" text="Steppat Collection" />
-    </category>
-    <category ID="sebald">
-      <label xml:lang="de" text="Sebald Bestand" />
-      <label xml:lang="en" text="Sebald collection" />
+    <category ID="al-manhal">
+      <label xml:lang="de" text="al-Manhal Bestand" />
+      <label xml:lang="en" text="al-Manhal collection" />
     </category>
     <category ID="hoepp">
       <label xml:lang="de" text="Höpp Bestand" />
@@ -28,9 +56,17 @@
       <label xml:lang="de" text="Krüger Bestand" />
       <label xml:lang="en" text="Krüger collection" />
     </category>
+    <category ID="mernissi">
+      <label xml:lang="de" text="Mernissi Bestand" />
+      <label xml:lang="en" text="Mernissi collection" />
+    </category>
     <category ID="poster_collection">
       <label xml:lang="de" text="Plakate Sammlung" />
       <label xml:lang="en" text="Poster colllection" />
+    </category>
+    <category ID="sebald">
+      <label xml:lang="de" text="Sebald Bestand" />
+      <label xml:lang="en" text="Sebald collection" />
     </category>
   </categories>
 </mycoreclass>
