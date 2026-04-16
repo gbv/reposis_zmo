@@ -1,363 +1,325 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="rfc5646">
-  <label xml:lang="x-auth" text="rfc5646" />
-  <label xml:lang="de" text="Sprache" description="nach RFC 5646" />
-  <label xml:lang="en" text="Language" description="as defined in RFC 5646" />
-  <label xml:lang="it" text="Lingue" description="RFC 5646" />
+  <label xml:lang="de" text="Sprache" description="nach RFC 5646"/>
+  <label xml:lang="en" text="Language" description="as defined in RFC 5646"/>
+  <label xml:lang="x-auth" text="rfc5646"/>
   <categories>
     <category ID="ca">
-      <label xml:lang="de" text="Katalanisch" />
-      <label xml:lang="en" text="Catalan" />
-      <label xml:lang="x-bibl" text="cat" />
-      <label xml:lang="x-term" text="cat" />
+      <label xml:lang="de" text="Katalanisch"/>
+      <label xml:lang="en" text="Catalan"/>
+      <label xml:lang="x-bibl" text="cat"/>
+      <label xml:lang="x-term" text="cat"/>
     </category>
     <category ID="ur">
-      <label xml:lang="de" text="Urdu" />
-      <label xml:lang="en" text="Urdu" />
-      <label xml:lang="x-bibl" text="urd" />
-      <label xml:lang="x-term" text="urd" />
+      <label xml:lang="de" text="Urdu"/>
+      <label xml:lang="en" text="Urdu"/>
+      <label xml:lang="x-bibl" text="urd"/>
+      <label xml:lang="x-term" text="urd"/>
     </category>
     <category ID="et">
-      <label xml:lang="de" text="Estnisch" />
-      <label xml:lang="en" text="Estonian" />
-      <label xml:lang="x-bibl" text="est" />
-      <label xml:lang="x-term" text="est" />
+      <label xml:lang="de" text="Estnisch"/>
+      <label xml:lang="en" text="Estonian"/>
+      <label xml:lang="x-bibl" text="est"/>
+      <label xml:lang="x-term" text="est"/>
     </category>
     <category ID="he">
-      <label xml:lang="de" text="Hebräisch" />
-      <label xml:lang="en" text="Hebrew" />
-      <label xml:lang="x-bibl" text="heb" />
-      <label xml:lang="x-term" text="heb" />
+      <label xml:lang="de" text="Hebräisch"/>
+      <label xml:lang="en" text="Hebrew"/>
+      <label xml:lang="x-bibl" text="heb"/>
+      <label xml:lang="x-term" text="heb"/>
     </category>
     <category ID="ota">
-      <label xml:lang="de" text="Osmanisch" />
-      <label xml:lang="en" text="Ottoman Turkish (1500-1928)" />
-      <label xml:lang="x-bibl" text="ota" />
-      <label xml:lang="x-term" text="ota" />
+      <label xml:lang="de" text="Osmanisch"/>
+      <label xml:lang="en" text="Ottoman Turkish (1500-1928)"/>
+      <label xml:lang="x-bibl" text="ota"/>
+      <label xml:lang="x-term" text="ota"/>
     </category>
     <category ID="crh">
-      <label xml:lang="de" text="Krimtatarisch" />
-      <label xml:lang="en" text="Crimean Tatar" />
-      <label xml:lang="x-bibl" text="crh" />
-      <label xml:lang="x-term" text="crh" />
+      <label xml:lang="de" text="Krimtatarisch"/>
+      <label xml:lang="en" text="Crimean Tatar"/>
+      <label xml:lang="x-bibl" text="crh"/>
+      <label xml:lang="x-term" text="crh"/>
     </category>
     <category ID="hi">
-      <label xml:lang="de" text="Hindi" />
-      <label xml:lang="en" text="Hindi" />
-      <label xml:lang="x-bibl" text="hin" />
-      <label xml:lang="x-term" text="hin" />
+      <label xml:lang="de" text="Hindi"/>
+      <label xml:lang="en" text="Hindi"/>
+      <label xml:lang="x-bibl" text="hin"/>
+      <label xml:lang="x-term" text="hin"/>
     </category>
     <category ID="eo">
-      <label xml:lang="de" text="Esperanto" />
-      <label xml:lang="en" text="Esperanto" />
-      <label xml:lang="x-bibl" text="epo" />
-      <label xml:lang="x-term" text="epo" />
+      <label xml:lang="de" text="Esperanto"/>
+      <label xml:lang="en" text="Esperanto"/>
+      <label xml:lang="x-bibl" text="epo"/>
+      <label xml:lang="x-term" text="epo"/>
     </category>
     <category ID="hy">
-      <label xml:lang="de" text="Armenisch" />
-      <label xml:lang="en" text="Armenian" />
-      <label xml:lang="x-bibl" text="arm" />
-      <label xml:lang="x-term" text="hye" />
+      <label xml:lang="de" text="Armenisch"/>
+      <label xml:lang="en" text="Armenian"/>
+      <label xml:lang="x-bibl" text="arm"/>
+      <label xml:lang="x-term" text="hye"/>
     </category>
     <category ID="ady">
-      <label xml:lang="de" text="Adygeisch" />
-      <label xml:lang="en" text="Adyghe" />
-      <label xml:lang="x-bibl" text="ady" />
-      <label xml:lang="x-term" text="ady" />
+      <label xml:lang="de" text="Adygeisch"/>
+      <label xml:lang="en" text="Adyghe"/>
+      <label xml:lang="x-bibl" text="ady"/>
+      <label xml:lang="x-term" text="ady"/>
     </category>
     <category ID="os">
-      <label xml:lang="de" text="Ossetisch" />
-      <label xml:lang="en" text="Ossetian" />
-      <label xml:lang="x-bibl" text="oss" />
-      <label xml:lang="x-term" text="oss" />
+      <label xml:lang="de" text="Ossetisch"/>
+      <label xml:lang="en" text="Ossetian"/>
+      <label xml:lang="x-bibl" text="oss"/>
+      <label xml:lang="x-term" text="oss"/>
     </category>
     <category ID="kum">
-      <label xml:lang="de" text="Kumykisch" />
-      <label xml:lang="en" text="Kumyk" />
-      <label xml:lang="x-bibl" text="kum" />
-      <label xml:lang="x-term" text="kum" />
+      <label xml:lang="de" text="Kumykisch"/>
+      <label xml:lang="en" text="Kumyk"/>
+      <label xml:lang="x-bibl" text="kum"/>
+      <label xml:lang="x-term" text="kum"/>
     </category>
     <category ID="ce">
-      <label xml:lang="de" text="Tschetschenisch" />
-      <label xml:lang="en" text="Chechen" />
-      <label xml:lang="x-bibl" text="che" />
-      <label xml:lang="x-term" text="che" />
+      <label xml:lang="de" text="Tschetschenisch"/>
+      <label xml:lang="en" text="Chechen"/>
+      <label xml:lang="x-bibl" text="che"/>
+      <label xml:lang="x-term" text="che"/>
     </category>
     <category ID="uz">
-      <label xml:lang="de" text="Usbekisch" />
-      <label xml:lang="en" text="Uzbek" />
-      <label xml:lang="x-bibl" text="uzb" />
-      <label xml:lang="x-term" text="uzb" />
+      <label xml:lang="de" text="Usbekisch"/>
+      <label xml:lang="en" text="Uzbek"/>
+      <label xml:lang="x-bibl" text="uzb"/>
+      <label xml:lang="x-term" text="uzb"/>
     </category>
     <category ID="az">
-      <label xml:lang="de" text="Aserbeidschanisch" />
-      <label xml:lang="en" text="Azerbaijani" />
-      <label xml:lang="x-bibl" text="aze" />
-      <label xml:lang="x-term" text="aze" />
+      <label xml:lang="de" text="Aserbeidschanisch"/>
+      <label xml:lang="en" text="Azerbaijani"/>
+      <label xml:lang="x-bibl" text="aze"/>
+      <label xml:lang="x-term" text="aze"/>
     </category>
     <category ID="kk">
-      <label xml:lang="de" text="Kasachisch" />
-      <label xml:lang="en" text="Kazakh" />
-      <label xml:lang="x-bibl" text="kaz" />
-      <label xml:lang="x-term" text="kaz" />
+      <label xml:lang="de" text="Kasachisch"/>
+      <label xml:lang="en" text="Kazakh"/>
+      <label xml:lang="x-bibl" text="kaz"/>
+      <label xml:lang="x-term" text="kaz"/>
     </category>
     <category ID="akk">
-      <label xml:lang="de" text="Akkadisch" />
-      <label xml:lang="en" text="Akkadian" />
-      <label xml:lang="x-bibl" text="akk" />
-      <label xml:lang="x-term" text="akk" />
+      <label xml:lang="de" text="Akkadisch"/>
+      <label xml:lang="en" text="Akkadian"/>
+      <label xml:lang="x-bibl" text="akk"/>
+      <label xml:lang="x-term" text="akk"/>
     </category>
     <category ID="tt">
-      <label xml:lang="de" text="Tatar" />
-      <label xml:lang="en" text="Tatarisch" />
-      <label xml:lang="x-bibl" text="tat" />
-      <label xml:lang="x-term" text="tat" />
+      <label xml:lang="de" text="Tatar"/>
+      <label xml:lang="en" text="Tatarisch"/>
+      <label xml:lang="x-bibl" text="tat"/>
+      <label xml:lang="x-term" text="tat"/>
     </category>
     <category ID="de">
-      <label xml:lang="en" text="German" />
-      <label xml:lang="x-bibl" text="ger" />
-      <label xml:lang="x-term" text="deu" />
-      <label xml:lang="de" text="Deutsch" />
-      <label xml:lang="it" text="tedesco" />
+      <label xml:lang="de" text="Deutsch"/>
+      <label xml:lang="en" text="German"/>
+      <label xml:lang="x-bibl" text="ger"/>
+      <label xml:lang="x-term" text="deu"/>
     </category>
     <category ID="en">
-      <label xml:lang="it" text="inglese" />
-      <label xml:lang="en" text="English" />
-      <label xml:lang="x-term" text="eng" />
-      <label xml:lang="x-bibl" text="eng" />
-      <label xml:lang="de" text="Englisch" />
+      <label xml:lang="de" text="Englisch"/>
+      <label xml:lang="en" text="English"/>
+      <label xml:lang="x-bibl" text="eng"/>
+      <label xml:lang="x-term" text="eng"/>
     </category>
     <category ID="fr">
-      <label xml:lang="it" text="francese" />
-      <label xml:lang="x-term" text="fra" />
-      <label xml:lang="en" text="French" />
-      <label xml:lang="x-bibl" text="fre" />
-      <label xml:lang="de" text="Französisch" />
+      <label xml:lang="de" text="Französisch"/>
+      <label xml:lang="en" text="French"/>
+      <label xml:lang="x-bibl" text="fre"/>
+      <label xml:lang="x-term" text="fra"/>
     </category>
     <category ID="it">
-      <label xml:lang="x-bibl" text="ita" />
-      <label xml:lang="en" text="Italian" />
-      <label xml:lang="it" text="italiano" />
-      <label xml:lang="de" text="Italienisch" />
-      <label xml:lang="x-term" text="ita" />
-      <category ID="14996d3f-b489-4ccb-ad72-201d274c897b" />
+      <label xml:lang="de" text="Italienisch"/>
+      <label xml:lang="en" text="Italian"/>
+      <label xml:lang="x-bibl" text="ita"/>
+      <label xml:lang="x-term" text="ita"/>
     </category>
     <category ID="es">
-      <label xml:lang="x-bibl" text="spa" />
-      <label xml:lang="it" text="spagnolo" />
-      <label xml:lang="de" text="Spanisch" />
-      <label xml:lang="x-term" text="spa" />
-      <label xml:lang="en" text="Spanish" />
+      <label xml:lang="de" text="Spanisch"/>
+      <label xml:lang="en" text="Spanish"/>
+      <label xml:lang="x-bibl" text="spa"/>
+      <label xml:lang="x-term" text="spa"/>
     </category>
     <category ID="pt">
-      <label xml:lang="it" text="portoghese" />
-      <label xml:lang="x-bibl" text="por" />
-      <label xml:lang="de" text="Portugiesisch" />
-      <label xml:lang="en" text="Portuguese" />
-      <label xml:lang="x-term" text="por" />
+      <label xml:lang="de" text="Portugiesisch"/>
+      <label xml:lang="en" text="Portuguese"/>
+      <label xml:lang="x-bibl" text="por"/>
+      <label xml:lang="x-term" text="por"/>
     </category>
     <category ID="nl">
-      <label xml:lang="x-bibl" text="dut" />
-      <label xml:lang="en" text="Dutch" />
-      <label xml:lang="it" text="olandese" />
-      <label xml:lang="x-term" text="nld" />
-      <label xml:lang="de" text="Holländisch" />
+      <label xml:lang="de" text="Holländisch"/>
+      <label xml:lang="en" text="Dutch"/>
+      <label xml:lang="x-bibl" text="dut"/>
+      <label xml:lang="x-term" text="nld"/>
     </category>
     <category ID="da">
-      <label xml:lang="de" text="Dänisch" />
-      <label xml:lang="x-bibl" text="dan" />
-      <label xml:lang="x-term" text="dan" />
-      <label xml:lang="en" text="Danish" />
-      <label xml:lang="it" text="danese" />
+      <label xml:lang="de" text="Dänisch"/>
+      <label xml:lang="en" text="Danish"/>
+      <label xml:lang="x-bibl" text="dan"/>
+      <label xml:lang="x-term" text="dan"/>
     </category>
     <category ID="fi">
-      <label xml:lang="x-term" text="fin" />
-      <label xml:lang="en" text="Finnish" />
-      <label xml:lang="de" text="Finnisch" />
-      <label xml:lang="it" text="finlandese" />
-      <label xml:lang="x-bibl" text="fin" />
+      <label xml:lang="de" text="Finnisch"/>
+      <label xml:lang="en" text="Finnish"/>
+      <label xml:lang="x-bibl" text="fin"/>
+      <label xml:lang="x-term" text="fin"/>
     </category>
     <category ID="sv">
-      <label xml:lang="it" text="svedese" />
-      <label xml:lang="x-bibl" text="swe" />
-      <label xml:lang="x-term" text="swe" />
-      <label xml:lang="en" text="Swedish" />
-      <label xml:lang="de" text="Schwedisch" />
+      <label xml:lang="de" text="Schwedisch"/>
+      <label xml:lang="en" text="Swedish"/>
+      <label xml:lang="x-bibl" text="swe"/>
+      <label xml:lang="x-term" text="swe"/>
     </category>
     <category ID="no">
-      <label xml:lang="en" text="Norwegian" />
-      <label xml:lang="x-bibl" text="nor" />
-      <label xml:lang="x-term" text="nor" />
-      <label xml:lang="de" text="Norwegisch" />
-      <label xml:lang="it" text="norvegese" />
+      <label xml:lang="de" text="Norwegisch"/>
+      <label xml:lang="en" text="Norwegian"/>
+      <label xml:lang="x-bibl" text="nor"/>
+      <label xml:lang="x-term" text="nor"/>
     </category>
     <category ID="pl">
-      <label xml:lang="de" text="Polnisch" />
-      <label xml:lang="x-term" text="pol" />
-      <label xml:lang="en" text="Polish" />
-      <label xml:lang="x-bibl" text="pol" />
-      <label xml:lang="it" text="polacco" />
+      <label xml:lang="de" text="Polnisch"/>
+      <label xml:lang="en" text="Polish"/>
+      <label xml:lang="x-bibl" text="pol"/>
+      <label xml:lang="x-term" text="pol"/>
     </category>
     <category ID="ru">
-      <label xml:lang="x-term" text="rus" />
-      <label xml:lang="x-bibl" text="rus" />
-      <label xml:lang="en" text="Russian" />
-      <label xml:lang="de" text="Russisch" />
-      <label xml:lang="it" text="russo" />
+      <label xml:lang="de" text="Russisch"/>
+      <label xml:lang="en" text="Russian"/>
+      <label xml:lang="x-bibl" text="rus"/>
+      <label xml:lang="x-term" text="rus"/>
     </category>
     <category ID="uk">
-      <label xml:lang="x-term" text="ukr" />
-      <label xml:lang="en" text="Ukrainian" />
-      <label xml:lang="de" text="Ukrainisch" />
-      <label xml:lang="x-bibl" text="ukr" />
-      <label xml:lang="it" text="ucraino" />
+      <label xml:lang="de" text="Ukrainisch"/>
+      <label xml:lang="en" text="Ukrainian"/>
+      <label xml:lang="x-bibl" text="ukr"/>
+      <label xml:lang="x-term" text="ukr"/>
     </category>
     <category ID="hu">
-      <label xml:lang="en" text="Hungarian" />
-      <label xml:lang="x-bibl" text="hun" />
-      <label xml:lang="x-term" text="hun" />
-      <label xml:lang="de" text="Ungarisch" />
-      <label xml:lang="it" text="ungherese" />
+      <label xml:lang="de" text="Ungarisch"/>
+      <label xml:lang="en" text="Hungarian"/>
+      <label xml:lang="x-bibl" text="hun"/>
+      <label xml:lang="x-term" text="hun"/>
     </category>
     <category ID="ro">
-      <label xml:lang="x-term" text="ron" />
-      <label xml:lang="x-bibl" text="rum" />
-      <label xml:lang="it" text="rumeno" />
-      <label xml:lang="en" text="Romanian" />
-      <label xml:lang="de" text="Rumänisch" />
+      <label xml:lang="de" text="Rumänisch"/>
+      <label xml:lang="en" text="Romanian"/>
+      <label xml:lang="x-bibl" text="rum"/>
+      <label xml:lang="x-term" text="ron"/>
     </category>
     <category ID="cs">
-      <label xml:lang="en" text="Czech" />
-      <label xml:lang="it" text="ceco" />
-      <label xml:lang="x-term" text="cze" />
-      <label xml:lang="de" text="Tschechisch" />
-      <label xml:lang="x-bibl" text="cze" />
+      <label xml:lang="de" text="Tschechisch"/>
+      <label xml:lang="en" text="Czech"/>
+      <label xml:lang="x-bibl" text="cze"/>
+      <label xml:lang="x-term" text="cze"/>
     </category>
     <category ID="sl">
-      <label xml:lang="en" text="Slovenian" />
-      <label xml:lang="x-term" text="slv" />
-      <label xml:lang="de" text="Slowenisch" />
-      <label xml:lang="it" text="sloveno" />
-      <label xml:lang="x-bibl" text="slv" />
+      <label xml:lang="de" text="Slowenisch"/>
+      <label xml:lang="en" text="Slovenian"/>
+      <label xml:lang="x-bibl" text="slv"/>
+      <label xml:lang="x-term" text="slv"/>
     </category>
     <category ID="sk">
-      <label xml:lang="x-bibl" text="slo" />
-      <label xml:lang="it" text="slovacco" />
-      <label xml:lang="x-term" text="slk" />
-      <label xml:lang="en" text="Slovak" />
-      <label xml:lang="de" text="Slowakisch" />
+      <label xml:lang="de" text="Slowakisch"/>
+      <label xml:lang="en" text="Slovak"/>
+      <label xml:lang="x-bibl" text="slo"/>
+      <label xml:lang="x-term" text="slk"/>
     </category>
     <category ID="sr">
-      <label xml:lang="x-bibl" text="srp" />
-      <label xml:lang="x-term" text="srp" />
-      <label xml:lang="it" text="serbo" />
-      <label xml:lang="de" text="Serbisch" />
-      <label xml:lang="en" text="Serbian" />
+      <label xml:lang="de" text="Serbisch"/>
+      <label xml:lang="en" text="Serbian"/>
+      <label xml:lang="x-bibl" text="srp"/>
+      <label xml:lang="x-term" text="srp"/>
     </category>
     <category ID="bs">
-      <label xml:lang="x-bibl" text="bos" />
-      <label xml:lang="de" text="Bosnisch" />
-      <label xml:lang="it" text="bosniaco" />
-      <label xml:lang="en" text="Bosnian" />
-      <label xml:lang="x-term" text="bos" />
+      <label xml:lang="de" text="Bosnisch"/>
+      <label xml:lang="en" text="Bosnian"/>
+      <label xml:lang="x-bibl" text="bos"/>
+      <label xml:lang="x-term" text="bos"/>
     </category>
     <category ID="hr">
-      <label xml:lang="x-term" text="hrv" />
-      <label xml:lang="en" text="Croatian" />
-      <label xml:lang="de" text="Kroatisch" />
-      <label xml:lang="x-bibl" text="hrv" />
-      <label xml:lang="it" text="croato" />
+      <label xml:lang="de" text="Kroatisch"/>
+      <label xml:lang="en" text="Croatian"/>
+      <label xml:lang="x-bibl" text="hrv"/>
+      <label xml:lang="x-term" text="hrv"/>
     </category>
     <category ID="bg">
-      <label xml:lang="it" text="bulgaro" />
-      <label xml:lang="de" text="Bulgarisch" />
-      <label xml:lang="x-bibl" text="bul" />
-      <label xml:lang="en" text="Bulgarian" />
-      <label xml:lang="x-term" text="bul" />
+      <label xml:lang="de" text="Bulgarisch"/>
+      <label xml:lang="en" text="Bulgarian"/>
+      <label xml:lang="x-bibl" text="bul"/>
+      <label xml:lang="x-term" text="bul"/>
     </category>
     <category ID="el">
-      <label xml:lang="it" text="greco" />
-      <label xml:lang="en" text="Greek" />
-      <label xml:lang="x-term" text="ell" />
-      <label xml:lang="de" text="Griechisch" />
-      <label xml:lang="x-bibl" text="gre" />
+      <label xml:lang="de" text="Griechisch"/>
+      <label xml:lang="en" text="Greek"/>
+      <label xml:lang="x-bibl" text="gre"/>
+      <label xml:lang="x-term" text="ell"/>
     </category>
     <category ID="tr">
-      <label xml:lang="x-bibl" text="tur" />
-      <label xml:lang="x-term" text="tur" />
-      <label xml:lang="en" text="Turkish" />
-      <label xml:lang="de" text="Türkisch" />
-      <label xml:lang="it" text="turco" />
+      <label xml:lang="de" text="Türkisch"/>
+      <label xml:lang="en" text="Turkish"/>
+      <label xml:lang="x-bibl" text="tur"/>
+      <label xml:lang="x-term" text="tur"/>
     </category>
     <category ID="ku">
-      <label xml:lang="it" text="curdo" />
-      <label xml:lang="de" text="Kurdisch" />
-      <label xml:lang="en" text="Kurdish" />
-      <label xml:lang="x-term" text="kur" />
-      <label xml:lang="x-bibl" text="kur" />
+      <label xml:lang="de" text="Kurdisch"/>
+      <label xml:lang="en" text="Kurdish"/>
+      <label xml:lang="x-bibl" text="kur"/>
+      <label xml:lang="x-term" text="kur"/>
     </category>
     <category ID="ar">
-      <label xml:lang="en" text="Arabic" />
-      <label xml:lang="x-term" text="ara" />
-      <label xml:lang="x-bibl" text="ara" />
-      <label xml:lang="de" text="Arabisch" />
-      <label xml:lang="it" text="arabo" />
+      <label xml:lang="de" text="Arabisch"/>
+      <label xml:lang="en" text="Arabic"/>
+      <label xml:lang="x-bibl" text="ara"/>
+      <label xml:lang="x-term" text="ara"/>
     </category>
     <category ID="fa">
-      <label xml:lang="de" text="Persisch" />
-      <label xml:lang="x-term" text="per" />
-      <label xml:lang="x-bibl" text="per" />
-      <label xml:lang="it" text="persiano" />
-      <label xml:lang="en" text="Persian" />
+      <label xml:lang="de" text="Persisch"/>
+      <label xml:lang="en" text="Persian"/>
+      <label xml:lang="x-bibl" text="per"/>
+      <label xml:lang="x-term" text="per"/>
     </category>
     <category ID="heb">
-      <label xml:lang="x-bibl" text="heb" />
-      <label xml:lang="de" text="Hebräisch" />
-      <label xml:lang="en" text="Hebrew" />
-      <label xml:lang="x-term" text="heb" />
-      <label xml:lang="it" text="ebraico" />
+      <label xml:lang="de" text="Hebräisch"/>
+      <label xml:lang="en" text="Hebrew"/>
+      <label xml:lang="x-bibl" text="heb"/>
+      <label xml:lang="x-term" text="heb"/>
     </category>
     <category ID="la">
-      <label xml:lang="en" text="Latin" />
-      <label xml:lang="it" text="latino" />
-      <label xml:lang="x-bibl" text="lat" />
-      <label xml:lang="x-term" text="lat" />
-      <label xml:lang="de" text="Lateinisch" />
+      <label xml:lang="de" text="Lateinisch"/>
+      <label xml:lang="en" text="Latin"/>
+      <label xml:lang="x-bibl" text="lat"/>
+      <label xml:lang="x-term" text="lat"/>
     </category>
     <category ID="id">
-      <label xml:lang="it" text="indonesiano" />
-      <label xml:lang="x-bibl" text="ind" />
-      <label xml:lang="x-term" text="ind" />
-      <label xml:lang="de" text="Indonesisch" />
-      <label xml:lang="en" text="Indonesian" />
+      <label xml:lang="de" text="Indonesisch"/>
+      <label xml:lang="en" text="Indonesian"/>
+      <label xml:lang="x-bibl" text="ind"/>
+      <label xml:lang="x-term" text="ind"/>
     </category>
     <category ID="zh">
-      <label xml:lang="x-bibl" text="chi" />
-      <label xml:lang="en" text="Chinese" />
-      <label xml:lang="x-term" text="zho" />
-      <label xml:lang="de" text="Chinesisch" />
-      <label xml:lang="it" text="cinese" />
+      <label xml:lang="de" text="Chinesisch"/>
+      <label xml:lang="en" text="Chinese"/>
+      <label xml:lang="x-bibl" text="chi"/>
+      <label xml:lang="x-term" text="zho"/>
     </category>
     <category ID="ja">
-      <label xml:lang="it" text="giapponese" />
-      <label xml:lang="de" text="Japanisch" />
-      <label xml:lang="en" text="Japanese" />
-      <label xml:lang="x-term" text="jpn" />
-      <label xml:lang="x-bibl" text="jpn" />
+      <label xml:lang="de" text="Japanisch"/>
+      <label xml:lang="en" text="Japanese"/>
+      <label xml:lang="x-bibl" text="jpn"/>
+      <label xml:lang="x-term" text="jpn"/>
     </category>
     <category ID="ko">
-      <label xml:lang="de" text="Koreanisch" />
-      <label xml:lang="en" text="Korean" />
-      <label xml:lang="x-term" text="kor" />
-      <label xml:lang="x-bibl" text="kor" />
-      <label xml:lang="it" text="coreano" />
+      <label xml:lang="de" text="Koreanisch"/>
+      <label xml:lang="en" text="Korean"/>
+      <label xml:lang="x-bibl" text="kor"/>
+      <label xml:lang="x-term" text="kor"/>
     </category>
     <category ID="rn">
-      <label xml:lang="it" text="kirundi" />
-      <label xml:lang="x-term" text="run" />
-      <label xml:lang="en" text="Rundi" />
-      <label xml:lang="x-bibl" text="run" />
-      <label xml:lang="de" text="Kirundisch" />
+      <label xml:lang="de" text="Kirundisch"/>
+      <label xml:lang="en" text="Rundi"/>
+      <label xml:lang="x-bibl" text="run"/>
+      <label xml:lang="x-term" text="run"/>
     </category>
   </categories>
 </mycoreclass>
