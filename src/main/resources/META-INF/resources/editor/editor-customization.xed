@@ -22,6 +22,7 @@
     <xed:include ref="inventory" after="publications" />
     <xed:include ref="resources" after="inventory" />
     <xed:include ref="typeOfHostedExemplar" after="resources" />
+    <xed:remove ref="related.item.other.search.of.all.items" />
   </xed:modify>
 
   <!-- ========== Host: New ========== -->
