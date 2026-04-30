@@ -322,5 +322,29 @@
       <label xml:lang="x-bibl" text="run"/>
       <label xml:lang="x-term" text="run"/>
     </category>
+    <category ID="tg">
+      <label text="Tajik" xml:lang="en"/>
+      <label text="Tadschikisch" xml:lang="de"/>
+      <label text="tgk" xml:lang="x-bibl"/>
+      <label text="tgk" xml:lang="x-term"/>
+    </category>
+    <category ID="sw">
+      <label text="Swahili (macrolanguage)" xml:lang="en"/>
+      <label text="Swahili" xml:lang="de"/>
+      <label text="swa" xml:lang="x-bibl"/>
+      <label text="swa" xml:lang="x-term"/>
+      <category ID="sw-swc">
+        <label text="Congo Swahili" xml:lang="en"/>
+        <label text="Swahili" xml:lang="de"/>
+        <label text="swc" xml:lang="x-bibl"/>
+        <label text="swc" xml:lang="x-term"/>
+      </category>
+      <category ID="sw-swh">
+        <label text="Swahili (individual language)" xml:lang="en"/>
+        <label text="Swahili" xml:lang="de"/>
+        <label text="swh" xml:lang="x-bibl"/>
+        <label text="swh" xml:lang="x-term"/>
+      </category>
+    </category>
   </categories>
 </mycoreclass>
