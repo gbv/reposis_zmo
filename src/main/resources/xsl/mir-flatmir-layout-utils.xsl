@@ -27,7 +27,7 @@
         </a>
         <div class="zmo-slogan-box">
           <a
-            href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
+            href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2))}"
             class="zmo-project-slogan">
             <h1>
               <xsl:value-of select="mcri18n:translate('project.title')" />
