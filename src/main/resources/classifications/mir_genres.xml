@@ -228,7 +228,7 @@
       <label xml:lang="de" text="Brief" />
       <label xml:lang="en" text="Letter" />
       <label xml:lang="x-hosts" text="standalone archivebox" />
-      <label xml:lang="x-mapping" text="marcgt:letter diniPublType:manuscript  diniPublType2022:Manuscript" />
+      <label xml:lang="x-mapping" text="marcgt:letter diniPublType:manuscript diniPublType2022:Manuscript" />
     </category>
     <category ID="journal">
       <label xml:lang="de" text="Zeitschrift" />
@@ -322,7 +322,7 @@
       <label xml:lang="en" text="Audio file" />
       <label xml:lang="it" text="Registrazione audio" />
       <label xml:lang="x-hosts" text="standalone lecture" />
-      <label xml:lang="x-mapping" text="marcgt:sound diniPublType:Sound  diniPublType2022:Sound" />
+      <label xml:lang="x-mapping" text="marcgt:sound diniPublType:Sound diniPublType2022:Sound" />
     </category>
     <category ID="video">
       <label xml:lang="de" text="Film / Video" />
