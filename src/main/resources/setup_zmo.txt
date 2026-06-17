@@ -1,0 +1,9 @@
+update classification from uri resource:classifications/hoepp.xml
+update classification from uri resource:classifications/inventory.xml
+update classification from uri resource:classifications/mir_genres.xml
+update classification from uri resource:classifications/mir_institutes.xml
+update classification from uri resource:classifications/noteTypes.xml
+update classification from uri resource:classifications/publications.xml
+update classification from uri resource:classifications/resources.xml
+update classification from uri resource:classifications/rfc5646.xml
+update classification from uri resource:classifications/typeOfHostedExemplar.xml

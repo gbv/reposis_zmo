@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="inventory">
+<mycoreclass ID="inventory"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd">
   <label xml:lang="de" text="Sondersammlung" description="Liste der Sondersammlungsbestände" />
   <label xml:lang="en" text="Collection inventory" description="List of the collection inventory" />
   <label xml:lang="x-uri" text="https://repositorium.zmo.de/classifications/inventory" />
   <categories>
+    <category ID="ian_kerr_collection">
+      <label xml:lang="de" text="Ian Kerr Bestand"/>
+      <label xml:lang="en" text="Ian Kerr collection"/>
+    </category>
     <category ID="ahmad_nassir_collection">
       <label xml:lang="de" text="Ahmad Nassir Bestand" />
       <label xml:lang="en" text="Ahmad Nassir Collection" />

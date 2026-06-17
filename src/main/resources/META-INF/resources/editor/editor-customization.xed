@@ -1,133 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- ======================================================= -->
+<!-- ========== Template Management Notes ========== -->
+<!--
+    This XML document modifies and overrides templates from MIR.
+    Templates are organized in dedicated sections below:
+        1. New
+        2. Overrides
+        3. Modifications
+    Sections are provided for Admin, Host, Genre, and general templates including helper templates.
+    Empty sections are avoided to reduce confusion.
+    Templates within each section should be sorted alphabetically.
+    General new templates should NOT be defined here; they must be placed in a *-editor-includes file.
+    Circular references must be avoided to prevent loops or unintended overrides.
+-->
+<!-- ======================================================= -->
+<xed:template xmlns:xed="http://www.mycore.de/xeditor">
 
-<xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir">
-
-  <!-- ========== extend editor-genres.xed ========== -->
+  <!-- ========== Admin: Modifications ========== -->
   <xed:modify ref="admin.fields">
     <xed:include ref="publications" after="sdnb.repeat" />
     <xed:include ref="inventory" after="publications" />
     <xed:include ref="resources" after="inventory" />
     <xed:include ref="typeOfHostedExemplar" after="resources" />
+    <xed:remove ref="related.item.other.search.of.all.items" />
   </xed:modify>
 
-
-  <!-- ========== validation ========== -->
-
-
-
-  <!-- ========== project specific templates ========== -->
-
-  <xed:template id="inventory">
-    <xed:bind xpath="mods:classification[@authorityURI='https://repositorium.zmo.de/classifications/inventory'][@displayLabel='inventory']/@valueURIxEditor">
-      <div class="form-group row {$xed-validation-marker}">
-        <label class="col-md-3 col-form-label text-right">
-          <xed:output i18n="project.form.label.inventory" />
-        </label>
-        <div class="col-md-6">
-          <select class="form-control form-control-inline">
-            <option value="">
-              <xed:output i18n="mir.select.optional" />
-            </option>
-            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:inventory" />
-          </select>
-        </div>
-        <mir:help-pmud help-text="{i18n:project.help.inventory}" pmud="false" />
-      </div>
+  <!-- ========== Host: New ========== -->
+  <xed:template id="hosts.archivebox">
+    <xed:bind xpath="mods:relatedItem[@type='series']">
+      <xed:bind xpath="@xlink:href" initially="{$MIR.projectid.default}_mods_00000000">
+        <input id="relItem-series" type="hidden" />
+      </xed:bind>
+      <xed:include ref="title.archivebox.relItemsearch" />
     </xed:bind>
   </xed:template>
 
-  <xed:template id="publications">
-    <xed:bind xpath="mods:classification[@authorityURI='https://repositorium.zmo.de/classifications/publications'][@displayLabel='publications']/@valueURIxEditor">
-      <div class="form-group row {$xed-validation-marker}">
-        <label class="col-md-3 col-form-label text-right">
-          <xed:output i18n="project.form.label.publications" />
-        </label>
-        <div class="col-md-6">
-          <select class="form-control form-control-inline">
-            <option value="">
-              <xed:output i18n="mir.select.optional" />
-            </option>
-            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:publications" />
-          </select>
-        </div>
-        <mir:help-pmud help-text="{i18n:project.help.publications}" pmud="false" />
-      </div>
+  <xed:template id="hosts.archivefolder">
+    <xed:bind xpath="mods:relatedItem[@type='series']">
+      <xed:bind xpath="@xlink:href" initially="{$MIR.projectid.default}_mods_00000000">
+        <input id="relItem-series" type="hidden" />
+      </xed:bind>
+      <xed:include ref="title.archivefolder.relItemsearch" />
     </xed:bind>
   </xed:template>
 
-  <xed:template id="resources">
-    <xed:bind xpath="mods:classification[@authorityURI='https://repositorium.zmo.de/classifications/resources'][@displayLabel='resources']/@valueURIxEditor">
-      <div class="form-group row {$xed-validation-marker}">
-        <label class="col-md-3 col-form-label text-right">
-          <xed:output i18n="project.form.label.resources" />
-        </label>
-        <div class="col-md-6">
-          <select class="form-control form-control-inline">
-            <option value="">
-              <xed:output i18n="mir.select.optional" />
-            </option>
-            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:resources" />
-          </select>
-        </div>
-        <mir:help-pmud help-text="{i18n:project.help.resources}" pmud="false" />
-      </div>
-    </xed:bind>
-  </xed:template>
-  
-  <xed:template id="typeOfHostedExemplar">
-    <xed:bind xpath="mods:classification[@authorityURI='https://repositorium.zmo.de/classifications/typeOfHostedExemplar'][@displayLabel='typeOfHostedExemplar']/@valueURIxEditor">
-      <div class="form-group row {$xed-validation-marker}">
-        <label class="col-md-3 col-form-label text-right">
-          <xed:output i18n="project.form.label.typeOfHostedExemplar" />
-        </label>
-        <div class="col-md-6">
-          <select class="form-control form-control-inline">
-            <option value="">
-              <xed:output i18n="mir.select.optional" />
-            </option>
-            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:typeOfHostedExemplar" />
-          </select>
-        </div>
-        <mir:help-pmud help-text="{i18n:project.help.typeOfHostedExemplar}" pmud="false" />
-      </div>
-    </xed:bind>
-  </xed:template>
-  
-  <xed:template id="genres.source_material">
-    <xed:include ref="genres.research_data" />
-    <xed:include ref="inventory" />
-  </xed:template>
-  
-  <xed:template id="genres.archivebox">
-    <xed:include ref="title" />
-    <xed:include ref="date.onlyrange.issued.datetimepicker" />
-    <xed:include ref="language" />
-    <xed:include ref="sdnb.repeat" />
-    <xed:include ref="subject.simple" />
-    <xed:include ref="geographic.complex" />
-    <xed:include ref="shelfmark" />
-    <xed:include ref="abstract.simple" />
-    <xed:include ref="comment" />
-    <xed:include ref="inventory" />
-  </xed:template>
-  
-  <xed:template id="genres.archivefolder">
-    <xed:include ref="title" />
-    <xed:include ref="date.onlyrange.issued.datetimepicker" />
-    <xed:include ref="language" />
-    <xed:include ref="sdnb.repeat" />
-    <xed:include ref="subject.simple" />
-    <xed:include ref="shelfmark" />
-    <xed:include ref="abstract.simple" />
-    <xed:include ref="comment" />
-    <xed:include ref="inventory" />
-  </xed:template>
-
-  <xed:template id="genres.database">
-    <xed:include ref="genres.research_data" />
-    <xed:include ref="inventory" />
-  </xed:template>
-
+  <!-- ========== Genre: Overrides ========== -->
   <xed:template id="genres.issue">
     <xed:include ref="title.original" />
     <xed:include ref="author.repeated" />
@@ -150,11 +67,37 @@
     <xed:include ref="comment" />
   </xed:template>
 
-  <xed:template id="genres.working_paper">
-    <xed:include ref="genres.article" />
+  <!-- ========== Genre: New ========== -->
+  <xed:template id="genres.archivebox">
+    <xed:include ref="title" />
+    <xed:include ref="date.onlyrange.issued.datetimepicker" />
+    <xed:include ref="language" />
+    <xed:include ref="sdnb.repeat" />
+    <xed:include ref="subject.simple" />
+    <xed:include ref="geographic.complex" />
+    <xed:include ref="shelfmark" />
+    <xed:include ref="abstract.simple" />
+    <xed:include ref="comment" />
     <xed:include ref="inventory" />
   </xed:template>
-  
+
+  <xed:template id="genres.archivefolder">
+    <xed:include ref="title" />
+    <xed:include ref="date.onlyrange.issued.datetimepicker" />
+    <xed:include ref="language" />
+    <xed:include ref="sdnb.repeat" />
+    <xed:include ref="subject.simple" />
+    <xed:include ref="shelfmark" />
+    <xed:include ref="abstract.simple" />
+    <xed:include ref="comment" />
+    <xed:include ref="inventory" />
+  </xed:template>
+
+  <xed:template id="genres.database">
+    <xed:include ref="genres.research_data" />
+    <xed:include ref="inventory" />
+  </xed:template>
+
   <xed:template id="genres.letter">
     <xed:include ref="title.original" />
     <xed:include ref="author.repeated" />
@@ -174,70 +117,15 @@
     <xed:include ref="institutes" />
     <xed:include ref="comment" />
   </xed:template>
-  
-  <xed:template id="hosts.archivebox">
-    <xed:bind xpath="mods:relatedItem[@type='series']">
-      <xed:bind xpath="@xlink:href" initially="{$MIR.projectid.default}_mods_00000000"> <input id="relItem-series" type="hidden" /> </xed:bind>
-      <xed:include ref="title.archivebox.relItemsearch" />
-    </xed:bind>
+
+  <xed:template id="genres.source_material">
+    <xed:include ref="genres.research_data" />
+    <xed:include ref="inventory" />
   </xed:template>
-  
-  <xed:template id="hosts.archivefolder">
-    <xed:bind xpath="mods:relatedItem[@type='series']">
-      <xed:bind xpath="@xlink:href" initially="{$MIR.projectid.default}_mods_00000000"> <input id="relItem-series" type="hidden" /> </xed:bind>
-      <xed:include ref="title.archivefolder.relItemsearch" />
-    </xed:bind>
+
+  <xed:template id="genres.working_paper">
+    <xed:include ref="genres.article" />
+    <xed:include ref="inventory" />
   </xed:template>
-  
-  <xed:template id="title.archivebox.relItemsearch">
-    <mir:relItemsearch searchengine="title" genre="archivebox" responsefield="mods.title" xpath="mods:titleInfo/mods:title" label="mir.title"
-      help-text="{i18n:mir.help.archivebox.title}" class="required" required="true" required-i18n="mir.validation.title.archivebox"
-      placeholder="{i18n:mir.title.placeholder.archivebox.relItemsearch}" />
-  </xed:template>
-  
-  <xed:template id="title.archivefolder.relItemsearch">
-    <mir:relItemsearch searchengine="title" genre="archivefolder" responsefield="mods.title" xpath="mods:titleInfo/mods:title" label="mir.title"
-      help-text="{i18n:mir.help.archivefolder.title}" class="required" required="true" required-i18n="mir.validation.title.archivefolder"
-      placeholder="{i18n:mir.title.placeholder.archivefolder.relItemsearch}" />
-  </xed:template>
- 
-  <xed:template id="related.item.link">
-    <xed:repeat xpath="mods:relatedItem[string-length(@xlink:href) = 0][@type = 'original' or @type = 'otherVersion' or @type = 'otherFormat']" 
-        min="1" max="10">
-      <fieldset>
-        <legend class="mir-fieldset-legend">
-          <xed:output i18n="mir.link.title" />
-        </legend>  
-        <div class="mir-fieldset-content">
-          <div class="form-group row">
-            <div class="col-md-3">
-              <xed:bind xpath="@type">
-                <select class="form-control form-control-inline" style="text-align: right; font-weight:bold;">
-                  <option value="original">
-                    <xed:output i18n="mir.relatedItem.original" />
-                  </option>
-                  <option value="otherVersion">
-                    <xed:output i18n="mir.relatedItem.otherVersion" />
-                  </option>
-                  <option value="otherFormat">
-                    <xed:output i18n="mir.relatedItem.otherFormat" />
-                  </option>
-                </select>
-              </xed:bind>
-            </div>
-            <div class="col-md-6">
-              <xed:bind xpath="mods:titleInfo/mods:title">
-                <input type="text" class="form-control" placeholder="{i18n:mir.placeholder.title.link}" />
-              </xed:bind>
-            </div>
-            <mir:help-pmud help-text="{i18n:mir.help.link.title}" pmud="true" />
-          </div>
-          <mir:textfield xpath="mods:location/mods:url[@access='raw object']" help-text="{i18n:mir.help.link.raw_object}" placeholder="{i18n:mir.placeholder.abstract.link}" />
-        </div>
-      </fieldset>
-    </xed:repeat>
-  </xed:template>
-  
-  
-   
+
 </xed:template>

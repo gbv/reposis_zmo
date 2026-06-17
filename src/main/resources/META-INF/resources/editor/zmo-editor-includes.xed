@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xed:template xmlns:mir="http://www.mycore.de/mir" xmlns:xed="http://www.mycore.de/xeditor">
+
+  <xed:template id="inventory">
+    <xed:bind xpath="mods:classification[@authorityURI='https://repositorium.zmo.de/classifications/inventory'][@displayLabel='inventory']/@valueURIxEditor">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="project.form.label.inventory" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:inventory" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:project.help.inventory}" pmud="false" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
+  <xed:template id="publications">
+    <xed:bind xpath="mods:classification[@authorityURI='https://repositorium.zmo.de/classifications/publications'][@displayLabel='publications']/@valueURIxEditor">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="project.form.label.publications" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:publications" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:project.help.publications}" pmud="false" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
+  <xed:template id="resources">
+    <xed:bind xpath="mods:classification[@authorityURI='https://repositorium.zmo.de/classifications/resources'][@displayLabel='resources']/@valueURIxEditor">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="project.form.label.resources" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:resources" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:project.help.resources}" pmud="false" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
+  <xed:template id="title.archivebox.relItemsearch">
+    <mir:relItemsearch
+      searchengine="title"
+      genre="archivebox"
+      responsefield="mods.title"
+      xpath="mods:titleInfo/mods:title"
+      label="mir.title"
+      help-text="{i18n:mir.help.archivebox.title}"
+      class="required"
+      required="true"
+      required-i18n="mir.validation.title.archivebox"
+      placeholder="{i18n:mir.title.placeholder.archivebox.relItemsearch}" />
+  </xed:template>
+
+  <xed:template id="title.archivefolder.relItemsearch">
+    <mir:relItemsearch
+      searchengine="title"
+      genre="archivefolder"
+      responsefield="mods.title"
+      xpath="mods:titleInfo/mods:title"
+      label="mir.title"
+      help-text="{i18n:mir.help.archivefolder.title}"
+      class="required"
+      required="true"
+      required-i18n="mir.validation.title.archivefolder"
+      placeholder="{i18n:mir.title.placeholder.archivefolder.relItemsearch}" />
+  </xed:template>
+
+  <xed:template id="typeOfHostedExemplar">
+    <xed:bind xpath="mods:classification[@authorityURI='https://repositorium.zmo.de/classifications/typeOfHostedExemplar'][@displayLabel='typeOfHostedExemplar']/@valueURIxEditor">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="project.form.label.typeOfHostedExemplar" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:typeOfHostedExemplar" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:project.help.typeOfHostedExemplar}" pmud="false" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
+</xed:template>

@@ -4,71 +4,20 @@
     <div class="jumbotwo" id="bs-index-search" style="margin-top:50px;">
       <div class="row">
         <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2" lang="de">
-          <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
-            <div class="input-group w-100">
-              <input
-                name="condQuery"
-                placeholder="Suche in Publikationen und Sondersammlungen"
-                class="form-control search-query"
-                id="project-searchInput"
-                type="text"
-                aria-label=""
-                aria-describedby="" />
-              <div class="input-group-append">
-                <button type="submit" class="btn btn btn-primary"><i class="fas fa-search"></i></button>
-              </div>
-            </div>
-          </form>
+          <index-search-form />
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="../js/jquery.number.js"></script>
-    <script>
-      $( document ).ready(function() {
-      $.ajax({
-      type: "GET",
-      url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
-      dataType: "jsonp",
-      success: function (data) {
-      $('#project-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + ' Dokumenten');
-      },
-      });
-      });
-    </script>
+    <script type="text/javascript" src="../js/index.js"></script>
   </section>
   <section xml:lang="en" title="Welcome to ZMO">
     <div class="jumbotwo" id="bs-index-search" style="margin-top:50px;">
       <div class="row">
         <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2" lang="en">
-          <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
-            <div class="input-group w-100">
-              <input name="condQuery"
-                   placeholder="Search in Publications and Special Collections"
-                   class="form-control search-query" id="project-searchInput"
-                   type="text" 
-                   aria-label=""
-                   aria-describedby="" />
-              <div class="input-group-append">
-                <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
-              </div>
-            </div>
-          </form>
+          <index-search-form />
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="../js/jquery.number.js"></script>
-    <script>
-      $( document ).ready(function() {
-      $.ajax({
-      type: "GET",
-      url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
-      dataType: "jsonp",
-      success: function (data) {
-      $('#project-searchInput').attr('placeholder', 'Search in ' + $.number(data.response.numFound,0, ',', '.') + ' documents');
-      },
-      });
-      });
-    </script>
+    <script type="text/javascript" src="../js/index.js"></script>
   </section>
-  <meta></meta>
 </MyCoReWebPage>
