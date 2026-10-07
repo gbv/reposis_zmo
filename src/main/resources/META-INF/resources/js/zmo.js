@@ -32,3 +32,5 @@ function ignoreEmptyFieldsOnSubmit(event) {
 function init() {
   replaceMaskedEmails();
 }
+
+document.addEventListener("DOMContentLoaded", init);
