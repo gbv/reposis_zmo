@@ -294,7 +294,7 @@
     <category ID="source_material">
       <label xml:lang="de" text="Quellenmaterial" />
       <label xml:lang="en" text="Sourcematerial" />
-      <label xml:lang="x-hosts" text="standalone archivebox" />
+      <label xml:lang="x-hosts" text="standalone archivebox archivefolder"/>
       <label xml:lang="x-mapping" text="marcgt:database diniPublType:ResearchData diniPublType2022:ResearchData" />
     </category>
     <category ID="patent">
